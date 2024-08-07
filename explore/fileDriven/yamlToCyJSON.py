@@ -48,10 +48,25 @@ class YamlToCyJSON:
 
      s = "["
      nodes = self.x['nodes']
+     edges = []
+     if('edges' in list(self.x.keys())):
+        edges = self.x['edges']
+     elementTotal = len(nodes) + len(edges)
+     elementCount = 0
      for node in nodes:
+        elementCount += 1
         data = {"data": {"id": node["id"], "label": node["label"]}}
         s += "%s" % json.dumps(data)
-        if(not node == nodes[-1]):
+        if(elementCount < elementTotal):
+            s += ","
+     for edge in edges:
+        elementCount += 1
+        data = {"data": {"id": edge["id"],
+                         "source": edge["source"],
+                         "target": edge["target"],
+                         "edgeType": edge["edgeType"]}}
+        s += "%s" % json.dumps(data)
+        if(elementCount < elementTotal):
             s += ","
      s += "]"
      return(s)

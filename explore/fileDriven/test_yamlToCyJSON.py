@@ -18,8 +18,9 @@ def test_getElements():
     y.parse()
     string = y.getElements()
     obj = json.loads(string)
-    assert(len(obj) == 3)
-    assert([x['data']['id'] for x in obj] == ['sahlins', 'imprinting', 'butler'])
+    assert(len(obj) == 5)
+    assert([x['data']['id'] for x in obj] == ['sahlins', 'imprinting', 'butler',
+                                              'e0', 'e1'])
 
 #--------------------------------------------------------------------------------
 def test_getCustomNodeStyles():
@@ -38,8 +39,7 @@ def test_getCustomNodeStyles():
 def test_readPositions():
 
    print("--- test_readPositions")
-   jsonString = getPositionsFromJsonFile("positions.json")
-   pdb.set_trace()
+   jsonString = getPositionsFromJsonFile("positions.js")
 
 #--------------------------------------------------------------------------------
 def runTests():
