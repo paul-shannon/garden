@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="UTF-8">
-   <title>cyjse </title>
+   <title>try1</title>
    <script
      src="https://code.jquery.com/jquery-3.7.1.min.js"
      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -12,6 +12,7 @@
   <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
   <script src="kb.js"></Script>
+  <script src="nodes.json"></Script>
   <script src="notes.js"></Script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.14.1/cytoscape.min.js"></script>
 
@@ -100,67 +101,13 @@ $(document).ready(function() {
    window.addEventListener('resize', refreshLayout)
    
    console.log("document ready");
+
    var cyDiv = $("#cyDiv");
    window.cy = cytoscape({
       container: document.getElementById('cyDiv'),
-      elements: [
-          {data: {id: 'althusser', label: "Althusser"}},
-          {data: {id: 'althusser-ideology',  label: "Ideology"}},
-          {data: {id: 'althusser-interpellation',  label: "Interpellation"}},
-          {data: {id: 'imprinting', label: "Imprinting"}},
-          {data: {id: 'imprinting-phonemes', label: "800 Phonemes"}},
-          {data: {id: 'imprinting-language', label: "First Language"}},
-          {data: {id: 'imprinting-worldView', label: "World View"}},
-          {data: {id: 'geertz', label: ""}},
-          {data: {id: 'geertz_religion', label: 'On religion'}},
-          {data: {id: 'geertz_weber', label: 'With Weber'}},
-          {data: {id: 'harryMoses', label: "Harry Moses"}},
-          {data: {id: 'e2', source: 'geertz_religion', target: 'geertz'}},
-          {data: {id: 'e3', source: 'geertz_weber', target: 'geertz'}},
-          {data: {id: 'e4', source: 'imprinting', target: 'imprinting-phonemes'}},
-          {data: {id: 'e5', source: 'imprinting', target: 'imprinting-language'}},
-          {data: {id: 'e6', source: 'imprinting', target: 'imprinting-worldView'}},
-          {data: {id: 'e7', source: 'althusser', target: 'althusser-ideology'}},
-          {data: {id: 'e8', source: 'althusser', target: 'althusser-interpellation'}},
-          {data: {id: 'e9', source: 'imprinting', target: 'althusser-interpellation'}}
-          ],
-     //layout: {name: 'cose'},
+       elements:[{"data": {"id": "sahlins", "label": "Sahlins"}},{"data": {"id": "imprinting", "label": "Imprinting"}},{"data": {"id": "butler", "label": "Judith Butler"}}],
        layout: {name: 'cose'},
-       style: [{selector: 'node',
-                style: {'border-width': 1,
-                        'shape': 'roundrectangle',
-                        'width': 300,
-                        'height': 120,
-                        'content': 'data(label)',
-                        "text-valign": "center",
-                        "text-halign": "center",
-                        "background-color": "beige",
-                        "font-size": "40",
-                        "font-family": "Georgia"
-                       }},
-               {selector: 'node:selected',
-                style: {"border-width": 10}},
-               {selector: '#althusser',
-                style: {'width': 300,
-                        'height': 500,
-                        "text-valign": "top",
-                        'shape': 'roundrectangle',
-                        'background-image': 'http://localhost:8000/althusser.jpg',
-                        'background-fit': 'cover'}},
-               {selector: '#harryMoses',
-                style: {'width': 300,
-                        'height': 500,
-                        "text-valign": "top",
-                        'shape': 'roundrectangle',
-                        'background-image': 'http://localhost:8000/harryMoses.jpg',
-                        'background-fit': 'cover'}},
-               {selector: '#geertz',
-                style: {'width': 600,
-                        'height': 300,
-                        'shape': 'roundrectangle',
-                        'background-image': 'http://localhost:8000/geertz.jpg',
-                        'background-fit': 'cover'}}
-              ],
+       style: [{"selector": "#sahlins", "style": {"text-valign": "top", "width": 300, "background-image": "http://localhost:8000/sahlins.jpeg", "height": 500, "background-fit": "cover", "shape": "roundrectangle", "font-size": 32}}]
      }); // cytoscape
  
    cy.on('tap', 'node', function(evt){
@@ -174,7 +121,7 @@ cy.ready(function() {
   setTimeout(() => {
      restorePositions()
      console.log("after restore");
-     }, 1000);
+     }, 300);
   })
 
 
@@ -234,7 +181,7 @@ function restorePositions()
 
   for (const k of Object.keys(nps)) {
     const node = cy.getElementById(k);
-    console.log("k:  " + k + "  next node: " + node)
+    // console.log("k:  " + k + "  next node: " + node)
     if (node && node.length > 0) {
       node.position(nps[k]);
       } // if node

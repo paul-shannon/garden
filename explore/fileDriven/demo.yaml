@@ -1,0 +1,30 @@
+nodes:
+
+    - id: sahlins
+      label: Sahlins
+      font-size: 32
+      background-image: "http://localhost:8000/sahlins.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      width: 300
+      height: 500
+      text-valign: top
+      
+    - id: imprinting
+      label: Imprinting
+      font-size: 48
+      width: 200
+      height: 200
+
+    - id: butler
+      label: Judith Butler
+      fontSize: 32
+      background-color: red
+      color: blue
+      border-color: black
+      border-width: 8
+      text-valign: center
+      text-halign: center
+      width: 200
+      height: 100
+

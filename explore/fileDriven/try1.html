@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="UTF-8">
-   <title>cyjse </title>
+   <title>try1</title>
    <script
      src="https://code.jquery.com/jquery-3.7.1.min.js"
      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -12,6 +12,7 @@
   <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
   <script src="kb.js"></Script>
+  <script src="nodes.json"></Script>
   <script src="notes.js"></Script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.14.1/cytoscape.min.js"></script>
 
@@ -100,21 +101,31 @@ $(document).ready(function() {
    window.addEventListener('resize', refreshLayout)
    
    console.log("document ready");
+   /********
+   function read_config(cfgfile) {
+      $.get({url: cfgfile, dataType: "text"})
+       .done(function (data) {
+          ymlconfig = jsyaml.load(data);
+      });
+   ********/
+
    var cyDiv = $("#cyDiv");
    window.cy = cytoscape({
       container: document.getElementById('cyDiv'),
       elements: [
+          {data: {id: 'sahlins', label: "Sahlins"}},
+          {data: {id: 'butler', label: "Butler"}},
           {data: {id: 'althusser', label: "Althusser"}},
           {data: {id: 'althusser-ideology',  label: "Ideology"}},
           {data: {id: 'althusser-interpellation',  label: "Interpellation"}},
           {data: {id: 'imprinting', label: "Imprinting"}},
-          {data: {id: 'imprinting-phonemes', label: "800 Phonemes"}},
+          {data: {id: 'imprinting-phonemes', label: "Phoneme Pruning"}},
           {data: {id: 'imprinting-language', label: "First Language"}},
           {data: {id: 'imprinting-worldView', label: "World View"}},
           {data: {id: 'geertz', label: ""}},
           {data: {id: 'geertz_religion', label: 'On religion'}},
           {data: {id: 'geertz_weber', label: 'With Weber'}},
-          {data: {id: 'harryMoses', label: "Harry Moses"}},
+          //{data: {id: 'harryMoses', label: "Harry Moses"}},
           {data: {id: 'e2', source: 'geertz_religion', target: 'geertz'}},
           {data: {id: 'e3', source: 'geertz_weber', target: 'geertz'}},
           {data: {id: 'e4', source: 'imprinting', target: 'imprinting-phonemes'}},
@@ -122,7 +133,9 @@ $(document).ready(function() {
           {data: {id: 'e6', source: 'imprinting', target: 'imprinting-worldView'}},
           {data: {id: 'e7', source: 'althusser', target: 'althusser-ideology'}},
           {data: {id: 'e8', source: 'althusser', target: 'althusser-interpellation'}},
-          {data: {id: 'e9', source: 'imprinting', target: 'althusser-interpellation'}}
+          {data: {id: 'e9', source: 'imprinting', target: 'althusser-interpellation'}},
+          {data: {id: 'e10', source: 'imprinting', target: 'sahlins'}},
+          {data: {id: 'e11', source: 'imprinting', target: 'butler'}}
           ],
      //layout: {name: 'cose'},
        layout: {name: 'cose'},
@@ -140,6 +153,20 @@ $(document).ready(function() {
                        }},
                {selector: 'node:selected',
                 style: {"border-width": 10}},
+               {selector: '#butler',
+                style: {'width': 300,
+                        'height': 500,
+                        "text-valign": "top",
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/judithButler.jpeg',
+                        'background-fit': 'cover'}},
+               {selector: '#sahlins',
+                style: {'width': 300,
+                        'height': 500,
+                        "text-valign": "top",
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/sahlins.jpeg',
+                        'background-fit': 'cover'}},
                {selector: '#althusser',
                 style: {'width': 300,
                         'height': 500,
