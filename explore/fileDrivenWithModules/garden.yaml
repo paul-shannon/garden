@@ -1,0 +1,85 @@
+nodes:
+
+    - id: sahlins
+      label: Sahlins
+      font-size: 48
+      background-image: "http://localhost:8000/sahlins.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 1
+      width: 300
+      height: 500
+      text-valign: top
+      
+    - id: sahlins-western-illusion
+      label: Western Illusion
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: imprinting
+      label: Imprinting
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+    - id: butler
+      label: Judith Butler
+      fontSize: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 300
+      height: 100
+      text-valign: center
+      text-halign: center
+
+    - id: butler-gender-trouble
+      label: Gender Trouble
+      background-image: "http://localhost:8000/genderTrouble.png"
+      background-fit: cover
+      fontSize: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 800
+      height: 600
+      text-valign: center
+      text-halign: top   
+
+
+edges:
+   - id: e0
+     source: imprinting
+     target: butler-gender-trouble
+     edgeType: child
+
+   - id: e2
+     source: imprinting
+     target: sahlins-western-illusion
+     edgeType: child
+
+   - id: e3
+     source: sahlins
+     target: sahlins-western-illusion
+     edgeType: child
+
+   - id: e4
+     source: butler
+     target: butler-gender-trouble
+     edgeType: child
+
