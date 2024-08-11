@@ -1,0 +1,21 @@
+function createGraph()
+{
+   console.log("--- returning graph from createGraph.js")
+
+    let graph =
+        m4_include(graph.txt)
+
+   return(graph)
+
+} // createGraph
+//--------------------------------------------------------------------------------
+function getNodeStyles()
+{
+   let nodeStyles =
+       m4_include(nodeStyles.txt)
+
+    return(nodeStyles)
+
+} // getNodeStyles
+//--------------------------------------------------------------------------------
+export {createGraph, getNodeStyles}

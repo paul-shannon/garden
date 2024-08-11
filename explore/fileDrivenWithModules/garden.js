@@ -7,7 +7,6 @@ converter.setOption("tables", true);
 import {kb} from './kb.js'
 import {createGraph, getNodeStyles} from './createGraph.js'
 import {doLayout} from './layouts.js'
-
 //------------------------------------------------------------------------------------------------------------------------
 function displayAnnotation(topic)
 {
@@ -34,6 +33,24 @@ function lookup(tag)
 //------------------------------------------------------------------------------------------------------------------------
 console.log("entering garden.js")
 //--------------------------------------------------------------------------------
+function refreshLayout()
+{
+  var cyDivWidth = $("#cyDiv").width()
+  var mainDivWidth = $("#mainDiv").width()
+  var mainDivHeight = $("#mainDiv").height()
+  var windowWidth = $(window).width() 
+  var windowHeight = $(window).height() 
+  let extra = 50;
+
+  var newNotesDivWidth = mainDivWidth - (cyDivWidth + extra)
+  $("#notesDiv").width(newNotesDivWidth)
+
+    // height of cyDiv and notesDiv specified in css:
+    //   height: calc(100% - 20px);
+    // where 100% seems to be the height of the containgin div
+
+} // refreshLayout
+//----------------------------------------------------------------------------------------------------
 $(document).ready(function()
 {
    console.log("loading notes*")
@@ -52,6 +69,16 @@ $(document).ready(function()
       displayAnnotation(node.id())
       });
 
+   var resizeObserver = new ResizeObserver(entries => {
+     for (let entry of entries) {
+        if(entry.target.id === "cyDiv"){
+           refreshLayout()
+           }
+        } // for
+     });
+   
+   resizeObserver.observe(document.querySelector("#cyDiv"));
+   
 }) // doc ready
 //--------------------------------------------------------------------------------
 // window.cy.fit(200)

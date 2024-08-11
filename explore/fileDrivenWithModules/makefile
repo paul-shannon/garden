@@ -14,9 +14,11 @@ test:
 
 createDemo:
 	python createGraph.py demo.yaml
+	m4 -P createGraph.js-pre > createGraph.js
 
 createGarden:
 	python createGraph.py garden.yaml
+	m4 -P createGraph.js-pre > createGraph.js
 
 view:
 	open garden.html

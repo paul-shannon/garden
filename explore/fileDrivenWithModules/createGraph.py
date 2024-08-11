@@ -12,15 +12,13 @@ y = YamlToCyJSON(sys.argv[1])
 # pdb.set_trace()
 
 y.parse()
-with(open("elements.js", "w") as f):
-   print("writing elements.js")
-   f.write("nodeData = ")
+with(open("graph.txt", "w") as f):
+   print("writing graph.txt for m4 include in createGraph.js")
    f.write(y.getElements())
    f.write("\n")
    
-with(open("nodeStyles.js", "w") as f):
-   print("writing nodeStyles.js")
-   f.write("nodeStyles = ")
+with(open("nodeStyles.txt", "w") as f):
+   print("writing nodeStyles.txt for m4 include in createGraph.js")
    f.write(y.getCustomNodeStyles())
    f.write("\n")
    
