@@ -19,7 +19,7 @@ with(open("graph.txt", "w") as f):
    
 with(open("nodeStyles.txt", "w") as f):
    print("writing nodeStyles.txt for m4 include in createGraph.js")
-   f.write(y.getCustomNodeStyles())
+   f.write(y.getStyles())
    f.write("\n")
    
 

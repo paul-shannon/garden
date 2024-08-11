@@ -59,9 +59,11 @@ class YamlToCyJSON:
         s += "%s" % json.dumps(data)
         if(elementCount < elementTotal):
             s += ","
+     edgeNumber = 0
      for edge in edges:
         elementCount += 1
-        data = {"data": {"id": edge["id"],
+        edgeNumber += 1
+        data = {"data": {"id": "e%d" % edgeNumber, 
                          "source": edge["source"],
                          "target": edge["target"],
                          "edgeType": edge["edgeType"]}}
@@ -71,9 +73,19 @@ class YamlToCyJSON:
      s += "]"
      return(s)
         
-  def getCustomNodeStyles(self):
+  def getStyles(self):
 
-     s = "["
+     s = """[{"selector": "edge",
+              "style": {
+                    "width": 3,
+                    "curve-style": "bezier",
+                    "line-color": "black",
+                    "target-arrow-color": "black",
+                    "target-arrow-shape": "triangle"
+                }
+            },"""
+
+     #s = "["
      nodes = self.x['nodes']
       
      for node in nodes:

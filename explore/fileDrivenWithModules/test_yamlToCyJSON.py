@@ -20,20 +20,20 @@ def test_getElements():
     obj = json.loads(string)
     assert(len(obj) == 5)
     assert([x['data']['id'] for x in obj] == ['sahlins', 'imprinting', 'butler',
-                                              'e0', 'e1'])
+                                              'e1', 'e2'])
 
 #--------------------------------------------------------------------------------
-def test_getCustomNodeStyles():
+def test_getStyles():
 
-    print("--- test_getCustomNodeStyles")
+    print("--- test_getStyles")
 
     y = YamlToCyJSON("demo.yaml")
     y.parse()
-    string = y.getCustomNodeStyles()
+    string = y.getStyles()
     x = json.loads(string)
-    assert(len(x) == 3)
-    assert([e['selector'] for e in x] == ['#sahlins', '#imprinting', '#butler'])
-    assert([e['style']['width'] for e in x] == [300, 200, 200])
+    assert(len(x) == 4)
+    assert([e['selector'] for e in x] == ['edge', '#sahlins', '#imprinting', '#butler'])
+    assert([e['style']['width'] for e in x] == [3, 300, 200, 200])
 
 #--------------------------------------------------------------------------------
 def test_readPositions():
@@ -46,7 +46,7 @@ def runTests():
 
     test_ctor()
     test_getElements()
-    test_getCustomNodeStyles()
+    test_getStyles()
     test_readPositions()
     
 #--------------------------------------------------------------------------------

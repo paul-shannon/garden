@@ -51,6 +51,38 @@ function refreshLayout()
 
 } // refreshLayout
 //----------------------------------------------------------------------------------------------------
+function savePositions()
+{
+  let nodes = cy.nodes(); 
+  let nodePositions = {};
+  for (let i = 0; i < nodes.length; i++) {
+    nodePositions[nodes[i].id()] = nodes[i].position();
+    }
+  let jsonString = JSON.stringify(nodePositions);
+  localStorage.setItem("layout", jsonString)
+
+} // saveLayout
+//----------------------------------------------------------------------------------------------------
+function restorePositions()
+{
+  let jsonString = localStorage.getItem("layout")
+  let nps = JSON.parse(jsonString)
+
+  for (const k of Object.keys(nps)) {
+    const node = cy.getElementById(k);
+    console.log("k:  " + k + "  next node: " + node)
+    if (node && node.length > 0) {
+      node.position(nps[k]);
+      } // if node
+    } // for k
+
+  cy.fit(20)
+  
+} // restorePositions
+//----------------------------------------------------------------------------------------------------
+window.sp = savePositions;
+window.rp = restorePositions;
+//----------------------------------------------------------------------------------------------------
 $(document).ready(function()
 {
    console.log("loading notes*")
@@ -75,9 +107,11 @@ $(document).ready(function()
            refreshLayout()
            }
         } // for
-     });
+   });
    
    resizeObserver.observe(document.querySelector("#cyDiv"));
+   doLayout("elk")
+
    
 }) // doc ready
 //--------------------------------------------------------------------------------

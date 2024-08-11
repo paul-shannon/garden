@@ -1,8 +1,9 @@
 default:
 	@echo venv
 	@echo test
-	@echo createDemo
-	@echo createGarden
+	@echo demo
+	@echo garden
+	@echo imprint
 	@echo view
 
 
@@ -12,12 +13,16 @@ venv:
 test:
 	python test_yamlToCyJSON.py
 
-createDemo:
+demo:
 	python createGraph.py demo.yaml
 	m4 -P createGraph.js-pre > createGraph.js
 
-createGarden:
-	python createGraph.py garden.yaml
+garden:
+	python createGraph.py garden2.yaml
+	m4 -P createGraph.js-pre > createGraph.js
+
+imprint:
+	python createGraph.py imprint.yaml
 	m4 -P createGraph.js-pre > createGraph.js
 
 view:
