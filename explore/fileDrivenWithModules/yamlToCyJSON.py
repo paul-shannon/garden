@@ -81,6 +81,7 @@ class YamlToCyJSON:
                     "curve-style": "bezier",
                     "line-color": "black",
                     "target-arrow-color": "black",
+                    "arrow-scale": 5,
                     "target-arrow-shape": "triangle"
                 }
             },"""
