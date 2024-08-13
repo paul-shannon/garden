@@ -56,6 +56,8 @@ class YamlToCyJSON:
      for node in nodes:
         elementCount += 1
         data = {"data": {"id": node["id"], "label": node["label"]}}
+        if "parent" in (list(node.keys())):
+          data["data"]["parent"] = node["parent"]
         s += "%s" % json.dumps(data)
         if(elementCount < elementTotal):
             s += ","
@@ -81,7 +83,7 @@ class YamlToCyJSON:
                     "curve-style": "bezier",
                     "line-color": "black",
                     "target-arrow-color": "black",
-                    "arrow-scale": 5,
+                    "arrow-scale": 1,
                     "target-arrow-shape": "triangle"
                 }
             },"""
@@ -91,7 +93,7 @@ class YamlToCyJSON:
       
      for node in nodes:
         keys = list(node.keys())
-        keys = list(set(keys).difference({'id'}))
+        keys = list(set(keys).difference({'id', 'parent'}))
         obj = {'selector': '#%s' % node["id"]}
         obj['style'] = {}
         nodeAttributes = ""

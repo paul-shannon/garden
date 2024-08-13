@@ -3,26 +3,56 @@ nodes:
     - id: sahlins
       label: Sahlins
       font-size: 32
-      background-image: "http://localhost:8000/sahlins.jpeg"
+      background-image: "http://localhost:8002/img/sahlins.jpeg"
       background-fit: cover
       shape: roundrectangle
+      border-color: blue
       width: 300
       height: 500
       text-valign: top
       
     - id: imprinting
       label: Imprinting
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      background-color: beige
       font-size: 48
       width: 200
       height: 200
 
+    - id: conradLorenz
+      label: Lorenz
+      shape: roundrectangle
+      background-color: beige
+      border-color: blue
+      border-width: 1
+      font-size: 48
+      width: 200
+      height: 200
+
+    - id: geese
+      label: Geese
+      shape: roundrectangle
+      border-color: red
+      border-width: 1
+      parent: conradLorenz
+      background-color: white
+      text-valign: center
+      text-halign: center
+      font-size: 48
+      width: 200
+      height: 50
+
+
     - id: butler
       label: Judith Butler
       fontSize: 32
-      background-color: red
+      shape: roundrectangle
+      background-color: beige
       color: blue
       border-color: black
-      border-width: 8
+      border-width: 1
       text-valign: center
       text-halign: center
       width: 200
@@ -31,12 +61,14 @@ nodes:
 
 
 edges:
-   - id: e0
-     source: imprinting
+   - source: imprinting
      target: butler
      edgeType: child
 
-   - id: e1
-     source: imprinting
+   - source: imprinting
      target: sahlins
+     edgeType: child
+
+   - source: imprinting
+     target: conradLorenz
      edgeType: child

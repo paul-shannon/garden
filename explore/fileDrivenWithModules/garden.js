@@ -110,7 +110,7 @@ $(document).ready(function()
    });
    
    resizeObserver.observe(document.querySelector("#cyDiv"));
-   doLayout("elk")
+   doLayout("klay")
 
    
 }) // doc ready

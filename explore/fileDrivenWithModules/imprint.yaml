@@ -13,6 +13,7 @@ nodes:
       
     - id: sahlins-western-illusion
       label: Western Illusion
+      parent: sahlins
       font-size: 48
       shape: roundrectangle
       border-width: 1
@@ -204,10 +205,10 @@ edges:
      target: sahlins-religion-realistic
      edgeType: child
 
-   - id: e8
-     source: sahlins
-     target: sahlins-western-illusion
-     edgeType: child
+#   - id: e8
+#     source: sahlins
+#     target: sahlins-western-illusion
+#     edgeType: child
 
    - id: e10
      source: althusser

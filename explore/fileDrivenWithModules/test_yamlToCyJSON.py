@@ -18,9 +18,10 @@ def test_getElements():
     y.parse()
     string = y.getElements()
     obj = json.loads(string)
-    assert(len(obj) == 5)
-    assert([x['data']['id'] for x in obj] == ['sahlins', 'imprinting', 'butler',
-                                              'e1', 'e2'])
+    assert(len(obj) == 8)
+    elements = [x['data']['id'] for x in obj] 
+    expected = ['sahlins', 'imprinting', 'conradLorenz', 'geese', 'butler', 'e1', 'e2', 'e3']
+    assert(elements == expected)
 
 #--------------------------------------------------------------------------------
 def test_getStyles():
@@ -31,9 +32,11 @@ def test_getStyles():
     y.parse()
     string = y.getStyles()
     x = json.loads(string)
-    assert(len(x) == 4)
-    assert([e['selector'] for e in x] == ['edge', '#sahlins', '#imprinting', '#butler'])
-    assert([e['style']['width'] for e in x] == [3, 300, 200, 200])
+    assert(len(x) == 6)
+    assert([e['selector'] for e in x] ==
+       ['edge', '#sahlins', '#imprinting', '#conradLorenz', '#geese', '#butler'])
+    expected = [3, 300, 200, 200, 200, 200]
+    assert([e['style']['width'] for e in x] == expected)
 
 #--------------------------------------------------------------------------------
 def test_readPositions():

@@ -4,6 +4,7 @@ default:
 	@echo demo
 	@echo garden
 	@echo imprint
+	@echo geertz
 	@echo view
 
 
@@ -23,6 +24,10 @@ garden:
 
 imprint:
 	python createGraph.py imprint.yaml
+	m4 -P createGraph.js-pre > createGraph.js
+
+geertz:
+	python createGraph.py geertz.yaml
 	m4 -P createGraph.js-pre > createGraph.js
 
 view:
