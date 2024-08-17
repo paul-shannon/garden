@@ -1,0 +1,83 @@
+nodes:
+
+    - id: geertz
+      label: Clifford Geertz
+      font-size: 32
+      background-image: "http://localhost:8002/img/geertz.jpg"
+      background-fit: cover
+      shape: roundrectangle
+      width: 200
+      height: 100
+      text-valign: top
+      
+    - id: geertz-religion
+      label: Religion as a Cultural System
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      background-color: beige
+      font-size: 24
+      width: 300
+      height: 100
+
+    - id: geertz-weber
+      label: Webs of Significance
+      parent: geertz-religion
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 280
+      height: 40
+      text-valign: center
+      text-halign: center
+
+    - id: geertz-religion-symbols
+      label: A system of symbols
+      parent: geertz-religion
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 280
+      height: 40
+      text-valign: center
+      text-halign: center
+
+    - id: geertz-religion-moods
+      label: Moods and Motivations
+      parent: geertz-religion
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 280
+      height: 40
+      text-valign: center
+      text-halign: center
+
+
+    - id: geertz-ethos
+      label: World-view and Ethos
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      background-color: beige
+      font-size: 24
+      width: 200
+      height: 200
+
+
+
+edges:
+   - source: geertz
+     target: geertz-religion
+     edgeType: child
+
+   - source: geertz
+     target: geertz-ethos
+     edgeType: child
+

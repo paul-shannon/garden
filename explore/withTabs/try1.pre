@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>try1</title>
+   <script
+     src="https://code.jquery.com/jquery-3.7.1.min.js"
+     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous">
+     </script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
+  <script src="kb.js"></Script>
+  <script src="nodes.json"></Script>
+  <script src="notes.js"></Script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.14.1/cytoscape.min.js"></script>
+
+<style>
+details {
+  padding: 10px;
+  background-color:  white;
+  border-radius: 5px;
+}
+
+summary {
+  background-color: #ffffe6;
+  color: black;
+  padding: 10px;
+}
+
+#mainDiv{
+  margin: auto;
+  width: 96vw;
+  height: 95vh;
+  border-radius: 5px;
+  overflow: hidden;
+  }
+
+#cyDiv {
+  margin: 10px;
+  width: 50%;
+  min-width: 100px;
+  max-width: 80%;
+  height: calc(100% - 20px);
+  border: 1px solid #444;
+  border-radius:5px;
+  float: left;
+  display: block;
+  resize: horizontal;
+  overflow: hidden;
+  }
+
+#notesDiv{
+  padding-left: 6px;
+  width: 30%;
+  min-width: 100px;
+  margin: 10px;
+  height: calc(100% - 20px);
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 22px;
+  overflow: auto;
+  }
+  
+#harryMoses{
+     'width': 300,
+     'height': 500,
+     'shape': 'roundrectangle',
+     'background-image': 'http://localhost:8000/harryMoses.jpg',
+     'background-fit': 'cover'
+     }
+
+//  #notesDiv { width: 150px; height: 150px; padding: 0.5em; }
+//  #notesDiv h3 { text-align: center; margin: 0; }
+
+</style>
+<script>
+//----------------------------------------------------------------------------------------------------
+function refreshLayout()
+{
+  var cyDivWidth = $("#cyDiv").width()
+  var mainDivWidth = $("#mainDiv").width()
+  var mainDivHeight = $("#mainDiv").height()
+  var windowWidth = $(window).width() 
+  var windowHeight = $(window).height() 
+  let extra = 50;
+
+  var newNotesDivWidth = mainDivWidth - (cyDivWidth + extra)
+  $("#notesDiv").width(newNotesDivWidth)
+
+    // height of cyDiv and notesDiv specified in css:
+    //   height: calc(100% - 20px);
+    // where 100% seems to be the height of the containgin div
+
+} // refreshLayout
+//----------------------------------------------------------------------------------------------------
+$(document).ready(function() {
+
+   window.addEventListener('resize', refreshLayout)
+   
+   console.log("document ready");
+   /********
+   function read_config(cfgfile) {
+      $.get({url: cfgfile, dataType: "text"})
+       .done(function (data) {
+          ymlconfig = jsyaml.load(data);
+      });
+   ********/
+
+   var cyDiv = $("#cyDiv");
+   window.cy = cytoscape({
+      container: document.getElementById('cyDiv'),
+      elements: [
+          {data: {id: 'sahlins', label: "Sahlins"}},
+          {data: {id: 'butler', label: "Butler"}},
+          {data: {id: 'althusser', label: "Althusser"}},
+          {data: {id: 'althusser-ideology',  label: "Ideology"}},
+          {data: {id: 'althusser-interpellation',  label: "Interpellation"}},
+          {data: {id: 'imprinting', label: "Imprinting"}},
+          {data: {id: 'imprinting-phonemes', label: "Phoneme Pruning"}},
+          {data: {id: 'imprinting-language', label: "First Language"}},
+          {data: {id: 'imprinting-worldView', label: "World View"}},
+          {data: {id: 'geertz', label: ""}},
+          {data: {id: 'geertz_religion', label: 'On religion'}},
+          {data: {id: 'geertz_weber', label: 'With Weber'}},
+          //{data: {id: 'harryMoses', label: "Harry Moses"}},
+          {data: {id: 'e2', source: 'geertz_religion', target: 'geertz'}},
+          {data: {id: 'e3', source: 'geertz_weber', target: 'geertz'}},
+          {data: {id: 'e4', source: 'imprinting', target: 'imprinting-phonemes'}},
+          {data: {id: 'e5', source: 'imprinting', target: 'imprinting-language'}},
+          {data: {id: 'e6', source: 'imprinting', target: 'imprinting-worldView'}},
+          {data: {id: 'e7', source: 'althusser', target: 'althusser-ideology'}},
+          {data: {id: 'e8', source: 'althusser', target: 'althusser-interpellation'}},
+          {data: {id: 'e9', source: 'imprinting', target: 'althusser-interpellation'}},
+          {data: {id: 'e10', source: 'imprinting', target: 'sahlins'}},
+          {data: {id: 'e11', source: 'imprinting', target: 'butler'}}
+          ],
+     //layout: {name: 'cose'},
+       layout: {name: 'cose'},
+       style: [{selector: 'node',
+                style: {'border-width': 1,
+                        'shape': 'roundrectangle',
+                        'width': 300,
+                        'height': 120,
+                        'content': 'data(label)',
+                        "text-valign": "center",
+                        "text-halign": "center",
+                        "background-color": "beige",
+                        "font-size": "40",
+                        "font-family": "Georgia"
+                       }},
+               {selector: 'node:selected',
+                style: {"border-width": 10}},
+               {selector: '#butler',
+                style: {'width': 300,
+                        'height': 500,
+                        "text-valign": "top",
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/judithButler.jpeg',
+                        'background-fit': 'cover'}},
+               {selector: '#sahlins',
+                style: {'width': 300,
+                        'height': 500,
+                        "text-valign": "top",
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/sahlins.jpeg',
+                        'background-fit': 'cover'}},
+               {selector: '#althusser',
+                style: {'width': 300,
+                        'height': 500,
+                        "text-valign": "top",
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/althusser.jpg',
+                        'background-fit': 'cover'}},
+               {selector: '#harryMoses',
+                style: {'width': 300,
+                        'height': 500,
+                        "text-valign": "top",
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/harryMoses.jpg',
+                        'background-fit': 'cover'}},
+               {selector: '#geertz',
+                style: {'width': 600,
+                        'height': 300,
+                        'shape': 'roundrectangle',
+                        'background-image': 'http://localhost:8000/geertz.jpg',
+                        'background-fit': 'cover'}}
+              ],
+     }); // cytoscape
+ 
+   cy.on('tap', 'node', function(evt){
+      var node = evt.target;
+      //console.log( 'tapped ' + node.id() );
+      displayNotes(node.id())
+      });
+
+cy.ready(function() {
+  console.log("--- cy.ready");
+  setTimeout(() => {
+     restorePositions()
+     console.log("after restore");
+     }, 1000);
+  })
+
+
+var resizeObserver = new ResizeObserver(entries => {
+  for (let entry of entries) {
+     if(entry.target.id === "cyDiv"){
+        refreshLayout()
+        }
+     } // for
+  });
+resizeObserver.observe(document.querySelector("#cyDiv"));
+}); // document ready
+
+//----------------------------------------------------------------------------------------------------
+function displayNotes(nodeID)
+{
+   console.log("displayNotes: " + nodeID)
+   let htmltext = lookup(nodeID)
+   if(htmltext.length > 0){
+      $("#notesDiv").html(htmltext)
+      }
+    
+} // displayNotes
+//----------------------------------------------------------------------------------------------------
+function oldSaveLayout()
+{
+  jsonString = JSON.stringify(cy.json().elements)     
+  localStorage.setItem("layout", jsonString)
+
+} // oldSaveLayout
+//----------------------------------------------------------------------------------------------------
+function oldRestoreLayout()
+{
+  jsonString = localStorage.getItem("layout")
+  cy.json({elements: JSON.parse(jsonString)})    
+  cy.fit(100)
+
+} // oldRestoreLayout
+//----------------------------------------------------------------------------------------------------
+function savePositions()
+{
+  const nodes = cy.nodes(); 
+  const nodePositions = {};
+  for (let i = 0; i < nodes.length; i++) {
+    nodePositions[nodes[i].id()] = nodes[i].position();
+    }
+  jsonString = JSON.stringify(nodePositions);
+  //return nodePositions;
+  localStorage.setItem("layout", jsonString)
+
+} // saveLayout
+//----------------------------------------------------------------------------------------------------
+function restorePositions()
+{
+  jsonString = localStorage.getItem("layout")
+  let nps = JSON.parse(jsonString)
+
+  for (const k of Object.keys(nps)) {
+    const node = cy.getElementById(k);
+    console.log("k:  " + k + "  next node: " + node)
+    if (node && node.length > 0) {
+      node.position(nps[k]);
+      } // if node
+    } // for k
+
+  cy.fit(100)
+  
+} // restorePositions
+//----------------------------------------------------------------------------------------------------
+</script>
+</head>
+<body>
+<div id="mainDiv">
+   <div id="cyDiv"></div>
+   <div id="notesDiv">&nbsp;</div>
+</div>
+</body>
+</html>
+

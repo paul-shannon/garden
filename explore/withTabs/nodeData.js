@@ -1,0 +1,1 @@
+nodeData = [{"data": {"id": "sahlins", "label": "Sahlins"}},{"data": {"id": "imprinting", "label": "Imprinting"}},{"data": {"id": "butler", "label": "Judith Butler"}},{"data": {"id": "e0", "source": "imprinting", "target": "butler", "edgeType": "child"}},{"data": {"id": "e1", "source": "imprinting", "target": "sahlins", "edgeType": "child"}}]
