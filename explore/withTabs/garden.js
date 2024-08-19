@@ -1,3 +1,8 @@
+// garden.js
+//--------------------------------------------------------------------------------
+var state = {}
+window.state = state;
+//--------------------------------------------------------------------------------
 import cytoscape from 'https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/+esm'
 
 const Showdown = await import("https://cdn.jsdelivr.net/npm/showdown/+esm");
@@ -7,6 +12,9 @@ converter.setOption("tables", true);
 import {kb} from './kb.js'
 import {createGraph, getNodeStyles} from './createGraph.js'
 import {doLayout} from './layouts.js'
+
+setupTabs()
+
 //------------------------------------------------------------------------------------------------------------------------
 function displayAnnotation(topic)
 {
@@ -110,6 +118,7 @@ window.dg = drawGraph
 //----------------------------------------------------------------------------------------------------
 $(document).ready(function()
 {
+
    console.log("loading notes*")
    console.log("kb entries*: " + Object.keys(kb).length)
 
@@ -126,6 +135,8 @@ $(document).ready(function()
    });
    
    resizeObserver.observe(document.querySelector("#cyDiv"));
+
+   // setupTabs()
    //doLayout("klay")
 
     /* console manipulations
@@ -140,9 +151,44 @@ $(document).ready(function()
      */ 
 }) // doc ready
 //--------------------------------------------------------------------------------
+function setupTabs()
+{
+
+  $("#cyDiv").show()
+  $("#notesDiv").show()
+  $("#cyDiv").tabs({
+    //event: "mouseover",
+    activate: function(event, ui) {
+      window.ui = ui;
+      let tabNumber = ui.newTab.index() + 1
+      let selector = ui.newPanel.attr("id")
+      console.log("activated panel: " + selector)
+
+      console.log("activated tab " + tabNumber  + "  height: " +
+                  $(selector).height());
+      if(tabNumber === 2){
+         console.log("need to draw graph in cyDiv_2")
+          if(typeof cy2 == 'undefined'){
+             window.cy2 = dg("cyDiv_2")
+             }
+          $("#cyDiv_2").show()
+          $("#cyDiv_2").resize()
+         }
+      }
+   });
+$("#cyDiv_1").height($("#cyDiv").height())
+$("#cyDiv_1").width($("#cyDiv").width())
+$("#cyDiv_2").height($("#cyDiv").height())
+$("#cyDiv_2").width($("#cyDiv").width())
+//$("#notesDiv").width(400)
+
+
+} // setupTabs
+//--------------------------------------------------------------------------------
 window.cy1 = dg("cyDiv_1")
 // window.cy2 = dg("cyDiv_2")
 // window.cy.fit(200)
+
 
 $('#cyDiv_2').on('tabsactivate', function(event, ui) {
     var newIndex = ui.newTab.index();
