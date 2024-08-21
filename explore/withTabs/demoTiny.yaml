@@ -1,0 +1,13 @@
+nodes:
+
+    - id: sahlins
+      label: Sahlins
+      font-size: 32
+      background-image: "http://localhost:8002/img/sahlins.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: blue
+      width: 300
+      height: 500
+      text-valign: top
+      

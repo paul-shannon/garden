@@ -1,7 +1,10 @@
 // garden.js
 //--------------------------------------------------------------------------------
 var state = {}
+console.log(" setting window.state");
 window.state = state;
+console.log(" after setting window.state");
+
 //--------------------------------------------------------------------------------
 import cytoscape from 'https://cdn.jsdelivr.net/npm/cytoscape@3.30.2/+esm'
 
@@ -10,10 +13,13 @@ const converter = new Showdown.default.Converter();
 converter.setOption("tables", true);
 
 import {kb} from './kb.js'
-import {createGraph, getNodeStyles} from './createGraph.js'
 import {doLayout} from './layouts.js'
+import {getGraphs} from './garden-graphs.js'
 
-setupTabs()
+let graphs = getGraphs()
+state["graphs"] = graphs
+
+console.log("--- garden.js, global state, graph count: " + graphs.length)
 
 //------------------------------------------------------------------------------------------------------------------------
 function displayAnnotation(topic)
@@ -95,10 +101,12 @@ window.rp = restorePositions;
 //----------------------------------------------------------------------------------------------------
 function drawGraph(divName)
 {
+   let graphs = getGraphs()
+   console.log("--- graph count: " + graphs.length)
    var cy = cytoscape({
       container: document.getElementById(divName),
-      elements: createGraph(),
-      style: getNodeStyles(),
+      elements: graphs[2].elements, //createGraph(),
+      style: graphs[2].styles,
       ready: function(){
          console.log("garden.js, drawGraph(), cy.ready")
          }
@@ -114,17 +122,40 @@ function drawGraph(divName)
 
 } // drawGraph
 //----------------------------------------------------------------------------------------------------
+function newDrawGraph(divName, graph)
+{
+   console.log("--- newDrawGraph: " + divName)
+    
+   var cy = cytoscape({
+      container: document.getElementById(divName),
+      elements: graph.elements, 
+      style: graph.styles,
+      ready: function(){
+         console.log("garden.js, newDrawGraph(), cy.ready")
+         }
+      });
+    window.cy = cy; 
+    cy.on('tap', 'node', function(evt){
+      var node = evt.target;
+      console.log( 'tapped ' + node.id() );
+      displayAnnotation(node.id())
+      });
+
+    return(cy);
+
+} // newDrawGraph
+//----------------------------------------------------------------------------------------------------
 window.dg = drawGraph
 //----------------------------------------------------------------------------------------------------
 $(document).ready(function()
 {
-
    console.log("loading notes*")
    console.log("kb entries*: " + Object.keys(kb).length)
-
    console.log( "ready!" );
-
-   //$("#cyDiv").tabs()
+   $("#cyDiv").show();
+   $("#notesDiv").show();
+   $("#cyDiv").tabs()
+   newSetupTabs();
 
    var resizeObserver = new ResizeObserver(entries => {
      for (let entry of entries) {
@@ -132,28 +163,14 @@ $(document).ready(function()
            refreshLayout()
            }
         } // for
-   });
+     });
    
    resizeObserver.observe(document.querySelector("#cyDiv"));
 
-   // setupTabs()
-   //doLayout("klay")
-
-    /* console manipulations
-     $("#cyDiv").height() 
-     $("#cyDiv").width() 
-     $("#cyDiv_1").height($("#cyDiv").height())
-     $("#cyDiv_1").width($("#cyDiv").width())
-     $("#notesDiv").width(400)
-     dg()
-     lo("cose")
-     cy.ready(function(){cy.fit(150)})
-     */ 
 }) // doc ready
 //--------------------------------------------------------------------------------
 function setupTabs()
 {
-
   $("#cyDiv").show()
   $("#notesDiv").show()
   $("#cyDiv").tabs({
@@ -163,37 +180,79 @@ function setupTabs()
       let tabNumber = ui.newTab.index() + 1
       let selector = ui.newPanel.attr("id")
       console.log("activated panel: " + selector)
-
       console.log("activated tab " + tabNumber  + "  height: " +
                   $(selector).height());
       if(tabNumber === 2){
          console.log("need to draw graph in cyDiv_2")
           if(typeof cy2 == 'undefined'){
-             window.cy2 = dg("cyDiv_2")
+             window.cy2 = drawGraph("cyDiv_2")
              }
           $("#cyDiv_2").show()
           $("#cyDiv_2").resize()
          }
       }
    });
-$("#cyDiv_1").height($("#cyDiv").height())
-$("#cyDiv_1").width($("#cyDiv").width())
-$("#cyDiv_2").height($("#cyDiv").height())
-$("#cyDiv_2").width($("#cyDiv").width())
-//$("#notesDiv").width(400)
 
+   $("#cyDiv_1").height($("#cyDiv").height())
+   $("#cyDiv_1").width($("#cyDiv").width())
+   $("#cyDiv_2").height($("#cyDiv").height())
+   $("#cyDiv_2").width($("#cyDiv").width())
+   //$("#notesDiv").width(400)
 
 } // setupTabs
 //--------------------------------------------------------------------------------
-window.cy1 = dg("cyDiv_1")
-// window.cy2 = dg("cyDiv_2")
-// window.cy.fit(200)
+function addTab(tabTitle, tabContent)
+{
+   console.log("adding new tab with title " + tabTitle);
+   console.log("found pre-exiting tabs: " + $("cyDiv#cyDiv ul li").length);
 
+   let newListElement = "<li><a href='#" + tabTitle + "'>" + tabTitle + "</a></li>";
+   console.log("newListElement: " + newListElement);
+   $("#cyDiv ul").append(newListElement);
+   
+   let newContentElement = "<div id='" + tabTitle + "'>" + tabContent + "</div>";
+   console.log("newContentElement: " + newContentElement);
+   $("#cyDiv").append(newContentElement)
 
-$('#cyDiv_2').on('tabsactivate', function(event, ui) {
-    var newIndex = ui.newTab.index();
-    console.log('Switched to tab '+newIndex);
-});
+   $("#cyDiv").tabs("refresh");
+
+} // addTab
+//--------------------------------------------------------------------------------
+window.addTab = addTab
+function newSetupTabs()
+{
+   console.log("--- newSetupTabs");
+
+  $("#cyDiv").tabs({
+    activate: function(event, ui){
+      window.ui = ui;
+      let tabNumber = ui.newTab.index() + 1
+      let selector = ui.newPanel.attr("id")
+      console.log("activated panel: " + selector)
+      console.log("activated tab " + tabNumber  + "  height: " + $(selector).height());
+    }})
+
+  var graphs = state["graphs"];
+  let count = graphs.length;
+
+   for(let i=0; i < count;  i++){
+      let graph = graphs[i];
+      var title = graph["title"];
+      title = title.replaceAll(' ', '')
+      addTab(title, title)
+      let elements = graph["elements"]
+      let style = graph["style"]
+      // newDrawGraph(title, graph);
+      } // for i
+
+} // newSetupTabs
+//--------------------------------------------------------------------------------
+// window.cy1 = drawGraph("cyDiv_1")
+
+//$('#cyDiv_2').on('tabsactivate', function(event, ui) {
+//    var newIndex = ui.newTab.index();
+//    console.log('Switched to tab '+newIndex);
+//});
 
 //doLayout("circle")
 //doLayout("cose")

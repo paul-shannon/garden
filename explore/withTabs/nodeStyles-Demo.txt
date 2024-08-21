@@ -1,0 +1,10 @@
+[{"selector": "edge",
+              "style": {
+                    "width": 3,
+                    "curve-style": "bezier",
+                    "line-color": "black",
+                    "target-arrow-color": "black",
+                    "arrow-scale": 1,
+                    "target-arrow-shape": "triangle"
+                }
+            },{"selector": "#sahlins", "style": {"height": 500, "border-color": "blue", "shape": "roundrectangle", "label": "Sahlins", "font-size": 32, "width": 300, "background-image": "http://localhost:8002/img/sahlins.jpeg", "text-valign": "top", "background-fit": "cover"}},{"selector": "#imprinting", "style": {"height": 200, "border-color": "blue", "shape": "roundrectangle", "background-color": "beige", "label": "Imprinting", "border-width": 1, "font-size": 48, "width": 200}},{"selector": "#conradLorenz", "style": {"height": 200, "border-color": "blue", "shape": "roundrectangle", "background-color": "beige", "label": "Lorenz", "border-width": 1, "font-size": 48, "width": 200}},{"selector": "#geese", "style": {"height": 50, "border-color": "red", "text-halign": "center", "shape": "roundrectangle", "background-color": "white", "label": "Geese", "border-width": 1, "font-size": 48, "width": 200, "text-valign": "center"}},{"selector": "#butler", "style": {"height": 100, "border-color": "black", "text-halign": "center", "shape": "roundrectangle", "background-color": "beige", "color": "blue", "fontSize": 32, "label": "Judith Butler", "border-width": 1, "width": 200, "text-valign": "center"}}]

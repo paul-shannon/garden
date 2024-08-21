@@ -2,7 +2,10 @@ default:
 	@echo venv
 	@echo server
 	@echo test
+	@echo tests   # all yamls go into one json structure and one file
 	@echo demo
+	@echo demos
+	@echo demot   # just a single 1-node graph
 	@echo garden
 	@echo imprint
 	@echo geertz
@@ -20,9 +23,18 @@ server:
 test:
 	python test_yamlToCyJSON.py
 
+tests:
+	python test_yamlsToCyJSON.py
+
 demo:
 	python createGraph.py demo.yaml
 	m4 -P createGraph.js-pre > createGraph.js
+
+demos:
+	python createGraphs.py Demo:demo.yaml Geertz:geertz.yaml Perspective:perspective.yaml
+
+demot:
+	python createGraphs.py tiny:demoTiny.yaml
 
 garden:
 	python createGraph.py garden2.yaml

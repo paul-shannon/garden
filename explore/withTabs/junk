@@ -1,12 +1,23 @@
-git add createGraph.js
-git add demo.yaml
-git add garden.html
-git add garden.js
-git add graph.txt
-git add imprint.yaml
-git add kb.js
-git add makefile
-git add nodeStyles.txt
-git add test_yamlToCyJSON.py
-git add yamlToCyJSON.py
-git add geertz.yaml
+	git add  createGraph.js
+	git add  garden.html
+	git add  garden.js
+	git add  junk
+	git add  makefile
+	git add  nodeStyles.txt
+	git add  test_yamlToCyJSON.py
+	git add  yamlToCyJSON.py
+git add createGraphs.py
+git add demo-noEdges.yaml
+git add demoTiny.yaml
+git add dynamicTabsDemo-complex.html
+git add dynamicTabsDemo-minimal.html
+git add dynamicTabsDemo-tiny.html
+git add garden-19aug-1054a.html
+git add garden-graphs.js
+git add getGraphs.js
+git add graph-Demo.txt
+git add graphs-Demo.js
+git add graphs-Geertz.js
+git add nodeStyles-Demo.txt
+git add test_yamlsToCyJSON.py
+git add yamlsToCyJSON.py

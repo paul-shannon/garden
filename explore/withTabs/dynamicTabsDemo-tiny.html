@@ -1,0 +1,96 @@
+<!-- Revised from demo code on http://jqueryui.com/ -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery UI Tabs - Simple manipulation
+</title>
+<script type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+<script type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js">
+</script>
+<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+<style>
+  #dialog label, #dialog input { display:block; }
+  #dialog label { margin-top: 0.5em; }
+  #dialog input, #dialog textarea { width: 95%; }
+  #tabs { margin-top: 1em; }
+</style>
+<script>
+//--------------------------------------------------------------------------------
+function addTab()
+{
+   var num_tabs = $("div#tabs ul li").length + 1;
+   let newListElement = "<li><a href='#tab" + num_tabs + "'>#" + num_tabs + "</a></li>"
+   console.log("newListElement: " + newListElement);
+   
+   $("div#tabs ul").append(newListElement);
+
+   let newContentElement = "<div id='tab" + num_tabs + "'>#" + num_tabs + "</div>"
+   console.log("newContentElement: " + newContentElement);
+   
+   $("div#tabs").append(newContentElement);
+   $("div#tabs").tabs("refresh");
+
+} // addTab
+//--------------------------------------------------------------------------------
+// call this, e.g., from the javascript console, thus: 
+function addTab2(tabTitle, tabContent)
+{
+   var num_tabs = $("div#tabs ul li").length + 1;
+   console.log(" new tab number: " + num_tabs);
+
+   let newListElement = "<li><a href='#" + tabTitle + "'>" + tabTitle + "</a></li>";
+   console.log("newListElement: " + newListElement);
+   $("div#tabs ul").append(newListElement);
+   
+   let newContentElement = "<div id='" + tabTitle + "'>" + tabContent + "</div>";
+   console.log("newContentElement: " + newContentElement);
+   $("div#tabs").append(newContentElement)
+
+   $("div#tabs").tabs("refresh");
+
+} // addTab
+//--------------------------------------------------------------------------------
+$(document).ready(function()
+{
+   $("div#tabs").tabs();
+   $("button#add-tab").click(addTab);
+
+}); // ready
+//--------------------------------------------------------------------------------
+</script>
+
+</head>
+<body>
+  
+  <div id="main">
+    <button id="add-tab">New Tab</button>
+  <div id="tabs">
+    <ul>
+      <li>
+        <a href="#tabs-1">Nunc tincidunt</a>
+      </li>
+    </ul>
+    <div id="tabs-1">
+      <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a,
+        risus. Curabitur nec arcu. Donec sollicitudin mi sit amet
+        mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et
+        lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper
+        leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis
+        orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis
+        aliquam molestie erat. Ut et mauris vel pede varius
+        sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus
+        ipsum. Nunc tristique tempus lectus.
+      </p>
+    </div>
+  </div>
+  </div>
+  
+</body>
+</html>
+
+
+

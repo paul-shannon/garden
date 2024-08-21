@@ -73,7 +73,7 @@ class YamlToCyJSON:
         if(elementCount < elementTotal):
             s += ","
      s += "]"
-     return(s)
+     return(s, json.loads(s))
         
   def getStyles(self):
 
@@ -105,7 +105,7 @@ class YamlToCyJSON:
            nodeAttributes += ","
         s += nodeAttributes  
      s += "]"
-     return(s)
+     return(s, json.loads(s))
         
 def getPositionsFromJsonFile(filename):
 
