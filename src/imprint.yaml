@@ -1,0 +1,120 @@
+nodes:
+
+    - id: conradLorenz
+      label: Lorenz
+      shape: roundrectangle
+      background-color: beige
+      border-color: blue
+      border-width: 1
+      font-size: 48
+      width: 200
+      height: 200
+
+    - id: geese
+      label: Geese
+      shape: roundrectangle
+      border-color: red
+      border-width: 1
+      background-color: white
+      text-valign: center
+      text-halign: center
+      font-size: 48
+      width: 200
+      height: 50
+
+    - id: sahlins
+      label: Sahlins
+      font-size: 48
+      background-image: "http://localhost:8000/sahlins.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 1
+      width: 300
+      height: 500
+      text-valign: top
+      
+    - id: sahlins-western-illusion
+      label: Western Illusion
+      parent: sahlins
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: imprinting
+      label: Imprinting
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+    - id: althusser
+      background-image: "http://localhost:8002/img/althusser.jpg"
+      background-fit: cover
+      label: Althusser
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 600
+      text-valign: top
+      text-halign: center
+
+    - id: althusser-ideology
+      label: Ideology
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+    - id: althusser-interpellation
+      label: Interpellation
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+
+edges:
+   - source: imprinting
+     target: althusser
+     edgeType: child
+
+
+   - source: althusser
+     target: althusser-ideology
+     edgeType: child
+
+   - source: althusser
+     target: althusser-interpellation
+     edgeType: child
+
+   - source: imprinting
+     target: conradLorenz
+     edgeType: child
+
+   - source: conradLorenz
+     target: geese
+     edgeType: child

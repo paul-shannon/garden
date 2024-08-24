@@ -1,0 +1,45 @@
+nodes:
+
+    - id: youngWaltWhitman
+      label: Walt Whitman
+      font-size: 32
+      background-image: "http://localhost:8002/img/youngWaltWhitman.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: gray
+      width: 300
+      height: 500
+      text-valign: top
+
+
+    - id: whitman-journeyWorkOfStars
+      label: "a leaf of grass\nis no less\n than the journey-work\nof the stars"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 14
+      font-family: courier
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 200
+      height: 100
+      text-valign: center
+
+    - id: nucleosynthesis
+      label: Nucleosynthesis
+      font-size: 18
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 200
+      height: 100
+      text-valign: center
+
+edges:
+
+    - source: youngWaltWhitman
+      target: whitman-journeyWorkOfStars
+      edgeType: child
+      

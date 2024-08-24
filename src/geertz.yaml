@@ -1,0 +1,115 @@
+nodes:
+
+    - id: geertz
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/geertz.png"
+      border-color: black
+      border-width: 4
+      border-radius: 10
+      # background-color: beige
+      background-fit: cover
+      shape: roundrectangle
+      width: 500
+      height: 250
+      text-valign: top
+      
+    - id: geertz-religion-parent
+      label: ""
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      background-color: white
+      font-size: 32
+      width: 300
+      height: 100
+
+    - id: geertz-religion
+      parent: geertz-religion-parent
+      label: Religion as a Cultural System
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      background-color: white
+      font-size: 24
+      width: 360
+      height: 40
+      text-valign: center
+      text-halign: center
+
+    - id: geertz-santayana
+      label: "Santayana: a world to live in"
+      parent: geertz-religion-parent
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 380
+      height: 40
+      text-valign: center
+      text-halign: center
+
+    - id: geertz-weber
+      label: "Weber: Webs of Significance"
+      parent: geertz-religion-parent
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 380
+      height: 40
+      text-valign: center
+      text-halign: center
+
+    - id: geertz-religion-symbols
+      label: A system of symbols
+      parent: geertz-religion-parent
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 280
+      height: 40
+      text-valign: center
+      text-halign: center
+
+    - id: geertz-religion-moods
+      label: Moods and Motivations
+      parent: geertz-religion-parent
+      font-size: 24
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 280
+      height: 40
+      text-valign: center
+      text-halign: center
+
+
+    - id: geertz-ethos
+      label: World-view and Ethos
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      background-color: white
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+
+
+edges:
+   - source: geertz
+     target: geertz-religion
+     edgeType: child
+
+   - source: geertz
+     target: geertz-ethos
+     edgeType: child
+

@@ -1,0 +1,83 @@
+nodes:
+
+    - id: bedroom
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/bedroomAtArles.jpg"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: green
+      width: 1000
+      height: 800
+      text-valign: top
+      
+    - id: bedroom-euclidean-monocular
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/vg-bedroom-monocular-euclidean.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: green
+      width: 600
+      height: 400
+      text-valign: top
+      
+    - id: bedroom-euclidean-monocular
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/vg-bedroom-monocular-euclidean.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: green
+      width: 600
+      height: 400
+      text-valign: top
+      
+
+    - id: bedroom-lines-traced
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/vg-bedroom-lines-traced.png"
+      background-fit: cover
+      shape: roundrectangle
+      width: 600
+      height: 400
+      text-valign: top
+      
+
+
+    - id: bedroom-rectilinear
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/bedroomAtArles-rectilinear.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      width: 600
+      height: 400
+      text-valign: top
+      
+    - id: morganStreet-porch
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/morganStreetPorch.png"
+      background-fit: cover
+      shape: roundrectangle
+      width: 600
+      height: 400
+      text-valign: top
+      
+    - id: mudra
+      label: ""
+      font-size: 32
+      background-image: "http://localhost:8002/img/mudra.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      width: 600
+      height: 400
+      text-valign: top
+      
+edges:
+    - source: bedroom
+      target: bedroom-rectilinear
+      edgeType: child
+ 

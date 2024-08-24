@@ -1,0 +1,214 @@
+nodes:
+
+    - id: sahlins
+      label: Sahlins
+      font-size: 48
+      background-image: "http://localhost:8000/sahlins.jpeg"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 1
+      width: 300
+      height: 500
+      text-valign: top
+      
+    - id: sahlins-western-illusion
+      label: Western Illusion
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion
+      label: Religion as a Cultural System
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion-santayana
+      label: A world to live in
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion-symbols
+      label: A system of symbols
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion-moods
+      label: Moods and Motivations
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion-order
+      label: Order of Existence
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion-aura
+      label: Aura of factuality
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: sahlins-religion-realistic
+      label: Realistic
+      font-size: 48
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: beige
+      width: 600
+      height: 200
+      text-valign: center
+      text-halign: center
+
+    - id: imprinting
+      label: Imprinting
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+    - id: althusser
+      label: Althusser
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+    - id: althusser-ideology
+      label: Ideology
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+    - id: althusser-interpellation
+      label: Interpellation
+      font-size: 64
+      shape: roundrectangle
+      border-width: 1
+      border-color: gray     
+      background-color: white
+      width: 400
+      height: 150
+      text-valign: center
+      text-halign: center
+
+
+edges:
+   - id: e0
+     source: imprinting
+     target: sahlins-religion
+     edgeType: child
+
+   - id: e1
+     source: sahlins
+     target: sahlins-religion
+     edgeType: child
+
+   - id: e2
+     source: sahlins-religion
+     target: sahlins-religion-santayana
+     edgeType: child
+
+   - id: e3
+     source: sahlins-religion-santayana
+     target: sahlins-religion-symbols
+     edgeType: child
+
+   - id: e4
+     source: sahlins-religion-symbols
+     target: sahlins-religion-moods
+     edgeType: child
+
+   - id: e5
+     source: sahlins-religion-moods
+     target: sahlins-religion-order
+     edgeType: child
+
+   - id: e7
+     source: sahlins-religion-order
+     target: sahlins-religion-aura
+     edgeType: child
+
+   - id: e6
+     source: sahlins-religion-aura
+     target: sahlins-religion-realistic
+     edgeType: child
+
+   - id: e8
+     source: sahlins
+     target: sahlins-western-illusion
+     edgeType: child
+
+   - id: e9
+     source: imprinting
+     target: althusser-ideology
+     edgeType: child
+
+   - id: e10
+     source: imprinting
+     target: althusser-interpellation
+     edgeType: child
+
