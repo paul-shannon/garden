@@ -1,8 +1,267 @@
 let kb = {
+
+"joniMitchell-lyrics":
+`
+<blockquote>We are stardust. We are golden. We are billion year old carbon.</blockquote>
+
+<p>This comes from the 1969 Joni Mitchell song, <i>Woodstock</i>. The
+song may be a dated, hippie, period piece, but there is some good
+science in the chorus. Stars shine because of the nuclear fusion of
+hydrogen to form helium in the star's interior. After billions of
+years, most of a star's hydrogen is used up so the star's core
+collapses and gets even hotter.
+
+<p>Depending on the star's mass, the collapsing core may cause
+additional fusion reactions which produce heavier elements such as
+iron. Some of these stars explode in a massive supernova which flings
+all these elements into space, where they collide with interstellar
+dust and gas. This is where chemical compounds like carbon and water,
+the stuff that we are made of, are formed in the universe. We are, in
+fact, stardust.
+<p>
+(need attribution)
+`,
+
+"joniMitchell-woodstock":
+`
+**Joni Mitchell, 1970: Woodstock**<br>
+
+<blockquote>
+I came upon a child of God<br>
+He was walking along the road<br>
+And I asked him, where are you going<br>
+And this he told me<br>
+I'm going on down to Yasgur's farm<br>
+I'm going to join in a rock 'n' roll band<br>
+I'm going to camp out on the land<br>
+I'm going to try an' get my soul free<br>
+We are stardust<br>
+We are golden<br>
+And we've got to get ourselves<br>
+Back to the garden<br>
+<p>
+
+
+Then can I walk beside you<br>
+I have come here to lose the smog<br>
+And I feel to be a cog in something turning<br>
+Well maybe it is just the time of year<br>
+Or maybe it's the time of man<br>
+I don't know who l am<br>
+But you know life is for learning<br>
+We are stardust<br>
+We are golden<br>
+And we've got to get ourselves<br>
+Back to the garden<br>
+<p>
+
+By the time we got to Woodstock<br>
+We were half a million strong<br>
+And everywhere there was song and celebration<br>
+And I dreamed I saw the bombers<br>
+Riding shotgun in the sky<br>
+And they were turning into butterflies<br>
+Above our nation<br>
+We are stardust<br>
+Billion year old carbon<br>
+We are golden<br>
+Caught in the devil's bargain<br>
+And we've got to get ourselves<br>
+Back to the garden<br>
+
+</blockquote>
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/ZzZTSfXcHYI?si=u2I2kBahXtE4-WdK"
+title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen></iframe>
+
+`,
+
+
+"gillesFauconnier":
+`
+**Gilles Fauconnier**<br>
+
+[1944-2021] French linguist, researcher in cognitive science and author, who
+worked in the U.S. He was distinguished professor at the University of
+California, San Diego, in the Department of Cognitive Science.
+
+<p>
+His work with Mark Turner founded the theory of conceptual blending.
+<p>
+His books include:
+
+<ul>
+   <li> The Way We Think: Conceptual Blending and the Mind's Hidden Complexities (with Mark Turner) (2003)
+   <li> Conceptual Integration Networks (with Mark Turner) (1998)
+   <li> Mappings in Thought and Language (1997)
+   <li> Mental Spaces: Aspects of Meaning Construction in Natural Language (1994)
+
+`,
+
+
+"somaticMarkersAndMetaphor":
+`
+<a href="https://www.nytimes.com/2011/01/09/fashion/09POSSESSED.html" target="_blank">
+Antonio Damasio's</a> Tintin-esque sculpture described in the NYTimes.
+
+<p>
+Damasio's <a href="https://www.ted.com/talks/antonio_damasio_the_quest_to_understand_consciousness?subtitle=en"
+target="_blank">TED talk</a>.
+`,
+
+
+"windsFromTheNorth-somaticMarkersAndMetaphor":
+`
+At 54 minutes into the video below anthropologist Ortman uses Antonio Damasio's
+
+<a href="https://en.wikipedia.org/wiki/Somatic_marker_hypothesis" target="_blank">somatic marker hypothesis</a>.
+
+to ground (suggest mechanisms for) his metaphor/language/materialCulture hypothesis.
+
+<p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fOlYyh3dk8c?si=TnyCDePOMbA8WcXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+`,
+
+
+"windsFromTheNorth":
+`
+**WindsFromTheNorth: Tewa Origins and Historical Anthropology**<br>
+
+Anthropologist Scott Ortman, combining cultural anthropology, archaeology, and linguistics
+in his study of the Mesa Verde -> Tewa transition, argues in four parts for, not just correlation,
+but some (reciprocal?) causation as well.
+<ul>
+   <li> Culture as shared mental models
+   <li> How to read ancient minds
+   <li> Metaphor and major transitions
+   <li> An hypothesis on culture and complexity
+</ul>
+
+He hypothesizes correlations between metaphoric transformations and qualitative
+changes in the scale, integration and differentiation, complexity of human society.
+How might these metaphors actually encouraged those kinds of changes?
+<p>
+The migration from Mesa Verde (and Chaco Canyon?) to the upper Rio Grande Valley,
+and the origin of the Teva culture, about 1250 BC, is accompanied, this
+archaeolgist argues, in a shift from bowl metaphors, to upright corn/people/rain
+rectilinear images.
+<p>
+
+
+Documents the shift, in language and material history, from a bowl
+metaphor to rectilinear.   See minute 28 in the video below.  Bowl
+images in historical linguistics, while upright corn/person images
+are present in contempory Tewa songs.
+
+<p>
+
+The Tewa-speaking pueblos near Santa Fe have always claimed ancestry
+from the ancient peoples the Apache called "Anasazi" - those ancient
+ones who vanished rather abruptly from Mesa Verde and Chaco Canyon
+around 800 years ago. It's taken careful work by Dr. Scott Ortman to
+sort through the web of conflicting anthropological theories,
+disjunctive material artifacts and complex linguistic, cultural and
+genetic clues to find a scientific validation for what the indigenous
+Tewa people have been telling us all along about their ethnogenesis,
+i.e. where they came from.  In his lecture at the Telluride Historical
+Museum this spring, Ortman laid out his case quite elegantly. And his
+prize-winning new book (derived from his Ph. D. thesis) assembles all
+the intricate details -- Winds from the North: Tewa Origins and
+Historical Anthropology (Univ. of Utah Press, Salt Lake City, 2012)
+For years anthropologists were mystified because, although there was a
+sudden population increase in the Rio Grande region right around the
+time Mesa Verde and Chaco were depopulated, none of the cultural
+artifacts from Mesa Verde culture (pottery styles, architectural
+styles, etc.) ever appeared in the Rio Grande region.
+
+<p>
+The “abandonment” of Mesa Verde and the formation of the Rio Grande
+Pueblos represent two classic events in North American
+prehistory. Yet, despite a century of research, no consensus has been
+reached on precisely how, or even if, these two events were
+related. In this landmark study, Scott Ortman proposes a novel and
+compelling solution to this problem through an investigation of the
+genetic, linguistic, and cultural heritage of the Tewa Pueblo people
+of New Mexico.
+
+<p>
+Integrating data and methods from human biology, linguistics,
+archaeology, and cultural anthropology, Ortman shows that a striking
+social transformation took place as Mesa Verde people moved to the Rio
+Grande, such that the resulting ancestral Tewa culture was a unique
+hybrid of ideas and practices from various sources. While addressing
+several long-standing questions in American archaeology, Winds from
+the North also serves as a methodological guidebook, including new
+approaches to integrating archaeology and language based on cognitive
+science research. As such, it will be of interest to researchers
+throughout the social and human sciences.
+<p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fOlYyh3dk8c?si=TnyCDePOMbA8WcXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+`,
+
+
 "nucleosynthesis":
 `
 **Nucleosynthesis**<p>
 
+From <a href="https://www.earthdate.org/files/000/003/619/EarthDate_353_C.pdf" target="_blank">ErthDate.org</a>
+
+<p>
+
+Nearly everything in the universe was made by stars.
+Stars are fueled by nuclear fusion. They fuse atoms of the
+lightest element, with only one proton—hydrogen—into the
+next lightest element, with two protons—helium.
+In every fusion reaction, they’re creating an atom of a new
+element.
+<p>
+
+When they’ve used up their hydrogen, they begin to
+fuse the remaining helium into a heavier element, carbon.
+<p>
+
+Then they’ll fuse that into oxygen and progressively
+heavier elements.
+<p>
+
+Each of these fusion reactions is less energetic, so by the
+time the star is fusing iron, it’s nearing the end of its life.
+<p>
+
+The star may soon explode in a supernova, dispersing the
+elements it created into other solar systems where they
+may be used to form planets.
+<p>
+
+After a supernova, the star may continue to exist as a
+black hole or an extremely dense neutron star. In this
+environment, elements like iron can capture free neutrons
+to form still heavier elements like silver, gold or plutonium.
+The atoms that came together to form Earth 4.5 billion years
+ago were once part of stars that lived and died long before.
+<p>
+
+Almost every atom in your body is billions of years old,
+from the calcium in your bones to the carbon in your DNA,
+recycled countless times.
+<p>
+
+That song was right: we are stardust. Stars made the
+elements that make us. 
+
+<p>
 <iframe width="560"height="315"
         src="https://www.youtube.com/embed/wQc5dm-elvg?si=3niJlg3A2E7ld1vz"
         title="YouTube video player"
@@ -32,13 +291,8 @@ And the running blackberry would adorn the parlours of heaven.<br>
   <dd>a masterpiece, especially in art, literature, or music</dd>
   <dt><b>pismire</b>: ant</dt>
   <dd>literally, "urinating ant", from the odor of formic acid characteristic of an ant hill.
- Origin and Etymology: Middle English pissemyre, equivalent to _pisse_ to urinate + obsolete _mire_ ant.</dd>
+ Origin and Etymology: Middle English pissemyre, equivalent to <i>pisse</i> to urinate + obsolete <i>mire</i> ant.</dd>
 </dl>
-
-
-<br>*chef-d'oeuvre*: masterpiece
-<br>*pismire*: ant (archaic): literally, "urinating ant", from the odor of formic acid characteristic of an ant hill.
- Origin and Etymology: Middle English pissemyre, equivalent to <i>pisse</i> to urinate + obsolete <i>mire</i> ant.
 
 `,
 

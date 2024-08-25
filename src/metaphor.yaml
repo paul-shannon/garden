@@ -1,0 +1,60 @@
+nodes:
+
+    - id: georgeLakoff
+      label: George Lakoff
+      font-size: 48
+      font-family: Georgia
+      background-image: "http://localhost:8002/img/georgeLakoff.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 2
+      border-color: black
+      width: 400
+      height: 600
+      text-valign: top
+      
+
+    - id: gillesFauconnier
+      label: Gilles Fauconnier
+      font-size: 48
+      font-family: Georgia
+      background-image: "http://localhost:8002/img/gillesFauconnier.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 2
+      border-color: black
+      width: 400
+      height: 600
+      text-valign: top
+      
+
+    - id: windsFromTheNorth
+      label: ""
+      font-size: 48
+      background-image: "http://localhost:8002/img/windsFromTheNorth-scottOrtman.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 2
+      border-color: black
+      width: 400
+      height: 600
+      text-valign: top
+      
+    - id: somaticMarkersAndMetaphor
+      label: Antonio Damasio
+      font-size: 48
+      background-image: "http://localhost:8002/img/damasio-tintin-statue.png"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      background-color: beige
+      width: 400
+      height: 600
+      text-valign: top
+      
+edges:
+
+   - source: windsFromTheNorth
+     target: somaticMarkersAndMetaphor
+     edgeType: child
+

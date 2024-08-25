@@ -163,6 +163,13 @@ function newDrawGraph(divName, graph)
      displayAnnotation(node.id())
      });
 
+  cy.on('tap', 'edge', function(evt){
+     console.log("edge tap: " + evt.target.id());
+     var edge = evt.target;
+     state["currentEdge"] = edge;
+     displayAnnotation(edge.id())
+     });
+
   if(haveSavedLayout(divName)){
      restoreLayout(divName)
      }

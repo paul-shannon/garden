@@ -21,3 +21,9 @@ nodes:
       height: 200
       text-valign: center
       
+edges:
+
+   - source: sahlins
+     target: fubar
+     edgeType: child
+

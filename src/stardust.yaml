@@ -13,33 +13,67 @@ nodes:
 
 
     - id: whitman-journeyWorkOfStars
-      label: "a leaf of grass\nis no less\n than the journey-work\nof the stars"
+      label: "a leaf of grass:\njourney-work\nof the stars"
       text-wrap: wrap
       text-max-width: 1000
-      font-size: 14
-      font-family: courier
+      font-size: 32
+      font-family: Georgia
       shape: roundrectangle
       border-color: black
       border-width: 1
       background-color: "#f9f9eb"
-      width: 200
+      width: 300
+      height: 200
+      text-valign: center
+
+    - id: joniMitchell-woodstock
+      label: "Joni Mitchell"
+      background-image: "http://localhost:8002/img/joni-ladiesOfTheCanyon.png"
+      background-fit: cover
+      font-size: 32
+      font-family: Georgia
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 300
+      height:  600
+      text-valign: top
+
+    - id: joniMitchell-lyrics
+      label: "We are stardust\nBillion year old carbon"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      font-family: Georgia
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
       height: 100
       text-valign: center
 
     - id: nucleosynthesis
       label: Nucleosynthesis
-      font-size: 18
+      font-size: 48
+      font-family: Georgia
+      background-image: "http://localhost:8002/img/nucleosynthesis.png"
+      background-fit: cover
       shape: roundrectangle
       border-color: black
       border-width: 1
       background-color: "#f9f9eb"
-      width: 200
-      height: 100
-      text-valign: center
+      width: 800
+      height: 500
+      text-valign: top
 
 edges:
 
     - source: youngWaltWhitman
       target: whitman-journeyWorkOfStars
       edgeType: child
-      
+
+    - source: joniMitchell-woodstock
+      target: joniMitchell-lyrics
+      edgeType: child

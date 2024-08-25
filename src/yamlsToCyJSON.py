@@ -65,7 +65,8 @@ class YamlToCyJSON:
      for edge in edges:
         elementCount += 1
         edgeNumber += 1
-        data = {"data": {"id": "e%d" % edgeNumber, 
+        id = "%s-%s" % (edge["source"], edge["target"])
+        data = {"data": {"id": id, # "e%d" % edgeNumber, 
                          "source": edge["source"],
                          "target": edge["target"],
                          "edgeType": edge["edgeType"]}}
@@ -79,14 +80,19 @@ class YamlToCyJSON:
 
      s = """[{"selector": "edge",
               "style": {
-                    "width": 3,
+                    "width": 8,
                     "curve-style": "bezier",
-                    "line-color": "black",
+                    "line-color": "green",
                     "target-arrow-color": "black",
-                    "arrow-scale": 1,
+                    "arrow-scale": 3,
                     "target-arrow-shape": "triangle"
-                }
+                    }
             },
+            {"selector": "edge:selected",
+                "style": {
+                    "width": 14,
+                    "line-color": "red"
+                    }},
           """
 
      #s = "["
@@ -107,10 +113,11 @@ class YamlToCyJSON:
         s += nodeAttributes  
      s += """{"selector": "node:selected",
                 "style": {
-                   "border-width": 3,
+                   "border-width": 8,
                    "border-color": "red"
                    }
-                }"""
+                }
+              """
      s += "]"
      #print(s)
      return(s, json.loads(s))

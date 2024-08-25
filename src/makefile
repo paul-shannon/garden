@@ -13,6 +13,7 @@ default:
 	@echo perspective
 	@echo daylight
 	@echo stardust
+	@echo metaphor
 	@echo current
 	@echo view
 
@@ -67,11 +68,16 @@ current:
        Imprint:imprint.yaml \
        Geertz:geertz.yaml \
        Perspective:perspective.yaml \
-       Daylight:daylight.yaml
+       Daylight:daylight.yaml \
+       Metaphor:metaphor.yaml
 
 stardust:
 	python createGraphs.py \
        Stardust:stardust.yaml
+
+metaphor:
+	python createGraphs.py \
+       Metaphor:metaphor.yaml
 
 view:
 	open http://localhost:8002/garden.html
