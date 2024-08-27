@@ -1,0 +1,23 @@
+nodes:
+
+    - id: one
+      label: One
+      font-size: 32
+      shape: roundrectangle
+      background-color: beige
+      border-color: blue
+      width: 300
+      height: 500
+      text-valign: center
+      
+    - id: two
+      label: Two
+      font-size: 32
+      shape: roundrectangle
+      border-color: blue
+      background-color: beige
+      width: 500
+      height: 300
+      text-valign: center
+      
+      

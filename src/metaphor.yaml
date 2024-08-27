@@ -4,7 +4,7 @@ nodes:
       label: George Lakoff
       font-size: 48
       font-family: Georgia
-      background-image: "http://localhost:8002/img/georgeLakoff.png"
+      background-image: "img/georgeLakoff.png"
       background-fit: cover
       shape: roundrectangle
       border-width: 2
@@ -18,7 +18,7 @@ nodes:
       label: Gilles Fauconnier
       font-size: 48
       font-family: Georgia
-      background-image: "http://localhost:8002/img/gillesFauconnier.png"
+      background-image: "img/gillesFauconnier.png"
       background-fit: cover
       shape: roundrectangle
       border-width: 2
@@ -31,7 +31,7 @@ nodes:
     - id: windsFromTheNorth
       label: ""
       font-size: 48
-      background-image: "http://localhost:8002/img/windsFromTheNorth-scottOrtman.png"
+      background-image: "img/windsFromTheNorth-scottOrtman.png"
       background-fit: cover
       shape: roundrectangle
       border-width: 2
@@ -43,7 +43,19 @@ nodes:
     - id: somaticMarkersAndMetaphor
       label: Antonio Damasio
       font-size: 48
-      background-image: "http://localhost:8002/img/damasio-tintin-statue.png"
+      background-image: "img/damasio-tintin-statue.png"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      background-color: beige
+      width: 400
+      height: 600
+      text-valign: top
+      
+    - id: cognitiveSemanticsMesaVerde
+      label: ""
+      font-size: 48
+      background-image: "img/mesaVerdeBasket.png"
       shape: roundrectangle
       border-color: black
       border-width: 2
@@ -58,3 +70,6 @@ edges:
      target: somaticMarkersAndMetaphor
      edgeType: child
 
+   - source: windsFromTheNorth
+     target: cognitiveSemanticsMesaVerde
+     edgeType: child

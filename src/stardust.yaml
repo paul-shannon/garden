@@ -3,7 +3,7 @@ nodes:
     - id: youngWaltWhitman
       label: Walt Whitman
       font-size: 32
-      background-image: "http://localhost:8002/img/youngWaltWhitman.png"
+      background-image: "img/youngWaltWhitman.png"
       background-fit: cover
       shape: roundrectangle
       border-color: gray
@@ -13,7 +13,7 @@ nodes:
 
 
     - id: whitman-journeyWorkOfStars
-      label: "a leaf of grass:\njourney-work\nof the stars"
+      label: "a leaf of grass - \njourney-work\nof the stars"
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -28,7 +28,7 @@ nodes:
 
     - id: joniMitchell-woodstock
       label: "Joni Mitchell"
-      background-image: "http://localhost:8002/img/joni-ladiesOfTheCanyon.png"
+      background-image: "img/joni-ladiesOfTheCanyon.png"
       background-fit: cover
       font-size: 32
       font-family: Georgia
@@ -58,7 +58,7 @@ nodes:
       label: Nucleosynthesis
       font-size: 48
       font-family: Georgia
-      background-image: "http://localhost:8002/img/nucleosynthesis.png"
+      background-image: "img/nucleosynthesis.png"
       background-fit: cover
       shape: roundrectangle
       border-color: black

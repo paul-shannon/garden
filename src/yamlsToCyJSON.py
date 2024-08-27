@@ -30,19 +30,26 @@ import pdb
 # x['style'] ['elements']['nodes'][n]['style']
 
 class YamlToCyJSON:
+
   yamlFile = None
+  locsFile = None
+  locs = None
 
-  def __init__(self, file):
+  def __init__(self, yamlFile, locsFile=None):
 
-     assert(os.path.isfile(file))
-     self.yamlFile = file
+     assert(os.path.isfile(yamlFile))
+     self.yamlFile = yamlFile
+     self.locsFile = locsFile
 
   def parse(self):
 
      with open(self.yamlFile, 'r') as stream:
         x = yaml.safe_load(stream)
      self.x =  x
-
+     if(self.locsFile):
+       with open(self.locsFile, "r") as f:
+          text = f.read()
+          self.locs = json.loads(text)
 
   def getElements(self):
 
@@ -55,12 +62,20 @@ class YamlToCyJSON:
      elementCount = 0
      for node in nodes:
         elementCount += 1
-        data = {"data": {"id": node["id"], "label": node["label"]}}
+        nodeID = node["id"]
+        if(self.locs):
+          if(nodeID in list(self.locs.keys())):
+            position = self.locs[nodeID]
+            data = {"data": {"id": nodeID, "label": node["label"]},
+                   "position": position}
+        else:
+           data = {"data": {"id": nodeID, "label": node["label"]}}
         if "parent" in (list(node.keys())):
           data["data"]["parent"] = node["parent"]
         s += "%s" % json.dumps(data)
         if(elementCount < elementTotal):
             s += ","
+
      edgeNumber = 0
      for edge in edges:
         elementCount += 1
@@ -122,13 +137,10 @@ class YamlToCyJSON:
      #print(s)
      return(s, json.loads(s))
         
-def getPositionsFromJsonFile(filename):
+def getLocationsFromJsonFile(filename):
 
-   s = open(filename).read()
-     # remove likely "positions = "
-     # this is needed for <script> read of the data
-     # and assignment, but is not good for testing
-   
-   s = s.replace("positions = ", "")
-   return (s, json.loads(s))
+   with open(filename, "r") as f:
+      text = f.read()
+   locs = json.loads(text)
+   return (text, locs)
  

@@ -3,7 +3,7 @@ nodes:
     - id: bedroom
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/bedroomAtArles.jpg"
+      background-image: "img/bedroomAtArles.jpg"
       background-fit: cover
       shape: roundrectangle
       border-color: green
@@ -14,7 +14,7 @@ nodes:
     - id: bedroom-euclidean-monocular
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/vg-bedroom-monocular-euclidean.png"
+      background-image: "img/vg-bedroom-monocular-euclidean.png"
       background-fit: cover
       shape: roundrectangle
       border-color: green
@@ -25,7 +25,7 @@ nodes:
     - id: bedroom-euclidean-monocular
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/vg-bedroom-monocular-euclidean.png"
+      background-image: "img/vg-bedroom-monocular-euclidean.png"
       background-fit: cover
       shape: roundrectangle
       border-color: green
@@ -37,7 +37,7 @@ nodes:
     - id: bedroom-lines-traced
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/vg-bedroom-lines-traced.png"
+      background-image: "img/vg-bedroom-lines-traced.png"
       background-fit: cover
       shape: roundrectangle
       width: 600
@@ -49,7 +49,7 @@ nodes:
     - id: bedroom-rectilinear
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/bedroomAtArles-rectilinear.jpeg"
+      background-image: "img/bedroomAtArles-rectilinear.jpeg"
       background-fit: cover
       shape: roundrectangle
       width: 600
@@ -59,7 +59,7 @@ nodes:
     - id: morganStreet-porch
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/morganStreetPorch.png"
+      background-image: "img/morganStreetPorch.png"
       background-fit: cover
       shape: roundrectangle
       width: 600
@@ -69,7 +69,7 @@ nodes:
     - id: mudra
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/mudra.jpeg"
+      background-image: "img/mudra.jpeg"
       background-fit: cover
       shape: roundrectangle
       width: 600

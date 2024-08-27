@@ -25,7 +25,7 @@ nodes:
     - id: sahlins
       label: Sahlins
       font-size: 48
-      background-image: "http://localhost:8000/sahlins.jpeg"
+      background-image: "img/sahlins.jpeg"
       background-fit: cover
       shape: roundrectangle
       border-width: 1
@@ -35,7 +35,6 @@ nodes:
       
     - id: sahlins-western-illusion
       label: Western Illusion
-      parent: sahlins
       font-size: 48
       shape: roundrectangle
       border-width: 1
@@ -59,7 +58,7 @@ nodes:
       text-halign: center
 
     - id: althusser
-      background-image: "http://localhost:8002/img/althusser.jpg"
+      background-image: "img/althusser.jpg"
       background-fit: cover
       label: Althusser
       font-size: 64
@@ -102,6 +101,9 @@ edges:
      target: althusser
      edgeType: child
 
+   - source: sahlins
+     target: sahlins-western-illusion
+     edgeType: child
 
    - source: althusser
      target: althusser-ideology

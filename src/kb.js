@@ -1,4 +1,60 @@
 let kb = {
+"cognitiveSemanticsMesaVerde":
+`
+**Scott Ortman: Using Cognitive Semantics to Relate Mesa Verde Archaeology to Modern Pueblo Languages**
+
+Chapter six of 2020 edition of <a href="https://www.amazon.com/Rethinking-Anthropological-Perspectives-Migration-Graciela/dp/0813068193/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.BkySTM2iHqiQQx0qJxG0Zw.TQtugLunFW_qhbX5EEbrWmKjUaw5FofO_Rrxwnjmz1Y&qid=1724772981&sr=1-1"
+target="_blank">Rethinking Anthropological Perspectives on Migration</a>, available to read online
+<a href="https://www.google.com/books/edition/Rethinking_Anthropological_Perspectives/FYLSEAAAQBAJ?hl=en&gbpv=1&dq=scott+ortman+conceptual+metaphors&pg=PT100&printsec=frontcover" target="_blank">here</a>.
+
+<p>
+
+The approach I develop here focuses on a cognitive process called
+conceptual metaphor, which is a common denominator of material culture
+and language. Previous studies have shown that the conceptual
+metaphors of ancestral speech communities are embedded in the
+documented languages of their descendants.  Recent archaeological
+research shows that these metaphors are also expressed in
+archaeological material culture.
+
+<p> Based on these findings I suggest it
+is possible to relate archaeological complexes to protolanguages by
+correlating conceptual systems as they are expressed in the
+archaeological record and in potentially related languages.
+
+<p> I will
+first review current methods for relating archaeology and language and
+discuss their strengths and weaknesses. Then I will introduce
+conceptual metaphor as an additional basis for linking archaeology and
+language, show how one can reconstruct protometaphors from linguistic
+and archaeological evidence, and apply these methods in a case study
+that traces the migration of a specific speech community from its
+homeland in the Mesa Verde region of the U.S. Southwest.
+
+`,
+
+
+"hell-up-coal-holler":
+`
+**Hell Up Coal Holler** <br>
+
+Jimmy Triplett, Seattle House Concert, March 11th 2006
+
+<b>G</b><br><audio controls loop src="audio/hellUpCoalHoller.mp3">G</audio><br>
+<b>F</b><br><audio controls loop src="audio/hellUpCoalHoller-F.mp3">F</audio><br>
+
+`,
+
+"cumberlandGapMarionReese":
+`
+**Cumberland Gap, Key of G, Marion Reese**
+
+Candy Goldman and Peter Boveng, Fiddle Tunes, 2021
+
+<audio controls src="audio/cumberlandGap-marionReese-G.mp3">G</audio>
+`,
+
+
 
 "joniMitchell-lyrics":
 `

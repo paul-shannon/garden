@@ -1,0 +1,67 @@
+nodes:
+
+    - id: cumberlandGapMarionReese
+      label: Cumberland Gap [G] 
+      font-size: 16
+      shape: roundrectangle
+      border-color: black
+      border-width: 0
+      background-color: white
+      width: 200
+      height: 30
+      text-valign: center
+      
+    - id: all-young
+      label:   all young
+      font-size: 16
+      shape: roundrectangle
+      border-color: black
+      border-width: 0
+      background-color: white
+      width: 200
+      height: 30
+      text-valign: center
+
+    - id: blind-steer-in-a-mudhole
+      label:   blind steer in a mudhole
+      font-size: 16
+      shape: roundrectangle
+      border-color: black
+      border-width: 0
+      background-color: white
+      width: 200
+      height: 30
+      text-valign: center
+
+    - id: hell-up-coal-holler
+      label:   hell up coal holler
+      font-size: 16
+      shape: roundrectangle
+      border-color: black
+      border-width: 0
+      background-color: white
+      width: 200
+      height: 30
+      text-valign: center
+
+    - id: shelvin-rock
+      label:   shelvin' rock
+      font-size: 16
+      shape: roundrectangle
+      border-color: black
+      border-width: 0
+      background-color: white
+      width: 200
+      height: 30
+      text-valign: center
+
+    - id: trouble-on-the-mind
+      label:   trouble on the mind
+      font-size: 16
+      shape: roundrectangle
+      border-color: black
+      border-width: 0
+      background-color: white
+      width: 200
+      height: 30
+      text-valign: center

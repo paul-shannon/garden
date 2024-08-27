@@ -2,7 +2,8 @@ default:
 	@echo venv
 	@echo server
 	@echo test
-	@echo tests   # all yamls go into one json structure and one file
+	@echo oneNodeWithPosition
+	@echo twoNodesWithPosition
 	@echo demo
 	@echo demos
 	@echo demot   # just a single 1-node graph
@@ -14,8 +15,14 @@ default:
 	@echo daylight
 	@echo stardust
 	@echo metaphor
+	@echo tunes
 	@echo current
+	@echo publish
+	@echo publish-img
+	@echo publish-audio
 	@echo view
+	@echo viewAlberta
+	@echo viewPair
 
 
 venv:
@@ -25,14 +32,17 @@ server:
 	python -m http.server 8002
 
 test:
-	python test_yamlToCyJSON.py
-
-tests:
 	python test_yamlsToCyJSON.py
 
+oneNodeWithPosition:
+	python createGraphs.py One:single.yaml
+
+twoNodesWithPosition:
+	python createGraphs.py Two:double.yaml
+
+
 demo:
-	python createGraph.py demo.yaml
-	m4 -P createGraph.js-pre > createGraph.js
+	python createGraphs.py Demo:demo.yaml
 
 demos:
 	python createGraphs.py Demo:demo.yaml Geertz:geertz.yaml Perspective:perspective.yaml
@@ -41,22 +51,20 @@ demot:
 	python createGraphs.py tiny:demoTiny.yaml
 
 demot2:
-	python createGraphs.py tiny:demoTiny2.yaml
+	python createGraphs.py Tiny:demoTiny2.yaml
 
 garden:
 	python createGraph.py garden2.yaml
 	m4 -P createGraph.js-pre > createGraph.js
 
 imprint:
-	python createGraph.py imprint.yaml
-	m4 -P createGraph.js-pre > createGraph.js
+	python createGraphs.py Imprint:imprint.yaml \
 
 geertz:
 	python createGraphs.py Geertz:geertz.yaml
 
 perspective:
-	python createGraph.py perspective.yaml
-	m4 -P createGraph.js-pre > createGraph.js
+	python createGraphs.py Perspective:perspective.yaml
 
 daylight:
 	python createGraph.py daylight.yaml
@@ -69,7 +77,8 @@ current:
        Geertz:geertz.yaml \
        Perspective:perspective.yaml \
        Daylight:daylight.yaml \
-       Metaphor:metaphor.yaml
+       Metaphor:metaphor.yaml \
+       Tunes:tunes.yaml
 
 stardust:
 	python createGraphs.py \
@@ -79,6 +88,33 @@ metaphor:
 	python createGraphs.py \
        Metaphor:metaphor.yaml
 
+tunes:
+	python createGraphs.py \
+       Tunes:tunes.yaml
+
 view:
 	open http://localhost:8002/garden.html
 
+
+
+DEST=pshannon@206.12.95.4:www/misc/garden
+DEST=paulshannon@pshannon.net:public_html/pshannon.net/garden
+
+publish:
+	scp garden.html $(DEST)/index.html
+	scp layouts.js $(DEST)/
+	scp garden.js $(DEST)/
+	scp kb.js $(DEST)/
+	scp garden-graphs.js $(DEST)/
+
+publish-img:
+	scp img/* $(DEST)/img/
+
+publish-audio:
+	scp audio/* $(DEST)/audio/
+
+viewAlberta:
+	open https://slexildata.artsrn.ualberta.ca/misc/garden
+
+viewPair:
+	open https://pshannon.net/garden/

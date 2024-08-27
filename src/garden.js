@@ -16,7 +16,7 @@ converter.setOption("tables", true);
 import {kb} from './kb.js'
 import {doLayout} from './layouts.js'
 import {getGraphs} from './garden-graphs.js'
-
+ 
 let graphs = getGraphs()
 state["graphs"] = graphs
 
@@ -145,10 +145,14 @@ function newDrawGraph(divName, graph)
       container: document.getElementById(divName),
       elements: graph.elements, 
       style: graph.styles,
+      layout: {
+         name: "preset"
+         },
       ready: function(){
          console.log("garden.js, newDrawGraph(), cy.ready")
-         setTimeout(function(){doFit(10);}, 0)
-         }
+         setTimeout(function(){
+            doFit(10);}, 0)
+            }
       });
 
   window.cy = cy;
@@ -170,9 +174,22 @@ function newDrawGraph(divName, graph)
      displayAnnotation(edge.id())
      });
 
+    
+   /*********
+  console.log("--- check here for locs");
+  let nodeNames = Object.keys(graph.locs)
+  for(let i=0; i < nodeNames.length; i++){
+     const nodeName = nodeNames[i];
+     const node = state[divName].getElementById(nodeName);
+     console.log("  next node: " + node);
+     if (node && node.length > 0) {
+         console.log("  node position: " + node.position());
+         } // if node
+     } // for nodeName
   if(haveSavedLayout(divName)){
      restoreLayout(divName)
      }
+    *******/
      
   return(cy);
 

@@ -3,7 +3,7 @@ nodes:
     - id: geertz
       label: ""
       font-size: 32
-      background-image: "http://localhost:8002/img/geertz.png"
+      background-image: "img/geertz.png"
       border-color: black
       border-width: 4
       border-radius: 10
