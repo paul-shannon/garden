@@ -33,10 +33,31 @@ homeland in the Mesa Verde region of the U.S. Southwest.
 
 `,
 
+"trouble-on-the-mind":
+`
+Bruce Greene, from John Salyer (?)
+
+<b>G</b><br><audio controls loop src="audio/troubleOnTheMind-G.mp3"></audio><br>
+<b>F</b><br><audio controls loop src="audio/troubleOnTheMind-F.mp3"></audio><br>
+
+`,
+
+"shelvin-rock":
+`
+**Shelvin Rock, from French Carpenter** <br>
+
+taught by Jimmy Triplett<br>
+Key of G
+
+<b>Full speed</b><br><audio controls loop src="audio/shelvinRock-fullSpeed.mp3"></audio><br>
+<b>Slow</b><br><audio controls loop src="audio/shelvinRock-slow.mp3"></audio><br>
+<b>Slow F</b><br><audio controls loop src="audio/shelvinRock-slow-F.mp3"></audio><br>
+
+
+`,
 
 "hell-up-coal-holler":
 `
-**Hell Up Coal Holler** <br>
 
 Jimmy Triplett, Seattle House Concert, March 11th 2006
 
@@ -45,13 +66,34 @@ Jimmy Triplett, Seattle House Concert, March 11th 2006
 
 `,
 
+"blind-steer-in-a-mudhole":
+`
+**Blind Steer in a Mudhole, Andrea Cooper, Dave Marshall, Joel Bernstein**
+
+<b>A</b><br><audio controls loop src="audio/blindSteerInAMudhole-A.mp3"></audio><br>
+<b>G</b><br><audio controls loop src="audio/blindSteerInAMudhole-G.mp3"></audio><br>
+<b>F</b><br><audio controls loop src="audio/blindSteerInAMudhole-F.mp3"></audio><br>
+
+`,
+
+
+"all-young":
+`
+**All Young.  Played by?**
+
+<b>A</b><br><audio controls loop src="audio/allYoungStandard.mp3">standard</audio><br>
+<b>F</b><br><audio controls loop src="audio/allYoung-F-slow.mp3">F slow</audio><br>
+
+`,
+
+
 "cumberlandGapMarionReese":
 `
 **Cumberland Gap, Key of G, Marion Reese**
 
-Candy Goldman and Peter Boveng, Fiddle Tunes, 2021
+Candy Goldman and Peter Boveng, Fiddle Tunes, 2001
 
-<audio controls src="audio/cumberlandGap-marionReese-G.mp3">G</audio>
+<audio controls loop src="audio/cumberlandGap-marionReese-G.mp3">G</audio>
 `,
 
 
