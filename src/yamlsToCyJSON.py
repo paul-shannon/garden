@@ -34,6 +34,8 @@ class YamlToCyJSON:
   yamlFile = None
   locsFile = None
   locs = None
+  zoom = 1
+  pan = {"x": 0, "y": 0}
 
   def __init__(self, yamlFile, locsFile=None):
 
@@ -49,7 +51,11 @@ class YamlToCyJSON:
      if(self.locsFile):
        with open(self.locsFile, "r") as f:
           text = f.read()
-          self.locs = json.loads(text)
+          x = json.loads(text)
+          assert(list(x.keys()) == ["locs", "zoom", "pan"])
+          self.locs = x["locs"]
+          self.pan = x["pan"]
+          self.zoom = x["zoom"]
 
   def getElements(self):
 
@@ -63,12 +69,16 @@ class YamlToCyJSON:
      for node in nodes:
         elementCount += 1
         nodeID = node["id"]
+        print("nodeID: " + nodeID)
         if(self.locs):
           if(nodeID in list(self.locs.keys())):
             position = self.locs[nodeID]
             data = {"data": {"id": nodeID, "label": node["label"]},
-                   "position": position}
-        else:
+                             "position": position}
+          else:  # we have locs, but this node is not mentioned
+            data = {"data": {"id": nodeID, "label": node["label"]},
+                             "position": {"x": 0, "y": 0}}
+        else:  # no locs
            data = {"data": {"id": nodeID, "label": node["label"]}}
         if "parent" in (list(node.keys())):
           data["data"]["parent"] = node["parent"]
@@ -136,7 +146,14 @@ class YamlToCyJSON:
      s += "]"
      #print(s)
      return(s, json.loads(s))
-        
+
+  def getZoom(self):
+    return(self.zoom)
+
+  def getPan(self):
+    return(self.pan)
+  
+   
 def getLocationsFromJsonFile(filename):
 
    with open(filename, "r") as f:

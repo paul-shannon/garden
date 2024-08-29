@@ -25,10 +25,12 @@ for arg in args:
    y.parse()
    (elString, elObj) = y.getElements()
    (styleString, styleObj) = y.getStyles()
-   print("--- looking for locs file: %s" % locsFile)
    if(os.path.isfile(locsFile)):
-      (locsJSON, locsObj) = getLocationsFromJsonFile(locsFile)
-   data.append({"title": title, "elements": elObj, "styles": styleObj, "locs": locsObj})
+      #(locsJSON, locsObj) = getLocationsFromJsonFile(locsFile)
+      print("--- createGraphs.py, zoom: %f" % y.getZoom())
+      data.append({"title": title, "elements": elObj, "styles": styleObj, "zoom": y.getZoom(), "pan": y.getPan()})
+   else:
+      data.append({"title": title, "elements": elObj, "styles": styleObj, "zoom": 1.0, "pan": {"x": 10, "y": 10}})
 
 filename = "garden-graphs.js"
 s = "let graphsData = %s" % json.dumps(data)
@@ -41,7 +43,19 @@ function getGraphs()
     
 } // getGraphs
 //--------------------------------------------------------------------------------
-export {getGraphs}
+function getZoom()
+{
+    return(graphsData["zoom"])
+    
+} // getGraphs
+//--------------------------------------------------------------------------------
+function getPan()
+{
+    return(graphsData["pan"])
+    
+} // getGraphs
+//--------------------------------------------------------------------------------
+export {getGraphs, getZoom, getPan}
 """
 
 with(open(filename, "w") as f):

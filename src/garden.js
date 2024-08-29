@@ -15,9 +15,10 @@ converter.setOption("tables", true);
 
 import {kb} from './kb.js'
 import {doLayout} from './layouts.js'
-import {getGraphs} from './garden-graphs.js'
+import {getGraphs, getZoom, getPan} from './garden-graphs.js'
  
 let graphs = getGraphs()
+
 state["graphs"] = graphs
 
 console.log("--- garden.js, global state, graph count: " + graphs.length)
@@ -132,9 +133,9 @@ function restoreLayout(cyDivName)
 
 } // restoreLayout
 //----------------------------------------------------------------------------------------------------
-function newDrawGraph(divName, graph)
+function newDrawGraph(divName, graph, zoom, pan)
 {
-  console.log("--- newDrawGraph: " + divName)
+  console.log("--- newDrawGraph: " + divName + " zoom: " + zoom + "  pan: " + pan)
 
   let doFit = function(margin){
       console.log("------------- doFit");
@@ -146,16 +147,21 @@ function newDrawGraph(divName, graph)
       elements: graph.elements, 
       style: graph.styles,
       layout: {
-         name: "preset"
+          name: "preset",
+          fit: false
          },
       ready: function(){
          console.log("garden.js, newDrawGraph(), cy.ready")
-         setTimeout(function(){
-            doFit(10);}, 0)
-            }
-      });
+         }
+     })
 
   window.cy = cy;
+  setTimeout(function(){
+     console.log("wish to set zoom in timeout to " + zoom);
+     cy.zoom(zoom)
+     cy.pan(pan)
+     }, 10)
+
   console.log("adding divname cy to state: " + divName)
   state[divName] = cy
 
@@ -173,24 +179,7 @@ function newDrawGraph(divName, graph)
      state["currentEdge"] = edge;
      displayAnnotation(edge.id())
      });
-
     
-   /*********
-  console.log("--- check here for locs");
-  let nodeNames = Object.keys(graph.locs)
-  for(let i=0; i < nodeNames.length; i++){
-     const nodeName = nodeNames[i];
-     const node = state[divName].getElementById(nodeName);
-     console.log("  next node: " + node);
-     if (node && node.length > 0) {
-         console.log("  node position: " + node.position());
-         } // if node
-     } // for nodeName
-  if(haveSavedLayout(divName)){
-     restoreLayout(divName)
-     }
-    *******/
-     
   return(cy);
 
 } // newDrawGraph
@@ -250,7 +239,7 @@ $(document).ready(function()
 //--------------------------------------------------------------------------------
 function addTab(tabTitle, tabContent)
 {
-   console.log("------ !!!! adding new tab with title " + tabTitle);
+   console.log("--- addTab: "+ tabTitle);
    console.log("found pre-exiting tabs: " + $("cyDiv#cyDiv ul li").length);
 
    let tabSelector = "#" + tabTitle;
@@ -291,9 +280,11 @@ function newSetupTabs()
          //console.log("--- active tab " + tabNumber + ", need to draw graph on empty div");
          let graph = state.graphs[tabNumber];
          var title = graph["title"];
+         var zoom = graph["zoom"]
+         var pan = graph["pan"]
          title = title.replaceAll(' ', '')
-         console.log("---- calling newDrawGraph from activate event handler")
-         newDrawGraph(title, graph);
+         console.log("---- calling newDrawGraph from activate event handler: " + title)
+         newDrawGraph(title, graph, zoom, pan);
          } // if no contents
        }}) // tabs ctor, with activate handler
 
@@ -303,12 +294,14 @@ function newSetupTabs()
    for(let i=0; i < count;  i++){
       let graph = graphs[i];
       var title = graph["title"];
+      var zoom = graph["zoom"]
+      var pan = graph["pan"]
       title = title.replaceAll(' ', '')
       addTab(title, "")
       if (i == 0){
          $("#cyDiv").tabs("option", "active", 0) // first tab active
-         console.log("---- calling newDrawGraph from newSetupTabs for loop");
-         newDrawGraph(title, graph);
+         console.log("---- calling newDrawGraph from for first tab only");
+         newDrawGraph(title, graph, zoom, pan);
          }
       } // for i
        

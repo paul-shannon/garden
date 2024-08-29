@@ -1,6 +1,20 @@
 nodes:
 
+    - id: johnny
+      label: Johnny
+      font-size: 24
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      background-color: white
+      width: 200
+      height: 200
+      text-valign: top
+      
+
+
     - id: cumberlandGapMarionReese
+      parent: johnny
       label: Cumberland Gap [G] 
       font-size: 16
       shape: roundrectangle
@@ -12,6 +26,7 @@ nodes:
       text-valign: center
       
     - id: all-young
+      parent: johnny
       label:   all young
       font-size: 16
       shape: roundrectangle
@@ -23,6 +38,7 @@ nodes:
       text-valign: center
 
     - id: blind-steer-in-a-mudhole
+      parent: johnny
       label:   blind steer in a mudhole
       font-size: 16
       shape: roundrectangle
@@ -34,6 +50,7 @@ nodes:
       text-valign: center
 
     - id: hell-up-coal-holler
+      parent: johnny
       label:   hell up coal holler
       font-size: 16
       shape: roundrectangle
@@ -45,6 +62,7 @@ nodes:
       text-valign: center
 
     - id: shelvin-rock
+      parent: johnny
       label:   shelvin' rock
       font-size: 16
       shape: roundrectangle
@@ -56,6 +74,7 @@ nodes:
       text-valign: center
 
     - id: trouble-on-the-mind
+      parent: johnny
       label:   trouble on the mind
       font-size: 16
       shape: roundrectangle

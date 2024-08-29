@@ -23,17 +23,19 @@ def test_getElements():
     assert(elements == expected)
 
 #--------------------------------------------------------------------------------
-def test_getElementsWithLocations():
+def test_getElementsWithLocationsPanZoom():
 
-    print("--- test_getElementsWithLocations")
+    print("--- test_getElementsWithLocationsPanZoom")
 
-    y = YamlToCyJSON("single.yaml", "Single.loc")
+    y = YamlToCyJSON("single.yaml", "One.loc")
     y.parse()
     (string, obj) = y.getElements()
     assert(len(obj) == 1)
     elements = obj
     expected = [{'data': {'id': 'one', 'label': 'One'}, 'position': {'x': 100, 'y': 10}}]
     assert(elements == expected)
+    assert(y.getZoom() == 0.2)
+    assert(y.getPan() == {"x": 50, "y": 50})
 
 #--------------------------------------------------------------------------------
 def test_getStyles():
@@ -70,7 +72,7 @@ def runTests():
     test_getElements()
     test_getElementsNoEdges()
     test_getStyles()
-    test_getElementsWithLocations()
+    test_getElementsWithLocationsPanZoom()
 
     #test_readLocations()
     
