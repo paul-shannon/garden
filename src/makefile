@@ -104,7 +104,7 @@ view:
 
 
 DEST=pshannon@206.12.95.4:www/misc/garden
-DEST=paulshannon@pshannon.net:public_html/pshannon.net/garden
+DEST=paulshannnon@pshannon.net:public_html/pshannon.net/garden
 
 publish:
 	scp garden.html $(DEST)/index.html

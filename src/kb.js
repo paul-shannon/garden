@@ -79,8 +79,9 @@ Jimmy Triplett, Seattle House Concert, March 11th 2006
 
 "all-young":
 `
-**All Young.  Played by?**
+**All Young. Modal. Played by Forrest Carroll and Jerry Gallaher, Melvin Wine's version**
 
+Pitched a bit sharp.<p>
 <b>A</b><br><audio controls loop src="audio/allYoungStandard.mp3">standard</audio><br>
 <b>F</b><br><audio controls loop src="audio/allYoung-F-slow.mp3">F slow</audio><br>
 
