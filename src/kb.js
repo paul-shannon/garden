@@ -1,4 +1,201 @@
 let kb = {
+"university-in-captivity":
+`
+source: Five Years Behind Hitler's Barbed Wire: A Diary of French Officers in a German Prison Camp, 1940-1945,
+Henri Natter and Adam Refregier.
+
+One of the more notable and searing events of World War II was the
+unexpected and sudden fall of France in 1940, a major liberal
+democracy with a glorious military past, the débâcle as it quickly
+became known. Swiftly and efficiently overrun by the Wehrmacht in late
+spring 1940 in only a matter of weeks, France suffered a crushing blow
+to its morale and national pride that just several decades before had
+been uplifted by difficult and costly victories at Verdun and the
+first and second battles of the Marne.
+<p>
+
+This is the story of French officers, prisoners of war in an Oflag in
+the Third Reich. Many books and stories have been written about the
+numerous German prison camps during World War II, but very little has
+been told about Oflags, camps specifically for Allied officers, who by
+international convention were not required to work. Non-commissioned
+officers and enlisted men were sent to stalags, from where they
+generally went to work for the Germans.
+<p>
+Yet, when the
+dust settled at the end of the battle for France in 1940, of the two
+million men prisoners of war (mostly French: 1,800,000) 36,000 were
+officers. The majority remained prisoners for as much as five years.
+
+Five thousand French officers were sent to Oflag XVIIA, located in a
+mountainous area northwest of Vienna, Austria. These men who had held
+leading positions, either in the military or as civilians, were thrown
+together at random in deplorable living conditions with nothing to do,
+leaving them idle all day except for meals and roll calls. The curse
+of idle time became an oppor-tunity. Setting up their own
+administrative structure, and over the years utilizing their
+wide-ranging knowledge and know-how, they created a small town with
+its own university, library, newspaper, theater, and orchestra.
+
+<p>
+
+Ruyer spent almost the entire war in a pris-oner-of-war camp on the
+grounds of former Wehrmacht training barracks in northeastern
+Austria. The prisoners of Oflag XVIl-A, as it was called, enjoyed a
+relatively high degree of freedom, and were encouraged to keep busy
+during the long months of captivity.  Among the officers at the camp
+were a good number of academics, and so these men organized lectures
+on mathematics, philosophy, and biology, among other subjects. They
+called themselves the Université en captivité. Wolff, early in an
+eminent career as a teratologist (an embryologist focused on
+abnormalities), held a private, high-level biology seminar that Ruyer
+attended for more than a year.  In his memoirs, Wolff recalled that
+Ruyer stood out in the group not only because, as a professional
+philosopher, he was a relative outsider to biology, but also because
+of his distinctive, at times "paradoxical" approach to biological
+problems. As Wolff remem-bered, "[Ruyer] had a precise, if a bit
+literary, knowledge of biological problems like any scholar trained in
+the classics without himself having experimented on living matter."
+
+
+<p>
+
+Ruyer's study of embryology at the Universit en captivité
+fundamentally transformed his philosophical project. His pre-war
+philosophy had articulated a universal, mechanist ontology of
+structure. In the postwar period he moved toward a materialist
+finalism. His study of embryology under the guidance of Wolff helped
+him transform his mechanist ontology into the neo-finalist materialism
+for which he is known. It also helped him resolve a specific problem,
+that of temporality, which he had been unable to account for in his
+earliest work.
+
+
+`,
+    
+"semanticFossils":
+`
+**Conceptual Metaphor - Semantic Fossils**<br>
+
+todo:  eager to find literature supporting this claim.
+<p>
+The full quotation from Ortman's paper suggests the literature
+exists and can be found:
+<blockquote>
+
+Previous studies have shown that the conceptual metaphors of ancestral
+speech communities are embedded in the documented languages of their
+descendants.
+
+</blockquote>
+
+`,
+
+
+"reflectiveEquilibrium":
+`
+**Reflective Equilibrium**<br>
+
+Content to come, drawing upon Elgin's 1996 
+
+<a href="https://www.amazon.com/Considered-Judgment-Princeton-Paperbacks-Catherine/dp/0691005230/ref=sr_1_5?dib=eyJ2IjoiMSJ9.w6lPRvmc96tbu5f39dOKjMThT5L-L2uDsLAStL572RIhlOMvIG3InLkM_GELU61fLmMvrjawdFzXYNe2dG54ffn-T2wIje0uTApZEUIRYeAI3lb_mCD8wlTkA06yy_3VbXtJ8pl96fnctSxzRypqYYH15d_0LxN6CLiPDfiVuxMh4aZfNLizrK1O1msvZXOOVPQj7twWOowRB6tFmWth3Q.EU-TdOvhzpcQrl5HwAQ6piCmoPAqPcA9a8itjUfSEuo&dib_tag=se&qid=1725045288&refinements=p_27%3ACatherine+Z.+Elgin&s=books&sr=1-5&text=Catherine+Z.+Elgin" target="_blank">Considered Judgement</a>
+
+`,
+
+
+"felicitousFalsehoods":
+`
+
+**Felicitous Falsehoods**<br>
+
+This is philosopher Catherine Elgin's felicitous phrase, introduced in her 2017
+<a href="https://www.amazon.com/True-Enough-Press-Catherine-Elgin/dp/0262036533/ref=sr_1_1?crid=GSR2ATI0U171&dib=eyJ2IjoiMSJ9.aL_vZYUZWgm5mBgiqZ3ycmxP92FGZLHCV5rJkDoi5bJdZCnNAXJbd6muiMt3vT-9mecyYcnI09UkqT1bf-7pcpoeFTsxt8Ce5f9L8NsA57Tf8FOtg1PYP8VWt9oiFBFnaixb8n3iee13OeoKNXteFQ0L1C3HrO09UtvSn02aSoatnZbIN52x5zhGQar6j7ZLEABDbz5P3-qQJN6q5O64jsNIOm7hmDFRBulRJYQAWXQ.cUCW37_AwICiPyZxcInJ7nUmbw6lx50TqawSsjf9ozI&dib_tag=se&keywords=catherine+elgin&qid=1725045264&s=books&sprefix=catherine+elgin%2Cstripbooks%2C162&sr=1-1" target="_blank">True Enough</a>.   
+
+She shows, as I will
+selectively reproduce here, felicitous falsehoods - models, theories, thought experiments, metaphors -
+are crucial to finding our way in the world.
+
+<blockquote>
+
+Philosophy valorizes truth. There may be practical or prudential or
+political reasons to accept a known falsehood. But there can, it is
+held, never be epistemically good reasons to do so. Nor can there be
+good reasons to accept modes of justification that are known not to be
+truth conducive. Such is the prevailing consensus.
+
+<p> Although it seems
+reasonable, this stance has a fatal flaw. It cannot account for the
+epistemic standing of science: for science unabashedly relies on
+models, idealizations, and thought experiments that are known not to
+be true.
+
+<p>Modern science is one of humanity's greatest cognitive
+achievements. To think that this achievement is a fluke would be
+mad. So epistemology has the task of accounting for science's
+success. A truth-centered, or veritistic, epistemology must treat
+models, idealizations, and thought experiments as mere heuristics, or
+forecast their disappearance with the advancement of scientific
+understanding. Neither approach is plausible.
+
+<p>We should not cavalierly
+assume that the inaccuracy of models and idealizations constitutes an
+inadequacy; quite the opposite. I suggest that their divergence from
+truth or representational accuracy fosters their epistemic
+functioning. When effective, models and idealizations are, I contend,
+felicitous falsehoods. They are more than heuristics. They are
+ineliminable and epistemically valuable components of the
+understanding science supplies.
+
+</blockquote>
+
+`,
+
+
+"backstoriesOverview":
+`
+**Backstories**<br>
+
+Backstories abound.  We have Marx and Darwin, we have Christian,
+Jewish and Islamic cosmic narratives, the Apocalypse.  Then there is the
+American founding and exceptionalism, the neoliberal prediction of "an end
+to history".  More recently: the AI Singularity, populating the galaxy; or nuclear holocaust,
+the heat death of the universe.  These narratives are 
+all part of the cultural mix in which I live.
+
+<p>Indigenous narratives
+from across the globe are often of a different sort, strong on origin
+stories, less obvioulsy focused on cosmic goals and endpoints to achieve.
+
+<p> Not so clearly stated, but nearly universal in the west, interlaced
+with western narratives, is what we might call the "Triumphant Human Career", our species
+sui generis, risen from obscure origins to dominate the planet, eventually also the
+solar system and the galaxy: <i>that</i> is the narrative, the story, the meaning of life.
+
+<blockquote> todo: incorporate, but don't get overwhelmed by and stuck in,
+Kermode's "The Sense of an Ending", Eliade's "The Myth of the Eternal Return"
+Descola's four ontologies in Beyond Nature and Culture.
+</blockquote>
+
+<p> I will not - indeed, I am unable to - argue for or against the
+truth of any of these.  Each tells a story.  Each has a
+beginning. Many propose, a goal, a direction.
+
+<p> I would rather ask the
+anthropologist's question: not "which of these  is True?" but rather "what does
+each imply, how did they arise, and what forms of life and further stories come from them?"
+
+<p>
+And I also ask:  what narratives shape my own view of the world?  Some of them explicit, known to me,
+but some imperfectly, incompletely or entirely unknown as I go about my business.
+And what freedom, and by what means achieved, may I reorder, rearrange, maybe replace some of them?
+
+<p> Philosopher Catherine Elgin and anthropologist Clifford Geertz are among those who
+guide me in my efforts to ask and answer these questions.
+
+<p> I keep and tend this digital garden to explore these questions.
+`,
+
+
 "cognitiveSemanticsMesaVerde":
 `
 **Scott Ortman: Using Cognitive Semantics to Relate Mesa Verde Archaeology to Modern Pueblo Languages**
@@ -69,7 +266,7 @@ Jimmy Triplett, Seattle House Concert, March 11th 2006
 "blind-steer-in-a-mudhole":
 `
 **Blind Steer in a Mudhole, Andrea Cooper, Dave Marshall, Joel Bernstein**
-
+                                            blindSteerInAMudhole-A.mp3
 <b>A</b><br><audio controls loop src="audio/blindSteerInAMudhole-A.mp3"></audio><br>
 <b>G</b><br><audio controls loop src="audio/blindSteerInAMudhole-G.mp3"></audio><br>
 <b>F</b><br><audio controls loop src="audio/blindSteerInAMudhole-F.mp3"></audio><br>
@@ -79,7 +276,7 @@ Jimmy Triplett, Seattle House Concert, March 11th 2006
 
 "all-young":
 `
-**All Young. Modal. Played by Forrest Carroll and Jerry Gallaher, Melvin Wine's version**
+**All Young, from Melvin Wine. Modal. Played by Forrest Carroll and Jerry Gallaher.**
 
 Pitched a bit sharp.<p>
 <b>A</b><br><audio controls loop src="audio/allYoungStandard.mp3">standard</audio><br>

@@ -63,6 +63,20 @@ nodes:
       width: 400
       height: 600
       text-valign: top
+
+    - id: semanticFossils
+      label: "'Conceptual metaphors of ancestral\nspeech communities are embedded\n in the documented languages \nof their descendants'"
+      font-size: 44
+      font-family: Georgia
+      text-wrap: wrap
+      text-max-width: 1000
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      background-color: white
+      width: 700
+      height: 200
+      text-valign: center
       
 edges:
 
@@ -73,3 +87,7 @@ edges:
    - source: windsFromTheNorth
      target: cognitiveSemanticsMesaVerde
      edgeType: child
+
+   - source: cognitiveSemanticsMesaVerde
+     target: semanticFossils
+     edgeType: 

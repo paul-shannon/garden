@@ -1,0 +1,48 @@
+nodes:
+
+    - id: backstoriesOverview
+      label: Overview
+      font-size: 40
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+    - id: catherineElgin
+      label: Catherine Elgin
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      width: 300
+      height: 80
+      text-valign: top
+
+    - id: felicitousFalsehoods
+      parent: catherineElgin
+      label: Felicitous Falsehoods
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      width: 360
+      height: 80
+      text-valign: center
+      
+    - id: reflectiveEquilibrium
+      parent: catherineElgin
+      label: Reflective Equilibrium
+      font-size: 32
+      shape: roundrectangle
+      background-color: "#f9f9eb"
+      border-color: blue
+      border-width: 1
+      width: 360
+      height: 80
+      text-valign: center
+      
+

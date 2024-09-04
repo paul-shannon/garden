@@ -1,0 +1,80 @@
+nodes:
+
+    - id: raymond-ruyer
+      label: Raymond Ruyer
+      font-size: 48
+      background-image: "img/raymond-ruyer.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: blue
+      width: 300
+      height: 500
+      text-valign: top
+      
+    - id: battleOfFrance
+      label: Battle of France
+      font-size: 48
+      shape: roundrectangle
+      background-color: white
+      border-color: blue
+      border-width: 2
+      width: 400
+      height: 80
+      text-valign: center
+      
+
+    - id: university-in-captivity
+      label: Université en Captivité
+      font-size: 48
+      background-image: "img/oflag17a.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: blue
+      width: 700
+      height: 400
+      text-valign: bottom
+      
+
+      
+
+    - id: etienne-wolff
+      label: Etienne Wolff
+      font-size: 48
+      background-image: "img/fateMapNeuralCrest.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: blue
+      width: 300
+      height: 500
+      text-valign: top
+      
+    - id: neofinalism
+      label: Neofinalixm
+      font-size: 48
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 400
+      height: 80
+      text-valign: center
+
+
+
+edges:
+
+   - source: raymond-ruyer
+     target: battleOfFrance
+     edgeType: child
+
+   - source: battleOfFrance
+     target: university-in-captivity
+     edgeType: child
+
+   - source: etienne-wolff
+     target: university-in-captivity
+     edgeType: child
+
+   - source: university-in-captivity
+     target: neofinalism
+     edgeType: child
+

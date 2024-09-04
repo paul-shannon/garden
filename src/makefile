@@ -12,11 +12,14 @@ default:
 	@echo imprint
 	@echo geertz
 	@echo perspective
-	@echo daylight
+	@echo lushootseed
 	@echo stardust
 	@echo metaphor
 	@echo tunes
+	@echo backstories
+	@echo ruyer
 	@echo current
+
 	@echo publish
 	@echo publish-img
 	@echo publish-audio
@@ -66,17 +69,20 @@ geertz:
 perspective:
 	python createGraphs.py Perspective:perspective.yaml
 
-daylight:
-	python createGraph.py daylight.yaml
-	m4 -P createGraph.js-pre > createGraph.js
+lushootseed:
+	python createGraphs.py Lushootseed:lushootseed.yaml
+
+ruyer:
+	python createGraphs.py Ruyer:ruyer.yaml
 
 current:
 	python createGraphs.py \
+       Backstories:backstories.yaml \
        Stardust:stardust.yaml \
        Imprint:imprint.yaml \
        Geertz:geertz.yaml \
        Perspective:perspective.yaml \
-       Daylight:daylight.yaml \
+       Lushootseed:lushootseed.yaml \
        Metaphor:metaphor.yaml \
        Tunes:tunes.yaml
 
@@ -97,6 +103,10 @@ metaphor:
 tunes:
 	python createGraphs.py \
        Tunes:tunes.yaml
+
+backstories:
+	python createGraphs.py \
+       Backstories:backstories.yaml
 
 view:
 	open http://localhost:8002/garden.html

@@ -97,6 +97,19 @@ function haveSavedLayout(cyDivName)
 
 } // haveSavedLayout
 //----------------------------------------------------------------------------------------------------
+function getLayoutInfo(cyDivName)
+{
+    var s = '{"locs": '
+    s += saveLayout(cyDivName)
+    s += ', "zoom": ' + cy.zoom()
+    s += ', "pan": '+ JSON.stringify(cy.pan())
+    s += '}'
+
+    console.log(s)
+
+} // getLayoutInfo
+//----------------------------------------------------------------------------------------------------
+window.loc = getLayoutInfo;
 window.sl = saveLayout;
 window.rl = restoreLayout;
 window.gsl = getSavedLayouts
