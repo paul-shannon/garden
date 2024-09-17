@@ -1,4 +1,120 @@
 let kb = {
+"digitalGarden":
+`
+<a href="https://maggieappleton.com/garden-history?ref=ideasurg.pub"
+   target="_blank"> A Brief History & Ethos of the Digital Garden</a>
+   by Maggie Appleton, c. 2021.
+`,
+
+
+"reflectiveEquilibrium":
+`
+**Reflective Equilibrium**
+
+From <u>Considered Judgement</u> by Catherine Elgin, 1995, Preface,
+page ix.
+
+Philosophy long sought to set knowledge on a firm foundation, through
+derivation of indubitable truths by infallible rules.  For want of
+such truths and rules, the enterprise foundered.  Certainty is not to
+be had.
+
+Nevertheless, foundationalism's heirs continue thier forebears' quest,
+seeking security against epistemic misfortune.  Their detractors
+typically espouse unbridled coherentism or a facile cultural relativism.
+
+Neither stance is tenable.  To devise a via media between the absolute
+and the arbitrary requires reconceiving the nature, goals, and methods
+of epistemology.
+
+[This book] develops and argues for a reconception that takes
+reflective equilibrium as the standard of rational acceptability.
+A system of thought is in reflective equilibrium when its components
+are reasonable in light of one another, and the account they comprise is
+reasonable in light of our antecedent convictions about the
+subject at hand.  Such a system affords no guarantees.  It is rationally
+acceptable, I contend, not because it is certainly true but because
+it is reasonable in the epistemic circumstances.
+
+Since such a position forsakes the goals of certainty and permanent
+credibility, I begin by arguing that those goals cannot, in any
+case, be met. I then develop the positive account, showing that it has
+valuable resources that more familiar approaches lack.
+
+Many epistemologists now concede that certainty is a chimerical goal.
+But they continue to accept the traditional conception of
+epistemology's problematic.  For them, the quest remains how to
+justify literal, factual beliefs.
+
+I suggest that in abandoning the quest for certainty we gain
+opportunities for a broader epistemological purview -- one that
+comprehends the arts and does justice to the sciences.
+
+The position I advocate thus recognizes that metaphor, fiction,
+emotion and exemplification often advance understanding in
+science as well as in art.
+
+The range of epistemology turns out to be broader and
+more variegated than is usually recognized.  Tenable systems of
+thought are neither absolute nor arbitrary.  But even though
+they are subject to revision, they are good in ways of belief.
+`,
+
+"contact":
+`
+paul dot thurmond dot shannon at gmail.com
+`,
+
+
+"simondonOverview":
+`
+**Gilbert Simondon (1924-1989)**
+
+From <u>The Incorporeal: Ontology, Ethics and the Limits of Materialism</u>,
+Elizabeth Grosz, 2017, Chapter 5, Simondon and the Preindividual.
+
+Simondon aims to replace the study of ontology, of what is, with the
+study of ontogenesis, the various processes of self-formation that create
+what is. Simondon devoted his earliest writings to the pre-Socratics, for
+whom nature was the unquestioned source of existence and creativity.3
+He was thoroughly steeped in ancient philosophy, from the writings of
+Plato, Aristotle, the Epicureans, and the Stoics, in many cases returning to pre-Platonic conceptions of the coexistence of life and nature, to
+the kind of philosophy that existed before science, poetry, the arts, and
+philosophy became separated. The separation and privileging of form
+over matter—hylomorphism—which began with Socrates and is accomplished by Aristotle, becomes a significant conceptual obstacle to a thoroughgoing understanding of the continuities and discontinuities, the
+rising and falling of order and information, that connects the human,
+and other forms of life, to the orders of the universe. p 170.
+
+**The Preindividual**
+
+Insofar as an individual exists, there must be a process, or many,
+that produces it. This is Simondon’s most basic axiom—to seek out the
+phases by which, from initial conditions, a being comes into
+existence, not through an identity, a preformed path, or the
+imposition of a preexisting form or plan on unformed matter. Such
+conceptions are hylomorphic: they consider matter to be passive and
+unformed—indeed, they are considered fundamentally feminine since at
+least the time of Aristotle, if not before, and form to be a
+masculine, active, imposing, ordering process. I have suggested
+elsewhere that the dichotomization of thought through presence and
+absence into dualistic and mutually exclusive terms—mind and body,
+reason and passion, self and other—may have its origins in the
+transformation of sexual difference into sexual opposition (the most
+elementary gesture of patriarchy). [see Elizabeth Grosz, <i>The
+Nick of Time: Politics, Evolution, and the Untimely</i> 2004.
+
+
+It is the transformation of difference that Simondon addresses. Not
+only is the hylomorphic schema unable to explain the coming into
+existence of individuals, its terms, form and matter, require that
+their own geneses as individuals be addressed. His challenge to
+hylomorphism is an analysis of the coming into existence of
+hylomorphism itself, the ontogenesis of philosophical models that,
+because of their binarized structure, have lost direct contact with
+the preindividual forces that are used to produce and sustain the
+various orders of individuations.
+`,
+
 "university-in-captivity":
 `
 source: Five Years Behind Hitler's Barbed Wire: A Diary of French Officers in a German Prison Camp, 1940-1945,
@@ -92,15 +208,6 @@ descendants.
 `,
 
 
-"reflectiveEquilibrium":
-`
-**Reflective Equilibrium**<br>
-
-Content to come, drawing upon Elgin's 1996 
-
-<a href="https://www.amazon.com/Considered-Judgment-Princeton-Paperbacks-Catherine/dp/0691005230/ref=sr_1_5?dib=eyJ2IjoiMSJ9.w6lPRvmc96tbu5f39dOKjMThT5L-L2uDsLAStL572RIhlOMvIG3InLkM_GELU61fLmMvrjawdFzXYNe2dG54ffn-T2wIje0uTApZEUIRYeAI3lb_mCD8wlTkA06yy_3VbXtJ8pl96fnctSxzRypqYYH15d_0LxN6CLiPDfiVuxMh4aZfNLizrK1O1msvZXOOVPQj7twWOowRB6tFmWth3Q.EU-TdOvhzpcQrl5HwAQ6piCmoPAqPcA9a8itjUfSEuo&dib_tag=se&qid=1725045288&refinements=p_27%3ACatherine+Z.+Elgin&s=books&sr=1-5&text=Catherine+Z.+Elgin" target="_blank">Considered Judgement</a>
-
-`,
 
 
 "felicitousFalsehoods":
@@ -156,11 +263,13 @@ understanding science supplies.
 **Backstories**<br>
 
 Backstories abound.  We have Marx and Darwin, we have Christian,
-Jewish and Islamic cosmic narratives, the Apocalypse.  Then there is the
-American founding and exceptionalism, the neoliberal prediction of "an end
-to history".  More recently: the AI Singularity, populating the galaxy; or nuclear holocaust,
-the heat death of the universe.  These narratives are 
-all part of the cultural mix in which I live.
+Jewish and Islamic cosmic narratives from Genesis to the Battle of
+Armageddon.  We have the American founding and exceptionalism, the
+recent neoliberal prediction of "an end to history", the AI
+Singularity and human/machine hybrids populating the galaxy.  Or
+nuclear holocaust, the heat death of the universe, a looming sixth
+great extinction.  These narratives are all part of the cultural mix
+in which I live.
 
 <p>Indigenous narratives
 from across the globe are often of a different sort, strong on origin
@@ -232,7 +341,9 @@ homeland in the Mesa Verde region of the U.S. Southwest.
 
 "trouble-on-the-mind":
 `
-Bruce Greene, from John Salyer (?)
+Bruce Greene, from John Salyer (?).
+
+Metronome 112.
 
 <b>G</b><br><audio controls loop src="audio/troubleOnTheMind-G.mp3"></audio><br>
 <b>F</b><br><audio controls loop src="audio/troubleOnTheMind-F.mp3"></audio><br>
@@ -244,7 +355,9 @@ Bruce Greene, from John Salyer (?)
 **Shelvin Rock, from French Carpenter** <br>
 
 taught by Jimmy Triplett<br>
-Key of G
+Key of G.
+
+Metronome 114.
 
 <b>Full speed</b><br><audio controls loop src="audio/shelvinRock-fullSpeed.mp3"></audio><br>
 <b>Slow</b><br><audio controls loop src="audio/shelvinRock-slow.mp3"></audio><br>
@@ -258,6 +371,8 @@ Key of G
 
 Jimmy Triplett, Seattle House Concert, March 11th 2006
 
+Metronome 112.
+
 <b>G</b><br><audio controls loop src="audio/hellUpCoalHoller.mp3">G</audio><br>
 <b>F</b><br><audio controls loop src="audio/hellUpCoalHoller-F.mp3">F</audio><br>
 
@@ -266,7 +381,9 @@ Jimmy Triplett, Seattle House Concert, March 11th 2006
 "blind-steer-in-a-mudhole":
 `
 **Blind Steer in a Mudhole, Andrea Cooper, Dave Marshall, Joel Bernstein**
-                                            blindSteerInAMudhole-A.mp3
+
+Metronome 118.
+
 <b>A</b><br><audio controls loop src="audio/blindSteerInAMudhole-A.mp3"></audio><br>
 <b>G</b><br><audio controls loop src="audio/blindSteerInAMudhole-G.mp3"></audio><br>
 <b>F</b><br><audio controls loop src="audio/blindSteerInAMudhole-F.mp3"></audio><br>
@@ -278,7 +395,11 @@ Jimmy Triplett, Seattle House Concert, March 11th 2006
 `
 **All Young, from Melvin Wine. Modal. Played by Forrest Carroll and Jerry Gallaher.**
 
-Pitched a bit sharp.<p>
+Pitched a bit sharp.
+
+Metronome 100
+
+<p>
 <b>A</b><br><audio controls loop src="audio/allYoungStandard.mp3">standard</audio><br>
 <b>F</b><br><audio controls loop src="audio/allYoung-F-slow.mp3">F slow</audio><br>
 
@@ -289,7 +410,9 @@ Pitched a bit sharp.<p>
 `
 **Cumberland Gap, Key of G, Marion Reese**
 
-Candy Goldman and Peter Boveng, Fiddle Tunes, 2001
+Candy Goldman and Peter Boveng, Fiddle Tunes, 2001.
+
+Metronome 102.
 
 <audio controls loop src="audio/cumberlandGap-marionReese-G.mp3">G</audio>
 `,

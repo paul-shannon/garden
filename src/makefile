@@ -78,6 +78,7 @@ ruyer:
 current:
 	python createGraphs.py \
        Backstories:backstories.yaml \
+       Ruyer:ruyer.yaml \
        Stardust:stardust.yaml \
        Imprint:imprint.yaml \
        Geertz:geertz.yaml \

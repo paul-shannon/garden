@@ -159,6 +159,7 @@ function newDrawGraph(divName, graph, zoom, pan)
       container: document.getElementById(divName),
       elements: graph.elements, 
       style: graph.styles,
+      autolock: true,
       layout: {
           name: "preset",
           fit: false
@@ -173,6 +174,8 @@ function newDrawGraph(divName, graph, zoom, pan)
      console.log("wish to set zoom in timeout to " + zoom);
      cy.zoom(zoom)
      cy.pan(pan)
+     cy.zoomingEnabled(false)
+     cy.panningEnabled(false)
      }, 10)
 
   console.log("adding divname cy to state: " + divName)

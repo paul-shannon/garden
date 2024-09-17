@@ -11,9 +11,45 @@ nodes:
       height: 80
       text-valign: center
 
+    - id: digitalGarden
+      label: "This is a digital garden:\nslow growing, \nnever complete,\noften unpolished,\na work in progress."
+      font-size: 40
+      text-wrap: wrap
+      text-max-width: 1000
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      width: 600
+      height: 300
+      text-valign: center
+
+    - id: simondonOverview
+      label: Simondon 
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+    - id: contact
+      label: Contact
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+
     - id: catherineElgin
       label: Catherine Elgin
-      font-size: 32
+      font-size: 40
       background-color: "#f9f9eb"
       shape: roundrectangle
       border-color: blue
