@@ -75,8 +75,13 @@ lushootseed:
 ruyer:
 	python createGraphs.py Ruyer:ruyer.yaml
 
+home:
+	python createGraphs.py Home:home.yaml
+
+
 current:
 	python createGraphs.py \
+       Home:home.yaml \
        Backstories:backstories.yaml \
        Ruyer:ruyer.yaml \
        Stardust:stardust.yaml \

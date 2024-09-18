@@ -174,6 +174,7 @@ function newDrawGraph(divName, graph, zoom, pan)
      console.log("wish to set zoom in timeout to " + zoom);
      cy.zoom(zoom)
      cy.pan(pan)
+     cy.fit(100)
      cy.zoomingEnabled(false)
      cy.panningEnabled(false)
      }, 10)
@@ -263,9 +264,15 @@ function addTab(tabTitle, tabContent)
    //console.log("newListElement: " + newListElement);
    $("#cyDiv ul").append(newListElement);
    
-   let newContentElement = "<div id='" + tabTitle + "'>" + tabContent + "</div>";
-   //console.log("newContentElement: " + newContentElement);
+   let newContentElement = "<div id='" + tabTitle + "' class='cytoscapeCanvas'>" + tabContent + "</div>";
+   console.log("newContentElement: " + newContentElement);
    $("#cyDiv").append(newContentElement)
+   const selector = "#" + tabTitle;
+    // padding mysteriously initialized to '16px 22.4px'
+    // undo that here
+    // todo: figure out the mystery
+   $(selector).css({"padding": "0px"})
+
 
    $(tabSelector).height($("#cyDiv").height())
    $(tabSelector).width($("#cyDiv").width())
@@ -289,8 +296,8 @@ function newSetupTabs()
       let tabNumber = ui.newTab.index();
       let selector = ui.newPanel.attr("id")
       let jQuerySelector = "#" + selector;
-      //console.log("activated panel, selector: " + selector)
-      //console.log("activated tab " + tabNumber  + "  height: " + $(jQuerySelector).height());
+      console.log("activated panel, selector: " + selector)
+      console.log("activated tab " + tabNumber  + "  height: " + $(jQuerySelector).height());
       let kidCount = $(jQuerySelector).children().length
       if(kidCount == 0){
          //console.log("--- active tab " + tabNumber + ", need to draw graph on empty div");
@@ -301,6 +308,7 @@ function newSetupTabs()
          title = title.replaceAll(' ', '')
          console.log("---- calling newDrawGraph from activate event handler: " + title)
          newDrawGraph(title, graph, zoom, pan);
+         //state[selector].fit(100)        
          } // if no contents
        }}) // tabs ctor, with activate handler
 

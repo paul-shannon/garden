@@ -53,8 +53,10 @@ nodes:
       
 
     - id: sonsOfMinkAndRaven
-      label: How the Sons of Mink and Raven Stole Light
+      label: "How the Sons of Mink\nand Raven Stole Light"
       font-size: 24
+      text-wrap: wrap
+      text-max-width: 1000
       shape: roundrectangle
       border-color: blue
       background-color: beige

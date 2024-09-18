@@ -1,0 +1,28 @@
+nodes:
+
+
+    - id: digitalGarden
+      label: "This is a digital garden - \na slow growing and \noften unpolished collection\nof notes, ideas and readings:\n a work perpetually in progress."
+      font-size: 48
+      text-wrap: wrap
+      text-max-width: 1000
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      width: 700
+      height: 400
+      text-valign: center
+
+    - id: contact
+      label: Contact
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+
