@@ -1,4 +1,144 @@
 let kb = {
+"bodyElectric":
+`
+
+
+**Walt Whitman, 1855: I sing the body electric**
+
+The poem's <a href="https://www.poetryfoundation.org/poems/45472/i-sing-the-body-electric" target="_blank">text</a>.
+
+<a href="https://archive.org/details/WaltWhitman-SongOfMyselfAndOtherPoems/I-Sing-the-Body-Electric-Whitman-ADDrake.mp3" target="_blank">
+Read by Alan Davis Drake</a>
+
+
+Whitman celebrates human bodies in his poem from 1855:  specific flesh, and
+body parts, male and female.  We find some sexism and, at what at the time was
+surely scandalous homoerotic sexuality.
+
+<p>Whitman starts safely, extolling manly upright
+farmers, laborers, and young men wrestling.  He moves to women - all, as with the
+males, implicitly white.  He then turns, in sections 7 and 8 of this 9
+stanza poem, to
+
+<blockquote>
+   A man's body at auction...
+   A woman's body at auction...
+</blockquote>
+
+and his purpose becomes clear.  Humans all, intricate and beautiful, strong and worthy:
+this is an anti-slavery poem, arguing for the equal beauty and worth of all human bodies.
+
+<blockquote>
+Examine these limbs, red, black, or white, they are cunning in tendon and nerve...
+</blockquote>
+
+Whitman's vision is uncommon today.  Novel machines and the artificial
+excite more admiration than the mundane, the organic.  Whitman saw
+and proclaimed wonder and beauty in the world, with an enthusiasm
+which though, today, sometimes seems over-ripe, might - if refracted through new
+understandings of the world - serve me well.
+
+I follow Whitman but I wish to go further.  We have learned much about
+the elegance and interconnectedness of life in the last century.  The
+dividing line between human and other has dissolved.  We have huge
+brains which make complex grammars possible, and metaphor and music.
+Other species have their own capabilities just as worthy of
+admiration.
+
+But rather than compare and rank (or compare and <b>not</b> rank), my focus, building on
+Whitman, is on seeing the interwoven elegant processes shared by all of us, indeed
+coursing through all of us, energy captured non-destructively from the sun, exciting
+electrons which flow in all life forms, from sunlit leaf to scampering squirrel, deep diving
+whales, laughing children, symbiotic relations, even also contagious disease.
+
+The body electric: now to see it as the entire evolving interconnected communities of the planet.
+
+When first published, the poem had no title.  When republished in 1867 with some revisions,
+the first line was added, and became the title.   Jerome Loving's 1999
+<a href="" target="_blank">biography</a> (need more detail here)
+explains that the term "electric" was not then in common use.
+
+From Carol Rumen's "Poem of the Week" in the
+<a href="https://www.theguardian.com/books/2015/jul/27/poem-of-the-week-from-i-sing-the-body-electric-by-walt-whitman" target="_blank">Guardian</a>:
+
+<blockquote>
+
+It was one of 12 poems Whitman printed and published himself as Leaves of Grass (1855), the first collection of a writer who, in his mid-30s, had suddenly found his unique form and themes.
+<p>
+The poem was untitled, and began somewhat less ringingly, with a version of what was subsequently to become the second line. Revised, and with the addition of Part 9, the section that forms this week’s poem, it appeared as Poem of the Body in the 1856 edition of Leaves of Grass, and was ultimately incorporated into the sequence Children of Adam (1867).
+<p>
+The length and bagginess of Whitman’s inventory have provoked some criticisms. It doesn’t strictly follow the organisational principles that first seem to operate – head to toes, exterior to interior. There’s some mixing of categories as the poem gathers speed near the end. But the rollercoaster is still an exciting, if a bumpy, ride. The specificity of the diction is a clear virtue: where it’s less than specific, the euphemism or obscure coinage (man-root, neck-slue) forms a collectible linguistic curio. The way in which medically untrained people talk about their bodies is always fascinating. For most of us, the vocabulary is an odd, rather embarrassed assortment of the informal and the official, and so it is with Whitman. His vocabulary includes the plainest, everyday denotations – head, eyes, mouth and nose – with a few Latinate sprinklings: tympan and scapula. Some compound words are invented but vividly understandable: eye-fringes, hind-shoulders and lung-sponges. Sometimes, there’s an added descriptive detail, like “The brain in its folds inside the skull-frame”, that he seems to write from the experience of viewing preserved human remains.
+<p>
+As the list accumulates, abstract nouns appear – sympathies, sexuality, maternity. Whitman deliberately makes his case for the inclusion of women in the democratic body, and emotions enter the mix of feminine attributes (“tears, laughter, weeping, love-look …”). The figure is not always gendered: sometimes it could be either male or female, and, perhaps, either black or white: “The skin, the sunburnt shade, freckles, hair.” A particular relationship just might be evoked in “The curious sympathy one feels when feeling with the hand the naked meat of the body”. There are a few other moments when a detail will suggest that the universal love-poem embraces a personal love-affair, but there are no details that can’t be read as modes of the universal.
+<p>
+As the section unfolds, the body seems increasingly active, whether “reclining, embracing, arm-curving and tightening” or displaying in close-up “The continual changes of the flex of the mouth, and around the eyes.” It’s plain that the speaker has closely observed actual bodies in motion. For all the excited, headlong oratory, Whitman is at least as much a scientist as a romantic poet. The very phrase “body electric” includes both dimensions.
+<p>
+The body he animates is electrified above all by the way in which the parts interact, whether the interaction is explicit or implied, and by the way in which bodies interact, in mutual respect or its opposite, exploitation. As he tells us, bodies (“the likes of you and me”) are poems. This particular praise-song is to the young, healthy body, idealised, perhaps, but not in any sense deified. How astonishing it seems now that lines so frank in vocabulary (and metrically so free) could have been written in 1855. But then, this was the New World, and Whitman’s first symphony.
+
+</blockquote>
+
+Some etymological background:
+
+   - electric eels were known in pharaonic egypt
+
+   - Several ancient writers, such as Pliny the Elder and Scribonius
+     Largus, attested to the numbing effect of electric shocks
+     delivered by electric catfish and electric rays, and knew that
+     such shocks could travel along conducting objects.  Patients with
+     ailments such as gout or headache were directed to touch electric
+     fish in the hope that the powerful jolt might cure them.[4]
+
+   - Electricity would remain little more than an intellectual
+     curiosity for millennia until 1600, when the English scientist
+     William Gilbert wrote De Magnete, in which he made a careful
+     study of electricity and magnetism, distinguishing the lodestone
+     effect from static electricity produced by rubbing amber. He
+     coined the Neo-Latin word electricus ("of amber" or "like amber",
+     from ἤλεκτρον, elektron, the Greek word for "amber") to refer to
+     the property of attracting small objects after being rubbed. This
+     association gave rise to the English words "electric" and
+     "electricity", which made their first appearance in print in
+     Thomas Browne's Pseudodoxia Epidemica of 1646.
+
+   - Michael Faraday inventied the electric motor in 1821.
+
+   - Thomas Edison's patent for the electric light bulb was issued in 1880. 
+
+
+`,
+
+"etcPoetics-overview":
+`
+The poetics and flow of electrons, powered by sunlight, flowing
+in electron transport chains throughout and among
+all life on earth.
+`,
+
+"ontologies":
+`
+Ontology is the study of what exists - the study of the "furniture of the world".
+
+In western philosophy, these ontologies have been popular:
+
+  - idealism: ideas (as in Platonic Forms) are fundamental
+  - materialism: only physical matter exists
+  - hylomorphism: forms are prior, more fundamental, and are instantiated in matter
+  
+`,
+
+"epistemologies":
+`
+Epistemology is the study of if and how we can know that which exists:
+
+  - rationalism
+  - empiricism
+  - pragmaticsm
+  - irrealism
+  
+`,
+
+
+
 "digitalGarden":
 `
 <a href="https://maggieappleton.com/garden-history?ref=ideasurg.pub"

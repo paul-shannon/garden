@@ -1,0 +1,29 @@
+nodes:
+
+    - id: etcPoetics-overview
+      label: "Electron Transport Chain Poetics:\n An Overview"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 600
+      height: 120
+      text-valign: center
+
+    - id: bodyElectric
+      label: I sing the body electric
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+      
+
+

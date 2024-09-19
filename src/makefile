@@ -17,6 +17,8 @@ default:
 	@echo metaphor
 	@echo tunes
 	@echo backstories
+	@echo philosophy
+	@echo etcPoetics
 	@echo ruyer
 	@echo current
 
@@ -69,11 +71,18 @@ geertz:
 perspective:
 	python createGraphs.py Perspective:perspective.yaml
 
+philosophy:
+	python createGraphs.py Philosophy:philosophy.yaml
+
 lushootseed:
 	python createGraphs.py Lushootseed:lushootseed.yaml
 
 ruyer:
 	python createGraphs.py Ruyer:ruyer.yaml
+
+etcPoetics:
+	python createGraphs.py \
+       ETCPoetics:etcPoetics.yaml \
 
 home:
 	python createGraphs.py Home:home.yaml
@@ -82,12 +91,14 @@ home:
 current:
 	python createGraphs.py \
        Home:home.yaml \
+       ETCPoetics:etcPoetics.yaml \
        Backstories:backstories.yaml \
        Ruyer:ruyer.yaml \
        Stardust:stardust.yaml \
        Imprint:imprint.yaml \
        Geertz:geertz.yaml \
        Perspective:perspective.yaml \
+       Philosophy:philosophy.yaml \
        Lushootseed:lushootseed.yaml \
        Metaphor:metaphor.yaml \
        Tunes:tunes.yaml

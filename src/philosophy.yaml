@@ -1,0 +1,103 @@
+nodes:
+
+    - id: epistemologies
+      label: Epistemologies
+      font-size: 40
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+    - id: ontologies
+      label: Ontologies
+      font-size: 40
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: black
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+
+    - id: simondonOverview
+      label: Simondon 
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+
+    - id: nelsonGoodman
+      label: Nelson Goodman
+      font-size: 40
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+
+    - id: catherineElgin
+      label: Catherine Elgin
+      font-size: 40
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 80
+      text-valign: center
+
+    - id: felicitousFalsehoods
+      label: Felicitous Falsehoods
+      font-size: 32
+      background-color: "#f9f9eb"
+      shape: roundrectangle
+      border-color: blue
+      border-width: 1
+      width: 360
+      height: 80
+      text-valign: center
+      
+    - id: reflectiveEquilibrium
+      label: Reflective Equilibrium
+      font-size: 32
+      shape: roundrectangle
+      background-color: "#f9f9eb"
+      border-color: blue
+      border-width: 1
+      width: 360
+      height: 80
+      text-valign: center
+      
+edges:
+
+   - source: epistemologies
+     target: nelsonGoodman
+     edgeType: child
+
+   - source: nelsonGoodman
+     target: catherineElgin
+     edgeType: child
+
+   - source: catherineElgin
+     target: felicitousFalsehoods
+     edgeType: child
+
+   - source: catherineElgin
+     target: reflectiveEquilibrium
+     edgeType: child
+
+   - source: ontologies
+     target: simondonOverview
+     edgeType: child
