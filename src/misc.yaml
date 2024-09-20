@@ -1,0 +1,133 @@
+nodes:
+
+    - id: chemiosmoticModel
+      label: ""
+      font-size: 48
+      font-family: Georgia
+      background-image: "img/chemiosmoticModel.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 2
+      border-color: black
+      width: 1800
+      height: 900
+      text-valign: top
+
+    - id: neilClaremonQuote
+      label: "Neil Claremon\nthe perceptions\nof all creatures"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 120
+      text-valign: center
+
+    - id: kennethRexrothNativeAmericanPoetry
+      label: "Kenneth Rexroth\n American Indian Songs"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+    - id: mowv
+      label: "Metaphysics?\nOntology?\nWorld View?"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 280
+      height: 140
+      text-valign: center
+
+    - id: epistemology
+      label: "Epistemology"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 280
+      height: 140
+      text-valign: center
+
+    - id: breakingEpistemicCircle
+      label: "Breaking the Modern\nEpistemic Circle"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 320
+      height: 140
+      text-valign: center
+
+    - id: peterSkafish
+      label: "Peter Skafish"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 280
+      height: 80
+      text-valign: center
+
+    - id: viveirosDeCastro
+      label: Eduardo Viverios de Castro
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 380
+      height: 80
+      text-valign: center
+
+    - id: bachianasBrasileiras
+      label: Bachianas Brasileiras
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 310
+      height: 80
+      text-valign: center
+
+edges:
+
+    - source: viveirosDeCastro
+      target: bachianasBrasileiras
+      edgeType: child
+
+    - source: viveirosDeCastro
+      target: peterSkafish
+      edgeType: child
+
+    - source: epistemology
+      target: breakingEpistemicCircle
+      edgeType: child
+      

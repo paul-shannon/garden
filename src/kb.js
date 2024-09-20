@@ -1,7 +1,279 @@
 let kb = {
-"bodyElectric":
+
+"chemiosmoticModel":
 `
 
+**Chemiosmotic model**
+
+In this simple representation of the chemiosmotic theory applied to
+mitochondria:
+<ol>
+  <li>Electrons from NADH and other oxidizable substrates pass
+through a chain of carriers arranged asymmetrically in the inner
+membrane.
+  <br><br><li> Electron flow is accompanied by proton transfer across the
+membrane, producing both a chemical gradient (ApH) and an electrical
+gradient (A), which, combined, create the proton-motive force.
+
+   <br><br><li> The
+inner mitochondrial membrane is impermeable to protons; protoncs can
+re-enter the matrix only through proton-specific 
+channels (F0).
+  <br><br><li>The proton-motive force that drives protons back into
+the matrix provides the energy for ATP synthesis, catalyzed by the F1
+complex associated with F0.
+
+ </ol>
+
+`,
+
+"bachianasBrasileiras":
+`
+<a href="https://www.laphil.com/musicdb/pieces/214/bachianas-brasileiras-no-1"
+   target="_blank">from LA Phil</a>
+
+The nine pieces to which Villa-Lobos gave the title Bachianas
+Brasileiras all date from between 1930 and 1945. In them he sought to
+explore what he felt to be the links between the music of Bach and
+that of his native Brazil – an oblique connection if ever there was
+one. Villa-Lobos saw in Bach’s instrumental writing, in the way that
+so much emphasis is placed on the interweaving of equally important
+contrapuntal strands, an echo of the freedom of part writing which he
+found in the folk music of his own country. Many of the movements in
+the series have dual titles, one relating to Baroque forms, the other
+to indigenously Brazilian ones.
+
+The pieces vary in their scoring. The first, like the fifth, calls for
+eight cellos, but lacks the solo soprano of the later work. It was
+completed in 1930. The most obvious Bachian reference here is in the
+final fugue, albeit on a theme which is closer to Rio than to
+Leipzig. The theme itself emerges in the opening Embolada, a form of
+folksong characterized by a refrain and response structure. The
+central Modinha alludes to a generic term for a type of Portuguese
+popular song, usually of a sentimental character.
+
+— Geoff Thomason
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/pUCuEd1tjCg?si=frIo-EE_B4A5a2Dk"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+`,
+
+
+"peterSkafish":
+`
+**Epigraph to Viveiros de Castro's essay "Metaphysics as Mythophysics"
+in "comparative metaphysics" by Peter Skafish**
+
+Now that capitalism, political liberalism, and technoscience have
+become the chief modes of thought of much of the planet, it should be
+apparent that an approach to thinking capable of engaging anything
+outside them will have not only to critique their basic categories
+... but to operate both at and beyond the limits of the metaphysics on
+which they are based.
+
+"Subjects," "histories," and "truths" not
+belonging to the West can be listened to and understood only if the
+concepts (of the subject, of history, and of truth) used to interpret
+them are enough at the borders of metaphysics to cross them and
+thereby become estranged by the other.
+
+The general tendency in the
+humanities, however, is to assume that such basic terms of analysis
+can be employed (even simply "applied") without being revised. The
+disturbing result is the silent and thus all the more insidious
+reinstatement of metaphysics, a situation that ideologically reflects
+the basic condition of the "new world order — "the impossibility," as
+Malabou characterizes it, of any exotic, isolated, or geopolitically
+marginal event," and the neutralization and "exhaustion of the
+outside." A "terrible" time in which it seems that "everything has
+already happened" that could, and when, one can add, intellectual
+thought seems destined to remain forever European.
+
+`,
+
+
+"viveirosDeCastro":
+`
+But please note that my above-mentioned book, Cannibal Metaphysics, was <i>not</i> called
+Cannibal Ontologies.
+
+(The title should be read in the same
+semantic key as, for example, <i>Diabelli Variations</i> or, better yet, <i>Bachianas Brasileiras</i>).
+`,
+
+
+"mowv":
+`
+**Metaphysics? Ontology? World View?**
+
+Terms with overlapping meaning.
+
+Some suggestions from
+<a href="https://www.reddit.com/r/askphilosophy/comments/ewqt5d/what_is_the_difference_between_ontology_and/"
+   target="_top"> reddit</a>:
+
+<ul>
+
+   <li> Ontology refers to things that actually exist, while metaphysics is
+     concerned with both possible and actual existence.
+
+   <li> Different schools and philosophers have radically different
+     understandings of the distinction [between metaphysics and ontology].
+</ul>
+
+<a href="https://en.wikipedia.org/wiki/Metaphysics"
+target="_blank">wikipedia</a>:
+
+<ul>
+
+   <li> Metaphysics is the branch of philosophy that examines the basic
+     structure of reality. It is often characterized as first
+     philosophy, implying that it is more fundamental than other forms
+     of philosophical inquiry.
+
+   <li> Metaphysics is traditionally seen as
+     the study of mind-independent features of the world, but some
+     modern theorists understand it as an inquiry into the conceptual
+     schemes that underlie human thought and experience - a worldview?
+
+   <li> A worldview or Weltanschauung is the fundamental cognitive
+     orientation of an individual or society encompassing the whole of
+     the individual's or society's knowledge, culture, and point of
+     view. A worldview can include natural philosophy; fundamental,
+     existential, and normative postulates; or themes, values,
+     emotions, and ethics.
+
+</ul>
+
+**Dilthey on Veltanschauung**
+<ul>
+   <li> In 1911, the German philosopher Wilhelm Dilthey published an
+     essay entitled "The Types of Weltanschauung and their Development
+     in Metaphysics" that became quite influential. Dilthey
+     characterized worldviews as providing a perspective on life that
+     encompasses the cognitive, evaluative, and volitional aspects of
+     human experience.
+
+        <li> Dilthey continued: Although worldviews have always been expressed
+          in literature and religion, philosophers have attempted to give
+          them conceptual definition in their metaphysical systems. On that
+          basis, Dilthey found it possible to distinguish three general
+          recurring types of worldview.
+
+        <li> The first of these he called naturalism because it gives
+          priority to the perceptual and experimental determination of
+          what is and allows contingency to influence how we evaluate
+          and respond to reality. Naturalism can be found in
+          Democritus, Hobbes, Hume and many other modern philosophers.
+
+        <li> The second type of worldview is called the idealism of
+          freedom and is represented by Plato, Descartes, Kant, and
+          Bergson among others. It is dualistic and gives primacy to
+          the freedom of the will. The organizational order of our
+          world is structured by our mind and the will to know.
+
+        <li> The third type is called objective idealism and Dilthey sees
+          it in Heraclitus, Parmenides, Spinoza, Leibniz and Hegel. In
+          objective idealism the ideal does not hover above what is
+          actual but inheres in it. This third type of worldview is
+          ultimately monistic and seeks to discern the inner coherence
+          and harmony among all things. Dilthey thought it impossible
+          to come up with a universally valid metaphysical or
+          systematic formulation of any of these worldviews, but
+          regarded them as useful schema for his own more reflective
+          kind of life philosophy.
+      </ul>
+
+`,
+
+
+"kennethRexrothNativeAmericanPoetry":
+`
+**American Indian Songs, from Densmore & Others**
+
+**Kenneth Rexroth**
+
+I first came across this in David Hinton's The Wilds of Poetry, p76,
+where he writes "Kenneth Rexroth once described the source of
+Native American poetry in a way that perfectly describes the source of
+his own mountain poems":
+
+<blockquote>
+  The intense aesthetic realization which precedes the poem is a realization
+  of identity with a beneficient environment.
+  
+</blockquote>
+
+From <a href="https://poemsandpoetics.blogspot.com/2009/10/kenneth-resroth-american-indian-songs.html"
+        target="_blank">Jerome Rothenberg's Blog</a>:
+        
+<blockquote>
+This groundbreaking & highly influential essay (including an
+accompanying selection of poem-songs) was first published in
+Perspectives USA (1956). It was reprinted in Assays (New Directions,
+1961) & again in Ken Knabb’s Bureau of Public Secrets. Rexroth’s
+selection of Dennsmore’s translations will appear in two subsequent
+postings. (Copyright © 1961 by Kenneth Rexroth, used courtesy of the
+Kenneth Rexroth Trust.) I reprint it here as a homage both to Rexroth
+& to Densmore. - J.R.
+</blockquote>
+
+<a href="https://www.bopsecrets.org/rexroth/indiansongs.htm"
+  target="_blank"> Full text from the Bureau of Public Secrets</a>
+
+**An extract**
+
+Western European man characteristically regards himself not only as an
+independent entity in a fundamentally hostile environment but as the
+relatively permanent factor in a perishing world and the sole source in it of
+value. Most Western European poetry is, even in its erotic lyric "Gather ye
+rosebuds while ye may" concerned with the tragedy of the waste of value in a
+world of fact.
+
+<p>
+There is nothing of this in American Indian poetry. The intense
+aesthetic realization which precedes the poem is a realization of identity
+with a beneficent environment. Often this is focused in a dream or vision,
+waking or sleeping, after long lonely fast and vigil in the forest or
+desert. An aspect of the environment, an animal or a natural object or force,
+appears to the Indian, waiting in a trance state, and gives him the song,
+which remains his most precious possession and the pivot of his life forever
+after.
+
+<p>
+As such, however simple, these songs always express mutual acceptance
+and approval of the self and the other, focused but also generalized,
+amounting to identification.
+
+<p>In other words, the holy is not the
+Judeo-Protestant "utterly other" a term of Otto's but the utterly same. They
+also express the accompanying emotional state - a feeling of extraordinarily
+intense hyperesthesia, concentration of all faculties in one realization, and
+the emotional tone of the realization itself - what we call transfiguration
+and transcendence - the kind of general sacramentalism we identify with
+St. Francis's Canticles and certain poems of Wordsworth or
+<a href="https://www.poetryfoundation.org/poets/francis-jammes"
+   target="_blank">Francis Jammes</a>.
+
+`,
+
+"neilClaremonQuote":
+`
+Jim Harrison, in his forward to Robert Bringhurst's
+Tree of Meaning: Language, Mind & Ecology quotes Neil Claremon:
+
+<blockquote>
+  Don't you think reality is an aggregate, an accretion of the perceptions of all creatures?
+</blockquote>  
+
+`,
+
+
+"bodyElectric":
+`
 
 **Walt Whitman, 1855: I sing the body electric**
 

@@ -159,7 +159,7 @@ function newDrawGraph(divName, graph, zoom, pan)
       container: document.getElementById(divName),
       elements: graph.elements, 
       style: graph.styles,
-      autolock: true,  // publish
+      //autolock: true,  // publish
       layout: {
           name: "preset",
           fit: false
@@ -175,8 +175,8 @@ function newDrawGraph(divName, graph, zoom, pan)
      cy.zoom(zoom)
      cy.pan(pan)
      cy.fit(100)
-     cy.zoomingEnabled(false)  // publish
-     cy.panningEnabled(false)  // publish
+     //cy.zoomingEnabled(false)  // publish
+     //cy.panningEnabled(false)  // publish
      }, 10)
 
   console.log("adding divname cy to state: " + divName)

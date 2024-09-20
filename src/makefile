@@ -87,9 +87,12 @@ etcPoetics:
 home:
 	python createGraphs.py Home:home.yaml
 
+misc:
+	python createGraphs.py misc:misc.yaml
 
 current:
 	python createGraphs.py \
+       misc:misc.yaml \
        Home:home.yaml \
        ETCPoetics:etcPoetics.yaml \
        Backstories:backstories.yaml \
