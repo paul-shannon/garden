@@ -1,0 +1,35 @@
+nodes:
+
+    - id: indianSongs
+      label: "Kenneth Rexroth\n American Indian Songs"
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+
+    - id: chemiosmoticModel
+      label: ""
+      font-size: 48
+      font-family: Georgia
+      background-image: "img/chemiosmoticModel.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 2
+      border-color: black
+      width: 1800
+      height: 900
+      text-valign: top
+
+edges:
+
+    - source: indianSongs
+      target: chemiosmoticModel
+      edgeType: child
+

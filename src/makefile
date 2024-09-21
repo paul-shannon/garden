@@ -8,10 +8,12 @@ default:
 	@echo demos
 	@echo demot   # just a single 1-node graph
 	@echo demot2  # 2-node graph
+	@echo dreams
 	@echo garden
 	@echo imprint
 	@echo geertz
 	@echo perspective
+	@echo template
 	@echo lushootseed
 	@echo stardust
 	@echo metaphor
@@ -57,6 +59,12 @@ demot:
 
 demot2:
 	python createGraphs.py Tiny:demoTiny2.yaml
+
+dreams:
+	python createGraphs.py Dreams:dreams.yaml
+
+template:
+	python createGraphs.py Template:template.yaml
 
 garden:
 	python createGraph.py garden2.yaml

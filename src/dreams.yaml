@@ -1,0 +1,13 @@
+nodes:
+
+    - id: oldComputingDream
+      label: old computing
+      font-size: 32
+      shape: roundrectangle
+      background-color: #f9f9eb
+      border-width: 2
+      border-color: black
+      width: 300
+      height: 80
+      text-valign: top
+      

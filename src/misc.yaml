@@ -13,6 +13,33 @@ nodes:
       height: 900
       text-valign: top
 
+    - id: arsenic
+      label: Arsenic
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 120
+      text-valign: center
+
+    - id: cyanide
+      label: Cyanide
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 120
+      text-valign: center
+
+
     - id: neilClaremonQuote
       label: "Neil Claremon\nthe perceptions\nof all creatures"
       text-wrap: wrap
@@ -117,6 +144,80 @@ nodes:
       height: 80
       text-valign: center
 
+    - id: geertz-ethos
+      label: World-view and Ethos
+      shape: roundrectangle
+      border-color: back
+      border-width: 1
+      background-color: white
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+    - id: vulgar-darwinism
+      label: Vulgar Darwinism
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: white
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+    - id: vulgar-capitalism
+      label: Vulgar Capitalism
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+    - id: darwinWithSymbiosis
+      label: Darwin with Symbiosis
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+    - id: mixedEconomy
+      label: Mixed Economy
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+    - id: rhabdocline-parkeri
+      label: Doug-fir & fungus
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      font-size: 24
+      width: 300
+      height: 80
+      text-valign: center
+      text-halign: center
+
+
+
 edges:
 
     - source: viveirosDeCastro
@@ -130,4 +231,32 @@ edges:
     - source: epistemology
       target: breakingEpistemicCircle
       edgeType: child
-      
+
+    - source: arsenic
+      target: chemiosmoticModel
+      edgeType: inhibitor
+
+    - source: cyanide
+      target: chemiosmoticModel
+      edgeType: inhibitor
+
+    - source: vulgar-darwinism
+      target: vulgar-capitalism
+      edgeType: child
+
+    - source: geertz-ethos
+      target: vulgar-darwinism
+      edgeType: child
+
+    - source: darwinWithSymbiosis
+      target: mixedEconomy
+      edgeType: child
+
+
+    - source: geertz-ethos
+      target: darwinWithSymbiosis
+      edgeType: child
+
+    - source: rhabdocline-parkeri
+      target: darwinWithSymbiosis
+      edgeType: child

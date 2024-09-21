@@ -1,5 +1,29 @@
 let kb = {
 
+"rhabdocline-parkeri":
+`
+Rhabdocline parkeri, a ubiquitous foliar endophyte of Douglas-fir
+
+   see ~/Documents/EndophyticFungi.pdf, JK Stone, 2012 for good survey
+
+`,
+
+"oldComputingDream":
+`
+20 sep 2024
+
+Under management by my father, I was ushered into
+a computing job, in a nondescript windowless, fluroescent-lit
+low ceiling, large room.  old school computers: green screens 24x80,
+printouts, unclear tasks to complete.  My mother was there also.
+I was probably grumbling, at least giving off annoyed vibes about
+the situation.  My mother gave an instruction which went against
+my sense.  I rejected it, and her, my father communicated his unhappiness,
+and that I should do as she asked.  I declined, situation got tense.
+dream ended.
+
+`,
+
 "chemiosmoticModel":
 `
 
