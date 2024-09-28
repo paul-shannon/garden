@@ -1,31 +1,7 @@
 nodes:
 
-    - id: etcPoetics-overview
-      label: "Electron Transport Chain Poetics:\n An Overview"
-      text-wrap: wrap
-      text-max-width: 1000
-      font-size: 32
-      shape: roundrectangle
-      border-color: black
-      border-width: 1
-      background-color: "#f9f9eb"
-      width: 600
-      height: 120
-      text-valign: center
-
-    - id: bodyElectric
-      label: I sing the body electric
-      font-size: 32
-      shape: roundrectangle
-      border-color: black
-      border-width: 1
-      background-color: "#f9f9eb"
-      width: 400
-      height: 80
-      text-valign: center
-
-    - id: loving-biography
-      label: "Notes from\nJerome Loving's Biography"
+    - id: descola-overview
+      label: Phillipe Descola
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -37,22 +13,48 @@ nodes:
       height: 80
       text-valign: center
 
+    - id: descola-highlights
+      label: Highlights
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
 
-    - id: chemiosmoticModel
-      label: ""
+    - id: descola-myth
+      label: Amerindian Myth
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+
+    - id: achuar-overview
+      label: "Achuar"
       font-size: 48
       font-family: Georgia
-      background-image: "img/chemiosmoticModel.png"
+      background-image: img/achuarMap.jpg
       background-fit: cover
       shape: roundrectangle
       border-width: 2
       border-color: black
-      width: 1800
-      height: 900
-      text-valign: top
+      width: 800
+      height: 400
+      text-valign: bottom
 
-    - id: arsenic
-      label: Arsenic
+    - id: descola-animism-naturalism
+      label: Animism vs. Naturaliss
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -61,41 +63,27 @@ nodes:
       border-width: 1
       background-color: "#f9f9eb"
       width: 400
-      height: 120
-      text-valign: center
-
-    - id: cyanide
-      label: Cyanide
-      text-wrap: wrap
-      text-max-width: 1000
-      font-size: 32
-      shape: roundrectangle
-      border-color: black
-      border-width: 1
-      background-color: "#f9f9eb"
-      width: 400
-      height: 120
+      height: 80
       text-valign: center
 
 
 edges:
 
-    - source: bodyElectric
-      target: loving-biography
+    - source: descola-overview
+      target: descola-highlights
       edgeType: child
 
-    - source: arsenic
-      target: chemiosmoticModel
-      edgeType: inhibitor
+    - source: descola-overview
+      target: descola-myth
+      edgeType: child
 
-    - source: cyanide
-      target: chemiosmoticModel
-      edgeType: inhibitor
+    - source: descola-overview
+      target: achuar-overview
+      edgeType: child
 
+    - source: descola-overview
+      target: descola-animism-naturalism
+      edgeType: child
 
-
-
-
-      
 
 

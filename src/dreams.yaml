@@ -10,4 +10,26 @@ nodes:
       width: 300
       height: 80
       text-valign: top
-      
+
+    - id: quetzacoatulus
+      label: Quetzacoatulus
+      font-size: 32
+      shape: roundrectangle
+      background-color: #f9f9eb
+      border-width: 2
+      border-color: black
+      width: 300
+      height: 80
+      text-valign: top
+
+    - id: trappedInHighschool
+      label: Trapped in Highschool
+      font-size: 32
+      shape: roundrectangle
+      background-color: #f9f9eb
+      border-width: 2
+      border-color: black
+      width: 300
+      height: 80
+      text-valign: top
+

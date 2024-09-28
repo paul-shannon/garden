@@ -4,6 +4,7 @@ nodes:
       label: "Kenneth Rexroth\n American Indian Songs"
       text-wrap: wrap
       text-max-width: 1000
+      font-family: Georgia
       font-size: 32
       shape: roundrectangle
       border-color: black

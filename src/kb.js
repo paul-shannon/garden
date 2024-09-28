@@ -1,5 +1,502 @@
 let kb = {
 
+"loving-biography":
+`
+**Walt Whitman: The Song of Myself, Jerome Loving, 1999**
+
+  - 1848, Whitman and his brother Jeff traveled the Mississippi to
+    New Orleans by steamboat, to take a newspaper job in the
+    slave-holding south.  Slavery and slave auctions were
+    everywhere to be seen.  Jeff wrote home, after visiting
+    the cathedral: "everyone would go and dip their fingers in
+    holy water and then go home and whip their slaves".
+    Just around the corner from their first residence were the
+    offices of Pierson & Bonneval, Auctioneers.  Their sales
+    of flesh took place nearby, likely seen by the brothers:
+    an "acre-large barroom", depicted in the poem. p 119.
+
+  - Ralph Waldo Emerson, an early supporter of Whitman, had
+    expressed his "respect for the body and his desire to arrive at an
+    assessment of each person's value".  This may have helped lay the
+    foundation for Whitman's similar thoughts in the poem. p 159
+
+  - The poem is the fifth in the 1855 edition of Leaves of Grass.
+    It attained and held onto a prominent place in the Whitman canon, and
+    for good reason.  In 1855, of course, it had no title and the
+    ultimate title line was not even part of the poem until1867.  Nor
+    were "electric" and "electricity" household words at the time.
+    This was his first attempt (he told Emerson a year later) to
+    express "the body of a man or woman" in poetry.  Leaves of Grass,
+    it is seldom noted, was hardly ever, if at all, assailed in the
+    19th C for its suggestions of homosexuality; the exception is
+    Griswold's Latin adage which anticipated the phrase in the 1890s,
+    "the love which dare not speak its name".  [note: congruent with
+    Foucault's claim that homosexuality was invented in
+    <a href="http://timothyquigley.net/vcs/foucault-homosexual.pdf"
+    target="_blank">1870</a>?]  The
+    problem with Leaves of Grass always and simply sexuality (of any
+    sort?).  p 202
+
+  - The poem came right out of the poet's Brooklyn and Long Island
+    experience: the clue for which is that the poem contains a portrait
+    drawn from the poet's lower-middle-class, working man's background.
+    We have the octogenearian farmer, whom Whitman doubltless knew while
+    growing up or teaching in the country - possibly his maternal
+    grandfather, Cornelius Van Velso whom the poet adored. p203
+
+  - The poem's electricity of the body is more than skin deep.
+    Whitman is describing the "body" of his experience, and this body -
+    like the one thr phrenologists, the century's health-fitness
+    experts, knew - is ideal in its warmth, look and general appeal.
+    The venerable farmer was virile enough to have sired five sones
+    and probably as many daughters  He was a man who liked to
+    sail his boar, go hungint, and generally be in the company of men.
+    This is a man "you would wish long and long to be with" - describing
+    how he pondered the contentment of lower nature - like sex, part
+    of the Emersonian emblem left unmentioned in _Nature_.
+    W was spearated from the object of his desire by "cold types
+    and cylinders and wet paper" as well as society's implicit
+    condemnation of the body and thus its spiritual essence. p204
+
+  - Whitman did not abandon politics to write _Leaves of Grass_.
+    In the surviving proofs he talks of "dough-faces"; the
+    attempted renewal of slave trade, or the importation of
+    slaves from other countries, particularly Cuba; and the fact
+    that the founding fathers were (sic) "declared abolitionists".
+    W announces that his call for freedom would be heard as far
+    away as "the archipelagoes, Australia".  And the original
+    title of the poem was "Slaves". p 212.
+
+  - With the third edition of Leaves of Grass (1860?) three poems
+    helped to develop the idea of Adamic man waking up to his
+    sexuality and using it.  "Once I Pass'd Through a Populous City",
+    harking back to his time in New Orleans, celebrates the joys of
+    heterosexual love - though evidence suggests that the lover was
+    once designated as male. p 249
+
+  - In 1882 the Boston district attorney force changes to a new
+    edition of Leaves of Grass, claiming that some parts of
+    three poems, including "I Sing the Body Electric", violated
+    the statutes of "obscene literature".  Some text from Sections
+    5 and 9 describing a close-up tour of the body. p 414-15
+
+  - _Leaves of Grass.  The Poems of Walt Whitman [Selected]_
+    was published in 1886 omitting many poems including "I
+    Sing the Body Electric". 
+    
+`,
+
+
+"descola-overview":
+`
+Descola overview
+`,
+
+"descola-myth":
+`
+**Amerindian Myth and Axiomatic Time**
+
+[composition of worlds: 42%]
+
+What is an Amerindian myth? It is a narrative, often somewhat quirky,
+of how an animal or a plant species has acquired the appearance it
+currently has. In the time of the myth (and this is actually an
+inappropriate turn of phrase, which I am using here for the sake of
+convenience), all living beings had the same body and culture, such
+that the differences between them could be perceived only in their
+names—Achuar, Toucan, Grasshopper, Cassava—and in their particular
+habits and inclinations: in their house, the vulture-people ate
+carcass ceremoniously, as if it were boiled meat, and the
+jaguar-people lapped up blood as if it were manioc beer in
+calabashes.
+
+The myths recount the events that prompted each of these
+forms of life, that of humans included, to acquire bodies that fitted
+the uses to which they were put without actually losing their
+subjective capabilities. These are stories of speciation, stories that
+set out the accidental conditions for sudden changes of state.
+
+At first glance, these myths are thus rather close to historical
+narratives, minus the factual truth of the event. In reality they are
+thought experiments through which a given fact of the world—that
+nonhumans have an interiority like ours and bodies all different from
+ours—can be conceptualized. The solution arrived at is that of a
+metamorphosis, a switch of perspective that suddenly makes visible in
+a body a set of dispositions that preexisted—in short, the
+actualization of a potentiality.
+
+It is a very abstract operation, reminiscent of the social contract in
+European political philosophy—the contract that put an end to the
+state of nature and legitimized political sovereignty. To paraphrase
+Rousseau himself, just as the state of nature is a theoretical fiction
+that does not exist, has never existed, and will never exist, the time
+of myth is a necessary fiction for an ontological condition to receive
+the illustrated expression of its actualization. To say, as is always
+done at the beginning of a myth, that the events about to be described
+took place a long time ago is not really to assign to these events a
+place in time; it is more like assigning a time to an axiomatic
+system. True, there is a time for an axiomatic system and a time for
+demonstration, but that does not make the axiomatic system a period
+sui generis.
+
+And yet—and this is where the beauty and the subtlety of
+this conception of time lies—axiomatic time is still very near, it is
+two or three generations ago, perhaps; for the memory of recent time
+does not exist. Many Achuar have forgotten the names of their
+grandparents, the place where they lived, their achievements; and
+there is little attempt to retain events beyond individuals’ living
+memory and what they have themselves seen. In short, time is flattened
+out, because with each generation it is brought back to the still very
+recent past, when it was the condition of possibility of the immutable
+present.
+
+Mark the contrast between such a regime of time and that of a
+world like ours, where the weight of filiation and of what we owe
+previous generations and past centuries constantly looms over us and
+where the past is supposed to determine what we are and to herald the
+shape the future will take. A society in which none of this makes
+sense, however much it might be governed by custom, gives an
+impression of unlimited individual freedom: one is free of these
+multiple legacies, of the weight of ancestral forces and history.
+
+
+`,
+
+
+"descola-highlights":
+`
+**Epigraph from Rouseau**
+<blockquote>
+'However much individuals may come and go, it
+would seem that philosophy never travels.'
+
+  Jean-Jaques Rousseau
+  Discourse on the Origin of Inequality
+
+</blockquote>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Cy6nnQxO6s?si=kIRaFWenkZYzTgcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+`,
+
+"descola-animism-naturalism":
+`
+
+**Animism and Naturalism**
+
+- animism: the enthnographic anchor, extneds the human form of
+  interiority to nonhumans, paired with an awareness of
+  physical discontinuities between the various classes of
+  living beings in the worlds.  [composition of worlds, 48%]
+
+- naturalism: no longer defined simply by a belief in the exitence of
+  an external and objective nature, but through the systematic
+  inversion of animism: different (or absent) interiority, bodies
+  all fundamentally the same.
+
+- each species has its own bodily dispositions [47%]
+  ruyer's embryological, neo-finalist view: almost all entities
+  are aware, grow, reach.  [improve this, provide reference to ruyer]
+
+
+**What induces animsism?**
+
+At first supposed that vast number of species, each in small numbers, led
+to seeing ecological relations as interpersonal.   But the circumpolar north
+disproves that.
+
+There is another characteristic of both Amazonia and the great North
+that is perhaps even more relevant to accounting for this conception of
+nonhumans:  human inhabitants are few and far between, whereas nonhumans
+are abundant.  human contact takes place only in the domestic sphere, or on occasional
+visits to other houses.  Amerindians are de facto immersed in an ocean of
+disparate beings, whose behavior they watch closely and whose habits they
+know well, both for practical reasons and scientific curiosity
+
+ - also true of the PNW?
+ - a taste of which is offered at spəqʷabs?
+
+`,
+
+
+
+"achuar-overview":
+`
+source: <a href="https://en.wikipedia.org/wiki/Achuar" target="_blank">wikipedia</a>
+
+
+The Achuar are an Indigenous people of the Americas belonging to the
+Jivaroan family, alongside the Shuar, Shiwiar, Awajun, and Wampis
+(Perú). They are settled along the banks of the Pastaza River, Huasaga
+River, and on the borders between Ecuador and Perú. The word "Achuar"
+originates from the name of the large palm trees called "Achu"
+(Mauritia flexuosa) that are abundant in the swamps within their
+territory.
+
+In the past, the Achuar were traditionally feared warriors by the
+Shuar, known for their relentless pursuit of enemies. During the
+Cenepa War, the Achuar from Ecuador and Peru formed an alliance and
+maintained a neutral stance.
+
+**Descola on warrior culture"
+
+[from composition of worlds, 29%]
+
+During the few months we spent in that first village, the Achuar
+seemed, on the contrary, to be peaceful, a far cry from the usual
+clichés of deceitful and bloodthirsty Jivaros. To be sure, the men
+always carried their rifles with them, especially for visits, and this
+was a habit I myself eventually adopted.
+
+I quickly realized that the
+man who was now my ritual friend had abducted his first wife a few
+years earlier, in the course of a raid against the southern Achuar
+during which the woman’s first husband was killed, yet none of it
+seemed to show in the evident affection the two had for each other. It
+was also clear that the men were prone to flying off the handle and
+that the slightest hint of a conflict between distant relatives in the
+Achuar country could cause bellicose bluster; but it was difficult to
+tell whether it would lead to actual warfare.
+
+On the whole, however,
+daily life in that first village was peaceful and it was only later
+and in more remote areas that I was confronted to situations of armed
+conflict. It was also only later, after careful cross-checking, that I
+realized that most of these good-humored Achuar, who had welcomed us
+with such generosity when we arrived in the upper Kapawi, had killed a
+man on at least one occasion.
+
+Upon my return from fieldwork, I
+developed the notion of predation when trying to understand this
+warring ethos, which even the women shared, since they were the first
+to encourage men to take revenge for an assassination, a death
+attributed to witchcraft, or even an affront. Against the prevalent
+interpretation at the time—which treated war in Amazonia as an
+exchange of dead persons comparable to an exchange of goods, and thus
+posited a symbolic continuity between commerce and vendetta—I operated
+on the premise that the Achuar’s attitude to enemies and to hunting
+game was based on the same rejection of reciprocity.
+
+This rejection
+was not intended to annihilate the other, be it human or animal, or to
+express supremacy or contempt. Quite the opposite: the hunts,
+abductions, and murders, as well as the rituals that accompanied them,
+expressed a conception of predation that took the other, which is
+materially or symbolically consumed, to be indispensable to the
+perpetuation of one’s own existence. The other that is absorbed in war
+or hunting is thus not an object, as in the mass slaughter of the
+twentieth century, but indeed a person like me and, as such, a
+condition of my own life—which corresponds to the biological
+definition of predation. But I realized this only much later.
+
+`,
+
+"creator-vs-creature":
+`
+**From Descola, Beyond Nature and Culture, Heroic Producion**
+
+In the famous pages of his "General Introduction" to A Contribution to
+a Critique of Political Economy, Marx stresses that "the act of
+production is, therefore, in all its aspects an act of consumption as
+well."20 This is because, in the first place, the individual who
+develops his faculties by producing something expends energy in this
+operation and consumes raw materials, which are the means of
+production; this is "productive consumption." But consumption is also,
+in an immediate fashion, a production, in the sense that all
+consumption, whether of food or other things, contributes toward
+creating the body and the conditions of subsistence of the subject who
+produces it; this is "produc-tion geared to consumption." "In the
+first [productive consumption], the producer transforms himself into
+things; in the second [consumptive pro-duction], things are
+transformed into human beings."21 Although an identity is established
+between production and consumption, this is only possible thanks to a
+mediating movement between the two terms: "Production furthers
+consumption by creating material for the latter, which otherwise would
+lack its object. But consumption, in its turn, furthers production, by
+providing for the products the individual for whom they are the
+prod-ucts."22 However, this extremely original dialectical parity
+between object-ivizing production and subjectivizing consumption fades
+away a few lines further on, when Marx forthrightly reaffirms the
+primacy of production over consumption. In effect, consumption is
+simply a particular moment in production since, once the individual
+who has produced an object returns it to himself by consuming it, he
+is acting as a productive individual who is thereby reproducing
+himself; in consequence, "production forms the actual starting point
+and is, therefore, the predominating factor."23
+
+Marx's position is indicative of the more general tendency of modern
+thought to regard production as the element that determines the
+material conditions of social life and as the principal way for humans
+to transform nature and, by doing so, transform themselves. Whether or
+not one is a Marxist, it is now commonly thought that the history of
+humanity is primarily founded on the dynamism introduced by a
+succession of ways of producing use value and exchange value of the
+materials that the environment provides. But it is fair to question
+whether this preeminence ascribed to the process of productive
+objectivization applies generally to all societies.24 To be sure,
+humans have always and everywhere been productive; everywhere they
+have modified or fashioned substances intentionally in order to
+procure themselves the means of existence, thereby exercising their
+capacity to behave as agents who impose specific forms and purposes
+upon matter that is independent of themselves. But does this mean that
+this kind of action is everywhere apprehended in accordance with the
+model of a relation to the world known as “production,” a model so
+paradigmatic and familiar to us that we have become accustomed to use
+it to describe extremely heterogeneous operations carried out in very
+diverse contexts? It seems hardly necessary to recall first that the
+idea of production by no means suffices to define the general manner
+in which many hunter-gatherers conceive of their subsistence
+techniques. That is why some specialists of those societies now prefer
+to use the term “procurement” rather than “production,” the better to
+underline that what we call hunting and gathering are primarily
+specialized forms of interaction that develop in an environment
+peopled with intentional entities that are comparable to humans.25 But
+the inadequacy of the notion of production is also obvious when it
+comes to accounting for the way in which great non-Western
+civilizations conceptualize the process by which things are
+engendered. François Jullien shows this clearly, in the case of China,
+in his commentary on the oeuvre of Wang Fuzhi.26 For this
+seventeenth-century neo-Confucian scholar, who systematizes a
+fundamental intuition of Chinese thought, the whole of reality can be
+conceived as a continuous process resulting from the interaction of
+two principles, neither of which is more fundamental or more original
+than the other: for example, yin and yang, or Heaven and Earth. From
+this stems a logic of a mutual relationship with no beginning and no
+end that excludes any external founding agent, any need for a
+creator-agent as an initial cause or prime mover and any reference to
+some transcendent “otherness.” The process of rest alternating with
+movement that is given dynamism by the primacy of movement acts in a
+totally impersonal and unintentional manner. “So order cannot be
+imposed from outside by a deliberate act of some subject or other
+implementing a certain plan …; it is inherent in the nature of things
+and stems totally from their continuous development.”27 In short, the
+world is not produced by the intervention of an actor with a plan and
+a will. It results solely from its own internal propensities (lishi),
+which manifest themselves spontaneously in a permanent flux of
+transformations. This self-regulated process is a far cry indeed from
+the heroic model of creation as developed in the West and proclaimed
+as an unquestioned fact on the twofold authority of the biblical
+tradition and Greek thought. The idea of production as the imposition
+of form upon inert matter is simply an attenuated expression of the
+schema of action that rests upon two interdependent premises: the
+preponderance of an individualized intentional agent as the cause of
+the coming-to-be of beings and things, and the radical difference
+between the ontological status of the creator and that of whatever he
+produces. According to the paradigm of creation-production, the
+subject is autonomous and his intervention in the world reflects his
+personal characteristics: whether he is a god, a demiurge, or a simple
+mortal, he produces his oeuvre according to a preestablished plan and
+with a definite purpose—hence the abundance of craftsmanship metaphors
+that are used to express the origin of this type of relationship. In
+the Psalms, the Creator is compared to a well-sinker, a gardener, a
+potter, and an architect. In the Timaeus, the demiurge creates the
+world, fashioning it as a potter would. He carefully composes the
+mixture that he is about to work on; he turns it on his wheel to form
+a sphere, then he rounds it off and polishes the surface.
+
+surface.28 Here, the image of fabrication, poiesis, is central; and so
+it remains in the modern conception of the relationship of a producer
+and that which he produces. What also remains is the idea of the
+absolute heterogeneity between them: the creator, craftsman, or
+producer possesses his own plan of the thing that he will bring into
+existence and gives himself the technical means to realize his
+intended purpose by projecting his will upon the matter that he
+manipulates. In the same way, just as the Creator and his creation are
+incommensurable in Christian dogma, in the Western tradition there is
+no ontological equivalence between the producer and whatever he brings
+into being. Nothing could be more alien to the manner in which the
+Indians of Amazonia construe their relations with the entities upon
+which they feed. For the Achuar, for example, it would be meaningless
+to speak of “agricultural production” or “hunting production,” as
+though the aim of those activities were to bring into being a
+consumable product that would be ontologically dissociated from the
+material from which it came—even if such operations may come to be
+quantified and assessed vis-à-vis the potential productivity of
+resources, as by myself in the past.29 Achuar women do not “produce”
+the plants that they cultivate: they have a personal relationship with
+them, speaking to each one so as to touch its soul and thereby to win
+it over, and they nurture its growth and help it to survive the perils
+of life, just as a mother helps her children. Achuar men do not
+“produce” the animals that they hunt. They negotiate with them
+personally, in a circumspect relationship made up, in equal parts, of
+cunning and seduction, trying to beguile them with misleading words
+and false promises. In other words, here it is the relations between
+subjects (humans and nonhumans) that condition the “production” of the
+means of existence, not the production of objects that conditions
+(human) relationships. In Amazonia, even the production of artifacts
+seems not to fit into the classic model of the
+demiurge-craftsman. This is what is suggested by Lúcia van Velthem’s
+studies of the wickerwork of the Wayana of the northern Pará, who,
+like some of their Carib and Arawak neighbors, are noted for the
+diversity and refinement, both technical and aesthetic, of the objects
+that they plait.30 Wickerwork is a masculine activity that is both
+valued and prestigious, complete mastery of which is acquired only
+quite late in life, at least in the creation of the most difficult
+pieces such as the great katari anon, the carrying basket that is
+entirely decorated by plaited motifs that differ on each of the
+external and internal sides. However, the Wayana regard the
+fabrication of baskets, not as a virtuoso fashioning of a raw
+material, but rather as an incomplete actualization, in slightly
+different forms, of the bodies of animal spirits that they
+reconstitute using plant fibers that are assimilated to human
+skin. Their baskets, receptacles, trays, mats, and plaited containers
+in which they press manioc are thus, as van Velthem puts it,
+“transformed bodies.”31 Each has an anatomy—a head, limbs, breasts, a
+trunk, ribs, buttocks, and genitals—and the motifs that adorn them are
+stylized representations of the being of which they constitute a
+transmutation. The designs on the inner sides of baskets even
+represent that being’s internal organs: the point is to evoke in this
+way the predatory capacity of assimilation of an animal’s spirit,
+which, however, is rendered inoffensive in the artifact by virtue of
+its incompleteness. Since the fiber body differs from the threatening
+
+body of the prototype of which it is an actualization, given that it
+is not recomposed altogether identically, it lacks the intentionality
+of the original. However, that is only so in the case of domestic
+basketry, the daily use of which makes it necessary somehow to
+“devitalize” it. Objects woven for ceremonial use are said, on the
+contrary, to be complete materializations of the bodies of animal
+spirits. The most expert of the basket makers are even credited with
+the ability to recompose in their handiwork the nonvisual
+characteristics of the prototype, such as its movements, sounds, and
+smells. This ontological mimetism allows these objects to function, in
+their turn, as agents of transformation. They are used extensively in
+healing rites, since they possess properties identical to those of the
+entities of which they are reincarnations. Far from being apprehended
+as the production-creation, out of inanimate material, of a new thing
+informed by the art and purpose of an autonomous agent, the work of a
+Wayana basket weaver is regarded as something that can make a
+veritable metamorphosis possible; that is to say, it can produce a
+change in the state of an entity that already exists as a subject and
+that preserves all or part of its attributes throughout this
+operation. As a way of conceiving action on the world and a specific
+relationship in which a subject generates an object, production thus
+does not have a universal applicability. It presupposes the existence
+of a clearly individualized agent who projects his interiority on to
+indeterminate matter in order to give form to it and thus bring into
+existence an entity for which he alone is responsible and that he can
+then appropriate for his own use or exchange for other realities of
+the same type. Now, to return to our two examples: the production
+model does not correspond either to the concept of a continuous
+autopoietic process as expressed in Chinese thought or to the priority
+that, in Amazonia, is granted to reciprocal transformation over
+fabrication ex nihilo. For this reason, anthropologists are perhaps
+unwise when they succumb to the convenient temptation to use the
+familiar language of production to interpret the very diverse
+phenomena by means of which a reality, whether or not of a material
+nature, comes to be instituted. To speak of the “production” of a
+person, of social links, of a subject, or of the difference between
+the sexes outside the Western context, in which, for several
+millennia, this notion has encompassed an altogether singular
+relationship, is at best, in most cases, an abuse of language that
+leads to false parallels.
+
+Descola, Philippe. Beyond Nature and Culture (pp. 324-325). The University of Chicago Press. Kindle Edition. 
+
+
+`,
+
+
 "rhabdocline-parkeri":
 `
 Rhabdocline parkeri, a ubiquitous foliar endophyte of Douglas-fir

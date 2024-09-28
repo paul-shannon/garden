@@ -1,0 +1,13 @@
+    - id: 
+      label: ""
+      font-size: 48
+      font-family: Georgia
+      background-image: img/xxx
+      background-fit: cover
+      shape: roundrectangle
+      border-width: 2
+      border-color: black
+      width: 800
+      height: 400
+      text-valign: bottom
+

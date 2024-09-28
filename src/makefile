@@ -63,6 +63,9 @@ demot2:
 dreams:
 	python createGraphs.py Dreams:dreams.yaml
 
+descola:
+	python createGraphs.py Descola:descola.yaml
+
 template:
 	python createGraphs.py Template:template.yaml
 
@@ -108,6 +111,7 @@ current:
        Stardust:stardust.yaml \
        Imprint:imprint.yaml \
        Geertz:geertz.yaml \
+       Descola:descola.yaml \
        Perspective:perspective.yaml \
        Philosophy:philosophy.yaml \
        Lushootseed:lushootseed.yaml \
