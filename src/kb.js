@@ -1,4 +1,580 @@
 let kb = {
+"annotated-forest":
+`
+**The Annotated Forest**
+
+wednesday 2 october
+
+martin gardner's "the annotated alice" includes all of lewis carroll's
+Alice in wonderland, with many a comment added, to enrich the reading:
+from wikipedia:
+
+   The Annotated Alice is a 1960 book by Martin Gardner incorporating the
+   text of Lewis Carroll's major tales, Alice's Adventures in Wonderland
+   (1865) and Through the Looking-Glass (1871), as well as the original
+   illustrations by John Tenniel. It has extensive annotations explaining
+   the contemporary references (including the Victorian poems that
+   Carroll parodies), mathematical concepts, word play, and Victorian
+   traditions (such as the parlor game snap-dragons) featured in the two
+   books.
+
+i offer here some annotations on a forest i know.  it lies down the
+hill from my home, 120 acres on a peninsula, in a lake 20 miles long
+and a mile wide, lying rougly north-south, spanned by two bridges,
+the city of seattle to the west, bellevue to the east: a city park
+populated with self-managing old-growth forest, centuries old.
+
+it is a popular place.  you step into it and the city drops away.
+storied undergrowth, towering doug fir, cedar and maple, meandering
+paths, one of them quite broad and sort of straight, many others
+narrow and twisting.
+
+its enough to walk here: it will change your mind.  rather than seeing
+straight paved roads, right angles, flat surfaces, wires on poles,
+cars driven fast, people in a hurry:   shapes grown, branches graceful
+and long, interwoven, never colliding, geometries of elegance as this
+assemblage, each member in its own way, at its own level, reaching for
+the sun.  dappled sunlight sprinkled on the ground on sunny days, grey
+skies often in the winter.
+
+so why annotate?  if, as I claim, it is enough to walk here, to have
+one's enviroment-determined mind changed by immersion, what more do
+you want?  and are there not perils to adding explanations to features
+of this welcoming place, explanations which come from analysis, and
+thus prone to put me in a frame of mind the opposite of the immersive
+one, that of (as some call it) forest bathing?
+
+there IS that danger.
+
+But there is also narrative beauty and elegance revealed from such
+notes, annotations, explanations and stories.  When pursued with care
+these two modes, these two kinds of experience can feed each other.
+
+One quick example.  see the large bigleaf maple standing there beside the
+trail.  see that particularly audacious limb extending 100 feet to the
+southwest. it is going somewhere.  trace  that going from the
+maple's main trunk, along the principal branch - ignoring for now its
+smaller side branches.  that principal branch - its going has taken it
+into a spot where the canopy is open.   clearings like this do not
+occur often in this forest.  here, sometime in the last 50 years, a
+doug fir came down, and the sky was left open.  this branch, its
+going, sensed that opening, and year by year grew towards it, now
+spreading its bigleaf leaves to catch the sunlight.
+
+There is no explicit molecular biology - not yet - in this note, in
+this story, inferred, reconstructed from the present shape of this
+large audacious branch.  some of that will come later.   this story,
+when I tell it, when I remind myself of it, when I focus on this sort
+of thing, brings the forest (for me, for some of my listeners) to
+life.  a history is had.  the tree has goals which we can read off the
+forest, on days when we are so inclinded.  direct sunlight, or
+incrementally stronger indirect sunlight, is detected, growth hormones
+marshalled, water and last year's stored sugar bargained for: then in
+early spring the branch grows.
+
+Having a nose for sunlight is the thing.  like evolution, it likely
+does not look ahead, it's more of a moment by moment calculation, an
+experiment, detecting and exploiting possibilities.
+
+some branches are failed experiments.  you see them as leafless, or
+after a few years, as broken stubs.  they had a promising start, but
+their gamble failed.  they used resources from the whole tree, then
+for a while made and contributed back some portion of its food sugar
+to the tree.  but the economics, the tree's notion of supply and
+demand, of reciprocal exchange for the betterment of all - those
+economics did not pan out.  so some combination of the branch's
+independt failure to capture much sunlight, and (in some trees) the
+whole tree's calculation that the branch was a bad bet, and the branch
+died on its own or was (at least in part), saw its water, growth
+hormones, minerals of early-spring supply of stored sugar, and the
+branch senesced, failed, eventually now or soon enough, breaking off
+at the trunk.  
+
+The shape of the tree then tells the story of its lifetime of
+searching for, finding and capturing sunlight.  Intricate flows,
+complex calculations, sturdy outreach and growth.
+`,
+
+"jameson-ideology":
+`
+**Frederick Jameson on Ideology**
+
+<a href="https://www.cla.purdue.edu/academic/english/theory/marxism/modules/jamesonideology.html"
+   target="_blank">Purdue modules </a>
+`,
+
+"orthodox-neighbor-inspiration":
+`
+**Our neighbors are expert at cultivating their world view**
+
+**Rosh Hashanah**
+
+Rosh Hashanah (literally 'head of the year') is the New Year in
+Judaism. The biblical name for this holiday is Yom Teruah (lit. 'day
+of shouting/blasting'). It is the first of the High Holy Days as
+specified by Leviticus 23:23–25, that occur in the late
+summer/early autumn of the Northern Hemisphere. Rosh Hashanah begins
+ten days of penitence culminating in Yom Kippur, as well as beginning
+the cycle of autumnal religious festivals running through Sukkot which
+end on Shemini Atzeret in Israel and Simchat Torah everywhere else.
+`,
+
+"writing-wrongStory":
+`
+**Thursday 3 oct 24**
+
+Feeling out of sorts - why?.  Some factors: sore hip not responding to
+my remedies; threat of 12 years of Trump/Vance after vp debate this
+week; Tlingit slexil vacuum after Sharing Our Knowledge Conference in
+Sitka; maybe after effects of some (painful but fruitful, worthy)
+drama with Amy.
+
+A familiar remedy, which so easily slips away:  hop out of the human-centered
+story line, into the deeper richer eucaryotic cell narrative.
+
+Where anthropocentrism is an ideology:
+
+<blockquote>
+  Ideology is a representation of the imaginary relationship of
+  individuals to their real conditions of existence.
+</blockquote>
+
+In Althusser's scientific Marxism, the real conditions of existence
+cannot be directly known because of language (its opacity?).  See
+Jameson and Lacan on this also.  Quoting from Purdue: however, through
+a rigorous"scientific" approach to society, economics, and history, we
+can come close to perceiving if not those "Real conditions" at least
+the ways that we are inscribed in ideology by complex processes of
+recognition.
+
+See <a href="https://www.cla.purdue.edu/academic/english/theory/marxism/modules/althusserideology.html"
+       target="_blank">module on ideology</a> 
+
+Seen this morning, the first day of Rosh Hashanah, near the start of my
+therapeutic walk to spəqabs: an orthodox man with yarmulke reading
+scripture as he walked.  Foucault's technology of self in action.
+
+Might I do the same?  See through my default ideology, cultivate the fertile eucaryote story,
+powered by mitochondrial and chloroplast symbioses, stabilized by many smaller mutualisms
+throughout this large family.
+
+Thus the better story is a family portrait: all of us built from these ever-adaptable cells,
+growing out a lively planet.
+
+`,
+
+
+"latour-irreductions":
+`
+Source: <a href="https://libros.metabiblioteca.org/server/api/core/bitstreams/6935d7fb-c450-4f11-b06f-a58b67f14b33/content"
+   target="_blank"> Prince of Networks: Bruno Latour and Metaphysics (pdf)</a>
+
+by Graham Harman.
+
+**p25**
+
+Like the works of Whitehead, Nietzsche, or Leibniz, Irreductions views
+objects as individual perspectives on the rest. 'Every actant makes a
+whole world for itself. Who are we? What can we know? What can we hope
+for?
+
+The answers to these pompous questions define and modify their shapes
+and boundaries' (PF, p. 192). Needless to say, for Latour these
+questions are asked by coal and tar no less than by enlightened
+humans. Stated more poetically:
+
+I don't know how things stand. I know neither who I am nor what I
+want, but others say they know on my behalf, others, who define me,
+link me up, make me speak, interpret what I say, and enroll
+me. Whether I am a storm, a rat, a rock, a lake, a lion, a child, a
+worker, a gene, a slave, the unconscious, or a virus, they whisper to
+me, they suggest, they impose an interpretation of what I am and what
+I could be (PF, p. 192).
+
+No Copernican philosopher, whether analytic or continental, could
+write such a paragraph. This brief passage runs counter to all that is
+assumed by Husserl, Heidegger, Derrida, Russell, or Quine. The absence
+of rats, lions, and lakes from mainstream philosophical debate speaks
+not against Bruno Latour, but against the bland default metaphysics
+that reduces objects to our human access to them.
+
+**p12**
+
+Late in 1972, a remarkable young thinker was driving his Citroën van
+along the highways of Burgundy. Only twenty-five years old, already
+married, he was teaching at a village lycée and preparing for national
+service in Africa. In one respect the young philosopher was an
+outsider, emerging from remote Dijon rather than the elite
+institutions of Paris. Yet this provincial outlier had also ranked
+first nationally in the Agrégation, a stunning success that must have
+felt like a license to speculate as freely as he wished. Too little
+has been written about dramatic flashes of insight in the history of
+philoso-phy. We know of Descartes's dreams and his stove-heated room,
+Rousseau weeping under a tree, and Avicenna saying prayers and giving
+money to the poor after reading Farabi's commentary on Aristotle. But
+we are unfamiliar with the breakthrough moments of Heidegger, Kant,
+Leibniz, or Plato, though we know these moments well for every Zen
+monk worth his salt.
+
+In Irreductions, Latour joins the minority by publishing his own
+moment of epiphany: 'I taught at Gray in the French provinces for a
+year. At the end of the winter of 1972, on the road from Dijon to
+Gray, I was forced to stop, brought to my senses after an overdose of
+reductionism' (PF, p. 162). There follows a Homeric catalog of various
+humans who like to reduce the world to some special reality that
+explains all the others: Christians, Catholics, as-tronomers,
+mathematicians, philosophers, Hegelians, Kantians, engineers,
+administrators, intellectuals, bourgeoisie, Westerners, writers,
+painters, se-mioticians, males, militants, and alchemists. All these
+reducers had finally managed to repel the young Latour, who sat on the
+roadside dreaming of a new principle of philosophy:
+
+<blockquote>
+
+I knew nothing,
+then, of what I am writing now but simply repeated to myself: 'Nothing
+can be reduced to anything else, nothing can be deduced from anything
+else, everything may be allied to everything else'.  This was like an
+exorcism that defeated demons one by one. It was a wintry sky, and a
+very blue. I no longer needed to prop it up with a cosmolo-gy, put it
+in a picture, render it in writing, measure it in a meteorological
+article, or place it on a Titan to prevent it falling on my head
+[...]. It and me, them and us, we mutually defined ourselves. And for
+the first time in my life I saw things unreduced and set free (PF,
+p. 163).
+
+</blockquote>
+
+An entire philosophy is foreshadowed in this anecdote. Every human and
+nonhuman object now stands by itself as a force to reckon with. No
+actor, however trivial, will be dismissed as mere noise in comparison
+with its es-sence, its context, its physical body, or its conditions
+of possibility. Everything will be absolutely concrete; all objects
+and all modes of dealing with objects will now be on the same
+footing. In Latour's new and unreduced cosmos, philosophy and physics
+both come to grips with forces in the world, but so do generals,
+surgeons, nannies, writers, chefs, biologists, aeronautical
+engi-neers, and seducers (PF, pp. 154-6).
+
+And though all these
+examples of actors are human, they are no different in kind from the
+forces that draw objects to the center of the earth or repress desires
+in the unconscious. The world is a series of negotiations between a
+motley armada of forces, humans among them, and such a world cannot be
+divided cleanly between two pre-existent poles called 'nature' and
+'society'.
+
+As Latour puts it: 'we do not know what forces there are, nor their balance. We do
+not want to reduce anything to anything else [...]. What happens when
+nothing is reduced to anything else?  What happens when we suspend our
+knowledge of what a force is? What happens when we do not know how
+their way of relating to one another is forever changing?' (PF,
+pp. 156-7). What happens is the birth of an object-oriented
+philosophy.
+
+Latour always insists that we cannot philosophize from
+raw first principles but must follow objects in action and describe
+what we see. Empirical studies are more important for him than for
+almost any other philosopher; later in his career, he will even speak
+of an 'experimental metaphysics' (PN, pp. 123, 241-2). Nonetheless,
+there are a small number of basic principles that guide his vast
+empirical labours. In Irreductions, Latour's first philosophical
+treatise, there seem to be four central ideas from which the others
+blossom.
+
+First, the world is made up of actors or actants (which I will also
+call 'ob-jects'). Atoms and molecules are actants, as are children,
+raindrops, bullet trains, politicians, and numerals. All entities are
+on exactly the same ontological footing. An atom is no more real than
+Deutsche Bank or the 1976 Winter Olympics, even if one is likely to
+endure much longer than the oth-ers. This principle ends the classical
+distinction between natural substance and artificial aggregate
+proposed most candidly by Leibniz. It also ends the tear-jerking
+modern rift between the thinking human subject and the unknowable
+outside world, since for Latour the isolated Kantian human is no more
+and no less an actor than are windmills, sunflowers, propane tanks,
+and Thailand. Finally, it shows the deep ambivalence of Latour's
+relationship with Aristotle. For in one sense, Latour joins Aristotle
+in insisting that what is real are only concrete entities. The
+billions of cats in the world are real individuals, not a single
+cat-form stamped in despicable clots of corrupt physical matter. But
+in another sense, Latour takes concreteness in a more radical
+direction than Aristotle would permit. For Aristotle, individuals are
+substances—and substances are deeper than their accidents and their
+relations to other things, and capable of enduring despite changes in
+these inessential features. For Latour, by contrast, an actant is not
+a privileged inner kernel encrusted with peripheral accidents and
+relations. After all, this would make a thing's surface derivative of
+its depth, thereby spoiling the principle of irreduction. There cannot
+be an essential Socrates hiding behind the Socrates who happens to be
+speaking and wearing white at this very moment. For Latour, a thing is
+so utterly concrete that none of its features can be scraped away like
+cobwebs or moss. All features belong to the actor itself: a force
+utterly deployed in the world at any given moment, entirely
+characterized by its full set of features.
+
+Second, there is the principle of irreduction itself. No object is
+inherently reducible or irreducible to any other. In one sense we can
+never explain religion as the result of social factors, World War I as
+the result of rail timetables,or the complex motion of bodies as pure
+examples of Newtonian physics. Yet in another sense we can always
+attempt such explanations, and sometimes they are fairly
+convincing. It is always possible to explain anything in terms of
+anything else as long as we do the work of showing how one can be
+transformed into the other, through a chain of equivalences that
+always has a price and always risks failure.
+
+Third, the means of linking one thing with another is
+translation. When Stalin and Zhukov order the encircling movement at
+Stalingrad, this is not a pure dictate trumpeted through space and
+transparently obeyed by the participant actors. Instead, a massive
+work of mediation occurs. Staff officers draw up detailed plans with
+large-scale maps that are then translated into individual platoon
+orders at the local level; officers then relay the or-ders, each
+making use of his own rhetorical style and personal rapport with the
+soldiers; finally, each individual soldier has to move his arms and
+legs independently to give final translation to the orders from
+above. Surprising obstacles arise, and some orders need to be
+improvised the enemy melts away at unexpected points but puts up
+stubborn resistance in equally startling places. Moving from war to
+logic, we find that even logical deductions do not move at the speed
+of light. Deductions too are transformed one step at a time through
+different layers of concepts, adjusting themselves to local conditions
+at each step, deciding at each step where the force of the deduction
+lies and where possible variations can be addressed or ignored. No
+layer of the world is a transparent intermediary, since each is a
+medium: or in Latour's preferred term, a mediator. A mediator is not
+some sycophantic eunuch fanning its masters with palm-leaves, but
+always does new work of its own to shape the translation of forces
+from one point of reality to the next.  Here as elsewhere, Latour's
+guiding maxim is to grant dignity even to the least grain of
+reality. Nothing is mere rubble to be used up or trampled by mightier
+actors. Nothing is a mere intermediary. Mediators speak, and other
+mediators resist.
+
+Fourth, actants are not stronger or weaker by virtue of some inherent
+strength or weakness harbored all along in their private
+essence. Instead, actants gain in strength only through their
+alliances. As long as no one reads Mendel's papers, his breakthroughs
+in genetics remain weak. An airplane crashes if a few hydraulic lines
+malfunction, but the resistance of these lines is weakened in turn if
+they are discovered and exiled to a garbage dump.  For Latour, an
+object is neither a substance nor an essence, but an actor trying to
+adjust or inflict its forces, not unlike Nietzsche's cosmic vision of
+the will to power.
+
+Although Latour generally opposes reducing multiplicities to simple
+explanatory structures, his four metaphysical axioms all stem from a
+deeper principle: absolute concreteness. Every actant simply is what
+it is. This entails that all actants are on the same footing: both
+large and small, both human and nonhuman. No actant is just fodder for
+others; each enhances and resists the others in highly specific
+ways. Since every actant is entirely concrete, we do not find its
+reality in some lonely essence or chaste substrate, but always in an
+absolutely specific place in the world, with completely specific
+alliances at any given moment. Everything is immanent in the world;
+nothing transcends actuality. In other words, Latour is proudly guilty
+of what Roy Bhaskar and Manuel DeLanda both call 'actualism'. For
+Latour the world is a field of objects or actants locked in trials of
+strength-some growing stronger through increased associations, others
+becoming weaker and lonelier as they are cut off from others.
+
+Latour's difference from present-day analytic and continental thought
+should now be clear. Whereas Latour places all human, nonhuman,
+natu-ral, and artificial objects on the same footing, the analytics
+and continentals both still dither over how to bridge, ignore, deny,
+or explain away a single gap between humans and world. While graduate
+students are usually drilled in a stale dispute between correspondence
+and coherence theories of truth, Latour locates truth in neither of
+these models, but in a series of translations between actors. And
+whereas mainstream philosophy worries about whether things exist
+independently of us or are constructed by the mind, Latour says they
+are 'socially' constructed not just by human minds, but also by
+bodies, atoms, cosmic rays, business lunches, rumors, physical force,
+propa-ganda, or God. There is no privileged force to which the others
+can be re-duced, and certainly no ceaseless interplay between pure
+natural forces and pure social forces, each untainted by the
+other. Nothing exists but actants, and all of them are utterly
+concrete.
+
+
+`,
+
+
+"neofinalism":
+`
+source: Introduction by Mark Hansen to NeoFinalism
+
+
+The publication of the English translation
+of Ruyer’s masterpiece, Neo-Finalisme (1952), will make a crucial
+contribution to recent activity aimed at redirecting attention to this
+unduly neglected twentieth-century philosopher. The critical neglect
+of Ruyer’s thought is by no means exclusive to English-language
+circles, whose exposure has until now been limited to a few articles
+published in the interdisciplinary philosophy journal Diogenes.2
+Indeed, as Fabrice Colonna observes in his editorial presentation for
+a special issue of the French journal Les Études philosophiques,
+devoted to Ruyer, “the fact is that Ruyer has been purely and simply
+effaced from the field of theoretical references.”3 This fact is all
+the more unfortunate given the manifold resonances that link Ruyer’s
+philosophical corpus to key concerns of contemporary philosophy and
+cultural theory in both English- and French-language circles,
+including such hot-button issues as the mind–body problem or the
+presuppositions behind biological morphogenesis.
+
+More than any other factor, it is Ruyer's attitude towards science
+that ultimately account for whatever impact his work will have on
+contemporary intellectual debates. Like William James and Alfred North
+Whitehead, both of whom are currently undergoing revitalizations of
+their own, and like his compatriot Gilbert Simondon, whose work has
+for some time now garnered critical attention and respect, Ruyer is a
+philosopher who not only deeply respects the work of scientists but
+believes at heart that his own work bears a crucial responsibility to
+science. The ultimate aim of Ruyer’s philosophy is precisely to
+provide the metaphysical basis on which the empirical findings of
+scientific research can be made to cohere.
+
+The “Duality” of Mind and Appearance
+
+This attitude is clearly manifest almost from the very outset of
+Ruyer’s career. One could argue that Ruyer’s break with his own
+initial devotion to structuralism—a devotion that finds quintessential
+expression in his primary thesis (Esquisse d’une philosophie de la
+structure)—represents the single most consequential development of his
+entire philosophical career. For it is this break, and the
+differentiation of functioning (fonctionnement) from structure, that
+informs Ruyer’s later theorization of a “transspatial” domain of form
+that lies beneath and in-forms what happens in space and time. As we
+shall see, this key insight stems from Ruyer’s philosophical
+working-through of scientific research, in this case, in the
+burgeoning field of embryology: not only does Ruyer aim to explain how
+the embryo holds the potential for the future development of an
+organism but he seeks to develop the process of embryogenesis into a
+philosophical model for the operation of form as such.
+
+`,
+
+"raymond-ruyer":
+`
+source: Introduction by Mark Hansen to NeoFinalism
+
+<blockquote>
+ Philosophy has a duty to avoid snobbery, but also not to fall prey to timidity.
+ Raymond Ruyer, “L’esprit philosophique”
+ </blockquote>
+
+
+Raymond Ruyer (1902–87) was born in Plainfaing in the Department of
+Vosges in the Lorraine region of northeastern France. A precocious
+student who at nineteen received a first on his college entrance exam,
+Ruyer pursued a course of study in philosophy at the prestigious École
+Normale Supérieure and aggregated in 1924. While teaching at the lycée
+of Saint-Brieuc, Ruyer published his two theses, Esquisse d’une
+philosophie de la structure (Outline of a philosophy of structure) and
+L’Humanité de l’avenir d’après Cournot (Humanity of the future
+according to Cournot). In 1934, he returned to the Vosges region,
+taking up a position at the University of Nancy, where he was
+subsequently appointed maître de conférences (1939) and professor
+(following the war).
+
+From 1940 to 1945, Ruyer was a prisoner of war in
+a camp for French soldiers in Edelbach, Austria, where he participated
+in a vibrant intellectual culture with a number of scholars, including
+the biologist Étienne Wolff and the geologist François Ellenberger,
+both of whom would go on to prominence. It was during this time of
+internment that Ruyer wrote what would become the first exposé of his
+mature system, Éléments de psycho-biologie (Elements of psychobiology;
+published in 1946). After the war, Ruyer would go on to a solid
+university career as professor of philosophy at the University of
+Nancy. Author of twenty-two books and more than one hundred articles,
+Ruyer fully embraced his penchant for philosophy of the esprit
+métaphysique, by which he meant philosophy in its “proper form,”
+philosophy that “is interested” not only in “everything [au tout]” but
+“in Totality [au Tout].”1
+
+Ruyer, Raymond (2016). Neofinalism (Posthumanities Book 36) . University of Minnesota Press. Kindle Edition. 
+`,
+
+"latour-constitution":
+`
+
+<a href="https://libros.metabiblioteca.org/server/api/core/bitstreams/6935d7fb-c450-4f11-b06f-a58b67f14b33/content"
+   target="_blank"> Prince of Networks: Bruno Latour and Metaphysics (pdf)</a>
+
+by Graham Harman.
+
+
+Latour calls this complete constitution the 'Constitution' with a
+capital C, to distinguish it from the political one. It defines
+'humans and nonhumans, their properties and their relations, their
+abilities and their groupings'.
+
+Bruno Latour's theory of the modern constitution is based on four guarantees:
+
+Nature is transcendent
+
+Nature, or things and objects, are universal in time and space, and are there to be discovered.
+
+Society is immanent
+
+Society, or the state and subject, is continually constructed by citizens or subjects.
+
+Translation networks are banned
+
+The separation of powers between nature and society is assured, and translation networks between the two realms are banned.
+
+A crossed out God acts as arbitrator
+
+A crossed out God acts as the arbitrator of this dualism. 
+
+Latour's theory also includes a broader definition of democracy, which focuses on regulating and moderating the production of hybrids. This final political task is considered to be the most potentially consequential part of Latour's theory, but also the most difficult to realize. 
+
+
+
+`,
+
+"descola-new-constitution":
+`
+
+We are then left to wonder whether a new constitution can really
+appear and stabilize around a mode of identification whose development
+is necessarily slower and more uncertain. I believe that this is not
+impossible and may take the form of a shift toward the extreme
+possibilities of naturalism.
+
+We can thus imagine a system in which interiority is no longer
+conceived of as one single block, as the distinctive property of a
+being that is radically different from others. On the contrary, an
+evanescent and pluralized interiority would be distributed across all
+things, while physicality would remain universal, in a way that is
+reminiscent of what can be observed in analogism.
+
+That new analogism would thus be characterized by the diffraction of
+the value that used to be placed on human interiority and its
+dispersal over a broader and more open range of beings, one that
+includes nonhumans but where the scientific method based on universal
+laws of matter remains valid.
+
+Such a transformation opens up a horizon of hope, as it allows us not
+to feel locked into a self-enclosed naturalism, limited to
+possibilities that have already been realized in history. And, since
+it seems highly improbable that we return to animism or totemism,
+which are now profoundly incompatible with irreversible elements in
+our society (if only at a material level), the development of a new
+analogism looks to me both more probable and more desirable: it is the
+most capable mode of including nonhumans into our sociopolitical
+constitution.
+
+It will probably be necessary to invent novel forms of coupling
+between beings, since the most common and effective form found in
+large analogist collectives—be it the Indian caste system or the
+system of orders of the ancien régime—is hierarchy, which is no longer
+tolerable in a world that has known the emancipation of the
+Enlightenment
+
+`,
+
 
 "loving-biography":
 `

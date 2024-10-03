@@ -1,0 +1,41 @@
+nodes:
+
+    - id: writing-wrongStory
+      label: In the Wrong Story
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+    - id: orthodox-neighbor-inspiration
+      label: Inspiration from Orthodox Neighbors
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 24
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+    - id: annotated-forest
+      label: The Annotated Forest
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 24
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+

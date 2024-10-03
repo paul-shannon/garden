@@ -1,5 +1,19 @@
 nodes:
 
+    - id: neofinalism
+      label: Ruyer's Embryology
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+
     - id: descola-overview
       label: Phillipe Descola
       text-wrap: wrap
@@ -53,8 +67,50 @@ nodes:
       height: 400
       text-valign: bottom
 
+    - id: descola-new-constitution
+      label: New Constitution
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 300
+      height: 80
+      text-valign: center
+
+    - id: latour-irreductions
+      label: Irreductions
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+    
+    - id: latour-constitution
+      label: Latour's Constituion
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+
+
     - id: descola-animism-naturalism
-      label: Animism vs. Naturaliss
+      label: Animism vs. Naturalism
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -83,6 +139,22 @@ edges:
 
     - source: descola-overview
       target: descola-animism-naturalism
+      edgeType: child
+
+    - source: descola-overview
+      target: descola-new-constitution
+      edgeType: child
+
+    - source: descola-new-constitution
+      target: latour-constitution
+      edgeType: child
+
+    - source: descola-new-constitution
+      target: neofinalism
+      edgeType: child
+
+    - source: latour-irreductions
+      target: latour-constitution
       edgeType: child
 
 

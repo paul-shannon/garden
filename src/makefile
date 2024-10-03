@@ -116,6 +116,7 @@ current:
        Philosophy:philosophy.yaml \
        Lushootseed:lushootseed.yaml \
        Metaphor:metaphor.yaml \
+       Writing:writing.yaml \
        Tunes:tunes.yaml
 
 2:
@@ -139,6 +140,10 @@ tunes:
 backstories:
 	python createGraphs.py \
        Backstories:backstories.yaml
+
+writing:
+	python createGraphs.py \
+       Writing:writing.yaml
 
 view:
 	open http://localhost:8002/garden.html
@@ -164,5 +169,5 @@ publish-audio:
 viewAlberta:
 	open https://slexildata.artsrn.ualberta.ca/misc/garden
 
-viewPair:
+viewRemote:
 	open https://pshannon.net/garden/

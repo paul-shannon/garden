@@ -1,5 +1,19 @@
 nodes:
 
+    - id: jameson-ideology
+      label: Jameson's Ideology
+      text-wrap: wrap
+      text-max-width: 1000
+      font-size: 32
+      shape: roundrectangle
+      border-color: black
+      border-width: 1
+      background-color: "#f9f9eb"
+      width: 400
+      height: 80
+      text-valign: center
+
+  
     - id: conradLorenz
       label: Lorenz
       shape: roundrectangle
