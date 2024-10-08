@@ -1,4 +1,280 @@
 let kb = {
+"romanticism-readings":
+`
+- <a href="https://www.tandfonline.com/doi/abs/10.1080/02604027.2023.2199446"
+     target="_blank">
+     Breathing Hermeticism into an Ecology Beyond the Anthropocene
+     </a>
+
+- <a href="https://www.cambridge.org/core/books/abs/after-science-and-religion/religion-science-and-magic/49CEE6E6D98BF65B1924AA1BE8398687"
+     target="_blank">
+     Chapter 4 - Religion, Science and Magic, Rewriting the Agenda, from Part II - Beyond ‘Science and Religion’
+     </a>
+
+Abstract: Inherited discussions of ‘science and religion’ too much
+assume an interaction between two historically constant phenomena in
+terms of stories of ‘progress’ and ‘conflict’. Instead, it is better
+to recognise long-term and varying modes of tension between three
+different approaches to nature, pivoted about attitudes to
+‘enchantment’ and to transcendence versus immanence. Within such a
+perspective, it appears that the dominant model of science as
+‘disenchanted transcendence’ is a Newtonian one that historically
+quickly proved inadequate. Alternative and earlier traditions of
+‘natural magic’ later returned under new guises and are closer to the
+essence of the ‘ergetic’ or experimental attitude that lies at the
+real core of ‘science’. The Newtonian model also implausibly
+suppressed the realities of motion, time, change, substantial form and
+secondary qualities. But contemporary physics points towards their
+restoration and to nature as a vital habit and form-shaping process,
+as well as to the ‘magical’ character of powers and causes. Magic,
+rightly understood, is a necessary mediator between religion as theory
+and science as practice and is a crucial aspect of an ergetic
+understanding of ‘enchanted transcendence’ which is the most promising
+perspective for today.
+
+`,
+
+"wordsworth-force":
+`
+**Lines Composed a Few Miles above Tintern Abbey, On Revisiting the Banks of the Wye during a Tour. July 13, 1798**
+
+an excerpt
+
+    —And I have felt
+A presence that disturbs me with the joy<br>
+Of elevated thoughts; a sense sublime<br>
+Of something far more deeply interfused,<br>
+Whose dwelling is the light of setting suns,<br>
+And the round ocean and the living air,<br>
+And the blue sky, and in the mind of man:<br>
+A motion and a spirit, that impels<br>
+All thinking things, all objects of all thought,<br>
+And rolls through all things. Therefore am I still<br>
+A lover of the meadows and the woods<br>
+And mountains; and of all that we behold<br>
+From this green earth; of all the mighty world<br>
+Of eye, and ear,—both what they half create,<br>
+And what perceive; well pleased to recognise<br>
+In nature and the language of the sense<br>
+The anchor of my purest thoughts, the nurse,<br>
+The guide, the guardian of my heart, and soul<br>
+Of all my moral being.<br>
+
+Set this side by side with Kenneth Rexroths Signature
+of all Things, which concludes
+
+When I dragged the rotten log<br>
+From the bottom of the pool,<br>
+It seemed heavy as stone.<br>
+I let it lie in the sun<br>
+For a month; and then chopped it<br>
+Into sections, and split them<br>
+For kindling, and spread them out<br>
+To dry some more. Late that night;<br>
+After reading for hours,<br>
+While moths rattled at the lamp,<br>
+The saints and the philosophers<br>
+On the destiny of man;<br>
+I went out on my cabin porch,<br>
+And looked up through the black forest<br>
+At the swaying islands of stars.<br>
+Suddenly I saw at my feet,<br>
+Spread on the floor of night, ingots<br>
+Of quivering phosphorescence,<br>
+And all about were scattered chips<br>
+Of pale cold light that was alive.<br>
+
+My aim is to find works and practices that foster this connection,
+backed up by the biology and biochemistry of photosynthesis, electron
+flow, the eucaryotic cell.  spəquabs old-growth.
+
+but now: ride down to the woods.
+`,
+
+"hermetic-signatures":
+`
+[from Charles Taylor, Cosmic Connection: Poetry in the Age of Disenchantment,
+chapter 1?]
+
+Another influential source of ideas of order and affinity between
+things during the Renaissance was the Hermetic tradition, supposedly
+based on the thought of Hermes Trismegistus, an ancient Egyptian
+sage. Celestial bodies influence things on earth, and there exist
+relations of sympathy between the macrocosm and the human microcosm,
+and between heavenly and earthly beings.
+
+We can trace these links by recognizing the “signatures” in material
+things which are marks of the heavenly bodies, according to the
+theories of Paracelsus.
+
+The seventeenth-century mystic Jakob Böhme
+took over this term and saw “signatures” in things as the key to
+reading the Natursprache [the speech of nature]: the language in which
+Adam had named the animals and other creatures at the beginning.
+
+`,
+
+
+"rexroth-signatures":
+`
+Kenneth Rexroth - The Signature Of All Things
+
+I
+
+My head and shoulders, and my book<br>
+In the cool shade, and my body<br>
+Stretched bathing in the sun, I lie<br>
+Reading beside the waterfall –<br>
+Boehme's 'Signature of all Things.'<br>
+Through the deep July day the leaves<br>
+Of the laurel, all the colors<br>
+Of gold, spin down through the moving<br>
+Deep laurel shade all day. They float<br>
+On the mirrored sky and forest<br>
+For a while, and then, still slowly<br>
+Spinning, sink through the crystal deep<br>
+Of the pool to its leaf gold floor.<br>
+The saint saw the world as streaming<br>
+In the electrolysis of love.<br>
+I put him by and gaze through shade<br>
+Folded into shade of slender<br>
+Laurel trunks and leaves filled with sun.<br>
+The wren broods in her moss domed nest.<br>
+A newt struggles with a white moth<br>
+Drowning in the pool. The hawks scream,<br>
+Playing together on the ceiling<br>
+Of heaven. The long hours go by.<br>
+I think of those who have loved me,<br>
+Of all the mountains I have climbed,<br>
+Of all the seas I have swum in.<br>
+The evil of the world sinks.<br>
+My own sin and trouble fall away<br>
+Like Christian's bundle, and I watch<br>
+My forty summers fall like falling<br>
+Leaves and falling water held<br>
+Eternally in summer air.<br>
+
+2
+
+Deer are stamping in the glades,<br>
+Under the full July moon.<br>
+There is a smell of dry grass<br>
+In the air, and more faintly,<br>
+The scent of a far off skunk.<br>
+As I stand at the wood's edge,<br>
+Watching the darkness, listening<br>
+To the stillness, a small owl<br>
+Comes to the branch above me,<br>
+On wings more still than my breath.<br>
+When I turn my light on him,<br>
+His eyes glow like drops of iron,<br>
+And he perks his head at me,<br>
+Like a curious kitten.<br>
+The meadow is bright as snow.<br>
+My dog prows the grass, a dark<br>
+Blur in the blur of brightness<br>
+I walk to the oak grove where<br>
+The Indian village was once.<br>
+There, in blotched and cobwebbed light<br>
+And dark, dim in the blue haze,<br>
+Are twenty Holstein heifers,<br>
+Black and white, all lying down,<br>
+Quietly together, under<br>
+The huge trees rooted in the graves.<br>
+
+3
+
+When I dragged the rotten log<br>
+From the bottom of the pool,<br>
+It seemed heavy as stone.<br>
+I let it lie in the sun<br>
+For a month; and then chopped it<br>
+Into sections, and split them<br>
+For kindling, and spread them out<br>
+To dry some more. Late that night;<br>
+After reading for hours,<br>
+While moths rattled at the lamp,<br>
+The saints and the philosophers<br>
+On the destiny of man;<br>
+I went out on my cabin porch,<br>
+And looked up through the black forest<br>
+At the swaying islands of stars.<br>
+Suddenly I saw at my feet,<br>
+Spread on the floor of night, ingots<br>
+Of quivering phosphorescence,<br>
+And all about were scattered chips<br>
+Of pale cold light that was alive.<br>
+`,
+
+"cosmic-order":
+`
+**Cosmic Orders**
+
+[from Charles Taylor, Cosmic Connection: Poetry in the Age of Disenchantment,
+chapter 1, 1%]
+
+- Medieval and Renaissance Language of Insight. Terms weren’t just
+  arbitrarily applied to what they designate but would be somehow
+  uniquely right or appropriate to the things they named, 
+  satisfying the demands of Plato’s Cratylus: a word would figure what it
+  designates, show something of the inherent nature of the
+  object. (In this middle period dialog, Socrates is asked by two men,
+  Cratylus and Hermogenes, to tell them whether names are
+  "conventional" or "natural".)
+
+  The basic feature of this scheme, that the cosmos is the realization
+  of a plan, which one already sees in Plato,
+  is the notion of a self-realizing order. This is what Plato presents
+  in the Republic: the things we see about us in the world are in each
+  case striving to realize the Idea or archetype to which they belong;
+  and the cosmic order in which these things have their place is
+  itself given its shape by the architectonic Idea, that of the
+  Good.
+
+  Following Plato himself in the Timaeus, this was taken up by
+  Christian theology, with the Ideas being the thoughts of God that he
+  carries into effect in creating the world. In either variant, the
+  cosmos and all it contains is to be understood as the realization of
+  a plan which presides over its unfolding. This basic scheme was
+  carried forward into Neoplatonism, but here the unfolding plan was
+  understood as a kind of emanation from the One, rather than a
+  creation ex nihilo.
+
+
+`,
+
+
+"romantic-language":
+`
+**Romantic Dual-Language Thesis**
+
+[from Charles Taylor, Cosmic Connection: Poetry in the Age of Disenchantment,
+chapter 1, 2%]
+
+[The Romantics] didn’t simply reject the modern understanding of
+language, as an instrument whereby we encode and communicate
+information, and in the process increase our control over nature.
+
+Rather they espoused what I want to call the “dual-language thesis.”
+
+Language can be simply an instrument to encode information, describing
+the reality which already lies open before us, and communicating the
+information to others. But there are levels of language which do
+something much more, where our expressions bring about the
+revelation-and-connection the language of insight yields: the language of
+insight, "subtler languages".
+
+This distinction between a higher, creative and a lower, merely
+instrumental language is one of the continuing legacies of the
+Romantic period. The Romantic theory applies to this higher level; it
+doesn’t describe the whole.
+
+todo: extract more from Taylor Part 1.
+
+  - the interspace
+
+`,
+
 "annotated-forest":
 `
 **The Annotated Forest**

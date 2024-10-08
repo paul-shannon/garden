@@ -117,6 +117,7 @@ current:
        Lushootseed:lushootseed.yaml \
        Metaphor:metaphor.yaml \
        Writing:writing.yaml \
+       Romanticism:romanticism.yaml \
        Tunes:tunes.yaml
 
 2:
@@ -144,6 +145,10 @@ backstories:
 writing:
 	python createGraphs.py \
        Writing:writing.yaml
+
+romanticism:
+	python createGraphs.py \
+       Romanticism:romanticism.yaml
 
 view:
 	open http://localhost:8002/garden.html
