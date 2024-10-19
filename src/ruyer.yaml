@@ -7,6 +7,7 @@ nodes:
       background-fit: cover
       shape: roundrectangle
       border-color: blue
+      border-width: 2
       width: 300
       height: 500
       text-valign: top
@@ -30,6 +31,7 @@ nodes:
       background-fit: cover
       shape: roundrectangle
       border-color: blue
+      border-width: 2
       width: 700
       height: 400
       text-valign: bottom
@@ -44,18 +46,68 @@ nodes:
       background-fit: cover
       shape: roundrectangle
       border-color: blue
+      border-width: 2
       width: 300
       height: 500
       text-valign: top
       
     - id: neofinalism
-      label: Neofinalixm
+      label: Neofinalism
+      font-size: 48
+      shape: roundrectangle
+      border-color: blue
+      background-color: white
+      border-width: 2
+      width: 400
+      height: 80
+      text-valign: center
+
+    - id: peterHarrisonScienceAndReligion
+      label: ""
+      background-image: "img/harrison-science-and-religion.png"
+      background-fit: cover
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 800
+      height: 500
+      text-valign: top
+      font-size: 48
+
+    - id: harrison-lostCauses
+      label: Lost Causes
+      background-color: white
       font-size: 48
       shape: roundrectangle
       border-color: blue
       border-width: 2
       width: 400
       height: 80
+      text-valign: center
+
+
+    - id: harrison-originalSin
+      label: Original Sin
+      background-color: white
+      font-size: 48
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 400
+      height: 80
+      text-valign: center
+
+    - id: aristotle-finalism
+      label: "Aristotle's\nFinalism"
+      text-wrap: wrap
+      text-max-width: 1000
+      background-color: white
+      font-size: 48
+      shape: roundrectangle
+      border-color: blue
+      border-width: 2
+      width: 300
+      height: 120
       text-valign: center
 
 
@@ -66,11 +118,11 @@ edges:
      target: battleOfFrance
      edgeType: child
 
-   - source: battleOfFrance
-     target: university-in-captivity
+   - source: etienne-wolff
+     target: battleOfFrance
      edgeType: child
 
-   - source: etienne-wolff
+   - source: battleOfFrance
      target: university-in-captivity
      edgeType: child
 
@@ -78,3 +130,18 @@ edges:
      target: neofinalism
      edgeType: child
 
+   - source: peterHarrisonScienceAndReligion
+     target: neofinalism
+     edgeType: child
+
+   - source: aristotle-finalism
+     target: peterHarrisonScienceAndReligion
+     edgeType: child
+
+   - source: harrison-lostCauses
+     target: peterHarrisonScienceAndReligion
+     edgeType: child
+
+   - source: harrison-originalSin
+     target: harrison-lostCauses
+     edgeType: child

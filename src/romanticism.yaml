@@ -1,7 +1,7 @@
 nodes:
 
-    - id: askesis
-      label: askēsis
+    - id: romantic-language
+      label: Dual-Language
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -13,8 +13,8 @@ nodes:
       height: 80
       text-valign: center
 
-    - id: writing-wrongStory
-      label: In the Wrong Story
+    - id: cosmic-order
+      label: "Cosmic Order and\nthe Language of Insight"
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -26,8 +26,8 @@ nodes:
       height: 80
       text-valign: center
 
-    - id: mother-nature
-      label: "'Mother Nature'"
+    - id: hermetic-signatures
+      label: Hermetic Signatures
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -39,8 +39,8 @@ nodes:
       height: 80
       text-valign: center
 
-    - id: orthodox-neighbor-inspiration
-      label: "Inspiration from\n our Orthodox Neighbors"
+    - id: rexroth-signatures
+      label: Rexroth
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -52,8 +52,8 @@ nodes:
       height: 80
       text-valign: center
 
-    - id: annotated-forest
-      label: The Annotated Forest
+    - id: romanticism-readings
+      label: Readings
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -65,8 +65,8 @@ nodes:
       height: 80
       text-valign: center
 
-    - id: wordsworth-force
-      label: "Wordsworth's force:\nrolling through all things"
+    - id: romanticism-taylor-overview
+      label: Overview
       text-wrap: wrap
       text-max-width: 1000
       font-size: 32
@@ -77,5 +77,16 @@ nodes:
       width: 400
       height: 80
       text-valign: center
+
+edges:
+
+    - source: cosmic-order
+      target: hermetic-signatures
+      edgeType: child
+
+    - target: hermetic-signatures
+      source: rexroth-signatures
+      edgeType: child
+
 
 

@@ -1,6 +1,971 @@
 let kb = {
+"mother-nature":
+`
+(19 oct 2024) my usual morning on the porch with coffee, rooting around for
+access, thinking of my bones, they (and me) being the product of 4By of
+earth creativity and experimentation, in which stable and fruitful things
+and relations survive and evolve:  I felt myself a creature, a created one,
+parented by this ancient stochastic process.  A process which finds sweet spots: bactieria,
+photosynthesis, endosymbiosis, peopling the planet with tree, fish, fern.  and me.
+
+Mother Nature in a new light.
+`,
+
+"peterHarrisonScienceAndReligion":
+
+`
+**Preface to the Territories of Science and Religion, Peter Harrison, 2015**
+
+My synopsis:
+
+   - The atrophy of the virtues of _scientia_ and _religio_, and the
+     increasing emphasis on their exterior manifestations in the
+     sixteenth and seventeenth centuries, will be discussed in more
+     detail in chapter 4. But looking ahead we can say that in the
+     physical realm virtues and powers were removed from natural
+     objects and replaced by a notion of external law. The order of
+     things will now be understood in terms of laws of nature - a
+     conception that makes its first appearance in the seventeenth
+     century - and these laws will take the place of those inherent
+     tendencies within things that strive for their perfection.
+
+   - In the moral sphere, a similar development takes
+     place, and human virtues will be subordinated to an idea of
+     divinely imposed laws - in this instance, moral laws. The
+     virtues - moral and intellectual - will be understood in terms of
+     their capacity to produce the relevant behaviors or bodies of
+     knowledge. What drives both of these shifts is the rejection of
+     an Aristotelian and scholastic teleology, and the subsequent
+     demise of the classical understanding of virtue will underpin the
+     early modern transformation of the ideas of _scientia_ and _religio_.
+
+   - Harrison begins: If a historian were to contend that he or she
+     had discovered evidence of a hitherto unknown war that had broken
+     out in the year 1600 between Israel and Egypt, this claim would
+     be treated with some skepticism. The idea of a medieval Israel
+     and a medieval Egypt could only come about through the mistaken
+     application of our present maps onto past territories.
+
+   - Similarly, _scientia_  and _religio_, current until the early modern,
+     "science" only with the 19th C, were not at war as they are often
+     today.
+
+   - “natural history” and “natural philosophy” came together under
+     the rubric “science” for the first time in the nineteenth
+     century. These activities had involved quite different approaches
+     to the study of nature and arguably their modern
+     descendents—biology and physics—still exhibit the vestiges of
+     their genealogical past.
+
+
+   - Aquinas explains that in its primary sense _religio_ refers to
+     interior acts of devotion and prayer, and that this interior
+     dimension is more important than any outward expressions of this
+     virtue. Aquinas acknowledges that a range of outward behaviors
+     are associated with _religio_ — vows, tithes, offerings, and so
+     on — but he regards these as secondary.
+
+   - With Luther, _religio_ became _religion_, as seen in catechisms,
+     500 in print by the 18th century.  Luther admonished parents to
+     quiz their children weekly on the articles of faith.
+
+   - Jerome’s choice of _religio_ for his translation of the relatively
+     uncommon Greek thrēskeia in James 1:27 similarly associates the
+     word with cult and worship. In the English of the King James
+     version the verse is rendered: “Pure and undefiled religion
+     [thrēskeia] before God the Father is this, To visit the
+     fatherless and widows in their affliction, and to keep himself
+     unspotted from the world.”11 The import of this passage is that
+     the “religion” of the Christians is a form of worship that
+     consists in charitable acts rather than rituals. Here the
+     contrast is between religion that is “vain” (vana) and that which
+     is “pure and undefiled” (_religio_ munda et inmaculata).12 In the
+     Middle Ages this came to be regarded as equivalent to a
+     distinction between true and false religion.
+
+
+   - Aquinas: we consider what he has to say on the notion of science
+     (_scientia_) we find an intriguing parallel to his remarks on
+     _religio_. In an extended treatment of the virtues in the Summa
+     theologiae, Aquinas observes that science (_scientia_) is a habit
+     of mind or an “intellectual virtue.”26 The parallel with _religio_,
+     then, lies in the fact that we are now used to thinking of both
+     religion and science as systems of beliefs and practices, rather
+     than conceiving of them primarily as personal qualities. And for
+     us today the question of their relationship is largely determined
+     by their respective doctrinal content and the methods through
+     which that content is arrived at. For Aquinas, however, both
+     _religio_ and _scientia_ were, in the first place, personal
+     attributes.
+
+   - We are also accustomed to think of virtues as belonging entirely
+     within the sphere of morality. But again, for Aquinas, a virtue
+     is understood more generally as a “habit” that perfects the
+     powers that individuals possess.27 This conviction—that human
+     beings have natural powers that move them toward particular
+     ends—was related to a general approach associated with the Greek
+     philosopher Aristotle (384–322 BC), who had taught that all
+     natural things are moved by intrinsic tendencies toward certain
+     goals (telē).
+
+   - In the Middle Ages both notions have a significant interior
+     dimension, and that what happens in the early modern period is
+     that the balance between the interior and exterior begins to tip
+     in favor of the latter. Over the course of the sixteenth and
+     seventeenth centuries we will witness the beginning of a process
+     in which the idea of religion and science as virtues or habits of
+     mind begins to be overshadowed by the modern, systematic entities
+     “science” and “religion.” In the case of _scientia_, then, the
+     interior qualities that characterized the intellectual virtue of
+     _scientia_ are transferred to methods and doctrines. The entry for
+     “science” in the 1771 Encyclopaedia Britannica thus reads, in its
+     entirety: “SCIENCE, in philosophy, denotes any doctrine, deduced
+     from self-evident and certain principles, by a regular
+     demonstration.”45 The logical rigor that had once been primarily
+     a personal characteristic now resides primarily in the
+     corresponding body of knowledge.
+
+   - The other significant difference between the virtues of _religio_
+     and _scientia_ lies in the relation of the interior and exterior
+     elements. In the case of _religio_, the acts of worship are
+     secondary in the sense that they are motivated by an inner
+     piety. In the case of _scientia_, it is the rehearsal of the
+     processes of demonstration that strengthens the relevant mental
+     habit. Crucially, because the primary goal is the augmentation of
+     mental habits, gained through familiarity with systematic bodies
+     of knowledge (“the sciences”), the emphasis was less on the
+     production of scientific knowledge than on the rehearsal of the
+     scientific knowledge that already existed. Again, as noted
+     earlier, this was because the “growth” of science was understood
+     as taking place within the mind of the individual. In the
+     present, of course, whatever vestiges of the scientific habitus
+     remain in the mind of the modern scientist are directed toward
+     the production of new scientific knowledge. In so far as they
+     exist at all—and for the most part they have been projected
+     outward onto experimental protocols—they are a means and not the
+     end. Overstating the matter somewhat, in the Middle Ages
+     scientific knowledge was an instrument for the inculcation of
+     scientific habits of mind; now scientific habits of mind are
+     cultivated primarily as an instrument for the production of
+     scientific knowledge.
+
+
+   - Before Luther, and consistent with spiritual practices of (for instance)
+     the Stoics, the religious life was less about doctrine, more
+     about cultivating piety, _habitus_, practice: salvation by good
+     works and attitude. This changed with the Reformation, which
+     held that individuals were not justified by virtue of an inner quality,
+     whether acquired or infused, but on account of their relationship
+     to God ... as determined solely by Divine will."
+
+     "An analogous change was subsequently to take place in the sphere
+     of natural philosophy, with patterns in the natural world being
+     understood no longer in terms of the inner qualities of things,
+     but rather as ordered relationships imposed on the world directly
+     by the will of God. In the spheres of morality and natural
+     philosophy, laws of nature thus came to assume the role
+     previously played by inherent virtues."
+
+     "English poet John Milton represented the pagan understanding of
+     the virtues in Paradise Regained, he noted that the philosophers
+     had been ignorant of “how Man fell” and that because of this they
+     had mistakenly sought virtue “in themselves.”  It was not
+     merely moral capacities that had been damaged by the Fall, for
+     the consequences of original sin extended to the intellectual
+     faculties as well, thus encompassing both _religio_ (a moral
+     virtue) and _scientia_ (an intellectual virtue). Understood in this
+     light, Calvin’s notorious doctrine of “total depravity” was less
+     about the extreme nature of the depravity suffered by human
+     beings than about the fact that depravity extended to every human
+     faculty, including the intellectual.”
+
+  - _scienta"
+
+  - "motifs of self-cultivation and self-mastery that had been central
+    to classical accounts of philosophy, and which to some degree had
+    found their way into medieval understandings of human ends, would
+    now be directed outward onto the world. The goals of human life
+    will be placed within a pattern of redemption history in which the
+    way back to God involves reestablishing mastery of the natural
+    world that had been lost as a consequence of the Fall. This
+    realigned understanding of true human ends thus eroded the
+    significance of the virtues of _religio_ and _scientia_ by undermining
+    the assumptions upon which they rested. At the same time, it led
+    to the establishment of a set of religious justifications for the
+    practical dominion over nature that would motivate the new
+    sciences of the seventeenth century and set the scene for the
+    emergence of the modern idea of science as a set of techniques
+    directed toward mastery of the natural world."
+     
+   
+
+This book is a revised version of the Gifford Lectures, delivered at
+the University of Edinburgh in February 2011. The lectures sought to
+address the history of two overlapping sets of concerns—those to do
+with the nature of the physical universe and its operations, and those
+that concern the goals of human existence and the source of our moral
+values. We now tend to think of these questions as belonging to the
+distinct domains of science and religion. When we look to the past,
+however, we see that the boundaries of these two domains have been
+understood very differently and that questions concerning ultimate
+human meaning and value were rarely divorced from understandings of
+the nature of the universe. In one sense, then, this book is about the
+history of science and religion in the West. But it would be more
+accurate to say that it seeks to describe how it is that we have come
+to understand the world in terms of these distinct categories
+“science” and “religion”—how, in other words, we have come to separate
+the domain of material facts from the realm of moral and religious
+values.
+
+This subject matter brings with it two particular
+challenges. The first should be more or less immediately
+apparent. This book cannot be a straightforward history of the
+relations between science and religion, since my argument is that
+these two ideas, as they are presently understood, are relatively
+recent conceptions that emerged in the West over the course of the
+past three hundred years. What I have sought to do, then, is to
+examine past activities that we have typically thought of in those
+terms, or have regarded as leading to them. A significant part of this
+exercise will be a consideration of the fortunes of the Latin terms
+_scientia_ and _religio_. These two notions both begin as inner qualities
+of the individual—“ virtues,” if you will—before becoming concrete and
+abstract entities that are understood primarily in terms of doctrines
+and practices. This process of objectification is the precondition for
+a relationship between science and religion. In addition to a
+consideration of the Latin terms from which our modern English words
+“science” and “religion” derive, we shall also trace changing
+constellations of other conceptions that are genealogically related to
+our modern ideas of science and religion. They include “philosophy,”
+“natural philosophy,” “theology,” “belief,” and “doctrine,” all of
+which had meanings for past historical actors that are quite
+unfamiliar to us today. One of my suggestions will be that there is a
+danger of systematically misconstruing past activities if we
+mistakenly assume the stability of meaning of these expressions.
+
+A second challenge concerns the historical range of this book, which
+begins with classical Greece and early Christianity, and extends into
+the late nineteenth century. This may seem rather ambitious,
+particularly in light of a trend in the academy toward tight
+historical specialization. But this scope is necessary, in part
+because I am seeking to call into question common narratives about the
+trajectory of science that mirror this scale, beginning with its birth
+among the ancient Greeks, its decline in the Christian Middle Ages,
+its revival with the scientific revolution, and final triumph with the
+professionalization of science in the nineteenth century. It is also
+relevant that as a historical religion, modern Christianity still
+measures itself against its earliest forms, and this warrants paying
+attention to the early Christian era. That said, I have not attempted
+to provide a comprehensive history of the manifold ways in which, in
+the West, the study of the natural world was related to broader
+philosophical and religious concerns. Rather I have tried to “drill
+down” into particular historical moments, before moving on to conduct
+similar exercises for later historical periods. This comparative
+sampling approach will inevitably leave out some important parts of
+the story, but it does enable us to take stock of relevant notions at
+various points in history and make an assessment of the changes they
+have undergone. These gaps in the narrative also make it difficult to
+specify causes for all of the transitions that are identified, and in
+any case questions of historical causation are notoriously
+difficult. Nevertheless I will offer some suggestions about why what I
+consider to be the key transitions happen when they do.
+
+The book is
+the culmination of a number of projects that I have been working on
+over the past twenty years, beginning with my early researches into
+our Western notion “religion” and taking in more recent work on the
+identity of philosophy and science in different historical periods and
+on the historical relations between science and religion. I will
+repeat versions of some arguments that I have advanced before, but the
+book offers what I believe is an entirely new perspective on these
+issues, particularly in its attempt to more closely relate the history
+of moral philosophy to the history of science. In relation to the
+lectures as delivered, while I have made significant revisions and
+additions, the six chapters of the book match the content of the six
+original lectures (in some cases more closely than in others). The
+first chapter offers a compressed overview of the general argument,
+and subsequent chapters fill out the details. I have also added
+scholarly apparatus in the form of fairly substantial endnotes for
+those interested in following up sources or who wish to pursue
+individual points in a little more detail. The notes will enable me to
+keep more arcane discussions out of the text and maintain at least
+some of the style of the oral presentations. In keeping with the
+original tone of the lectures on which this book is based, I have
+tried simply to tell the story, and have refrained (or at least have
+attempted to refrain) from intruding more recondite theoretical
+reflections into the narrative. That said, I have added a short
+epilogue in which I offer some brief remarks on theoretical matters
+along with observations on how my account relates to other discussions
+of the history of Western modernity.”
+
+`,
+
+
+"aristotle-finalism":
+`
+Aristotle defines the end, purpose, or final "cause" (τέλος,
+télos) as that for the sake of which a thing is done. Like the
+form, this is a controversial type of explanation in science; some
+have argued for its survival in evolutionary biology, while Ernst
+Mayr denied that it continued to play a role. It is commonly
+recognised that Aristotle's conception of nature is teleological
+in the sense that Nature exhibits functionality in a more general
+sense than is exemplified in the purposes that humans have. Aristotle
+observed that a telos does not necessarily involve deliberation,
+intention, consciousness, or intelligence:
+
+This is most obvious in the animals other than man: they make things
+neither by art nor after inquiry or deliberation. That is why people
+wonder whether it is by intelligence or by some other faculty that
+these creatures work, – spiders, ants, and the like... It is absurd to
+suppose that purpose is not present because we do not observe the
+agent deliberating. Art does not deliberate. If the ship-building art
+were in the wood, it would produce the same results by nature. If,
+therefore, purpose is present in art, it is present also in nature.
+
+— Aristotle, Physics, II.8
+
+According to Aristotle, a seed has the eventual adult plant as its end
+(i.e., as its telos) if and only if the seed would become the adult
+plant under normal circumstances. In Physics II.9, Aristotle
+hazards a few arguments that a determination of the end (i.e., final
+cause) of a phenomenon is more important than the others. He argues
+that the end is that which brings it about, so for example "if one
+defines the operation of sawing as being a certain kind of dividing,
+then this cannot come about unless the saw has teeth of a certain
+kind; and these cannot be unless it is of iron." According to
+Aristotle, once a final "cause" is in place, the material, efficient
+and formal "causes" follow by necessity. However, he recommends that
+the student of nature determine the other "causes" as well, and
+notes that not all phenomena have an end, e.g., chance events.
+
+Aristotle saw that his biological investigations provided insights
+into the causes of things, especially into the final cause:
+
+We should approach the investigation of every kind of animal without
+being ashamed, since in each one of them there is something natural
+and something beautiful. The absence of chance and the serving of ends
+are found in the works of nature especially. And the end, for the sake
+of which a thing has been constructed or has come to be, belongs to
+what is beautiful.
+
+— Aristotle, On the Parts of Animals 645a 21–26, Book I, Part 5.
+
+George Holmes Howison highlights "final causation" in presenting his
+theory of metaphysics, which he terms "personal idealism", and to
+which he invites not only man, but all (ideal) life:
+
+Here, in seeing that Final Cause – causation at the call of
+self-posited aim or end – is the only full and genuine cause, we
+further see that Nature, the cosmic aggregate of phenomena and the
+cosmic bond of their law which in the mood of vague and inaccurate
+abstraction we call Force, is after all only an effect... Thus
+teleology, or the Reign of Final Cause, the reign of ideality, is not
+only an element in the notion of Evolution, but is the very vital cord
+in the notion. The conception of evolution is founded at last and
+essentially in the conception of Progress: but this conception has no
+meaning at all except in the light of a goal; there can be no goal
+unless there is a Beyond for everything actual; and there is no such
+Beyond except through a spontaneous ideal. The presupposition of
+Nature, as a system undergoing evolution, is therefore the causal
+activity of our Pure Ideals. These are our three organic and
+organizing conceptions called the True, the Beautiful, and the Good.
+
+— George Holmes Howison, The Limits of Evolution (1901)
+
+However, Edward Feser argues, in line with the Aristotelian and
+Thomistic tradition, that finality has been greatly
+misunderstood. Indeed, without finality, efficient causality becomes
+inexplicable. Finality thus understood is not purpose but that end
+towards which a thing is ordered. When a match is rubbed against
+the side of a matchbox, the effect is not the appearance of an
+elephant or the sounding of a drum, but fire. The effect is not
+arbitrary because the match is ordered towards the end of fire
+which is realized through efficient causes.
+
+In their biosemiotic study, Stuart Kauffman, Robert K. Logan et
+al. (2007) remark:[34]
+
+Our language is teleological. We believe that autonomous agents
+constitute the minimal physical system to which teleological language
+rightly applies.
+
+   — Biology and Philosophy[34]
+
+
+`,
+
+"etienne-wolff":
+`
+*Étienne Wolff (Auxerre, 12 February 1904 – Paris, 18 November 1996)**
+
+A French biologist, specialising in experimental and teratological
+embryology. He led the Société zoologique de France from 1958 and was
+elected to the French Academy of Sciences in 1963.
+
+`,
+
+"battleOfFrance":
+`
+**Battle of France, May 10–June 25, 1940**
+
+The World War II German invasion of the Low Countries and France. In
+just over six weeks, German armed forces overran Belgium and the
+Netherlands, drove the British Expeditionary Force from the Continent,
+captured Paris, and forced the surrender of the French government.
+
+
+`,
+
+
+"harrison-originalSin":
+`
+**The Reformers and Original Sin**
+
+The fading fortunes of the Aristotelian understanding of causal order
+extended not only to the powers of inanimate objects, but to human
+powers and virtues as well. As we saw in the first chapter, virtues
+were understood as habits that perfect natural powers. Natural powers,
+in turn, move the entities in which they inhere—in this case human
+persons—toward their natural ends. This was how Aristotelian “final
+causes” were thought to operate.
+
+The Protestant Reformers objected to
+key elements of this conception of human habits and ends. For a start,
+they took a much harder line than their scholastic predecessors on the
+moral and cognitive incapacity that resulted from original sin.
+
+One consequence of this uncompromising stance was a skepticism about
+whether unaided human reason could penetrate to the essences of
+things, or know about their true ends, or discern the intentions that
+God might have had in creating natural things. These doubts, in turn,
+were a motivating factor in a new experimental natural philosophy that
+was more critical in its methods and more modest in its ambitions than
+the Aristotelian natural philosophy that it was destined to
+replace.
+
+The Reformers, and Luther in particular, were also sharply
+critical of the Aristotelian notion of __habitus__, because of its
+perceived complicity in a mistaken view of justification, the doctrine
+that explained how sinful human beings might be reconciled with
+God. Not only were flawed human beings incapable of discerning their
+true end, but even if they were, their weakened moral and intellectual
+powers would be totally inadequate to move them in the right
+direction.
+
+These critical assaults, considered in more detail in the
+next chapter, would necessitate a rethinking of the foundations of
+Aristotelian moral philosophy, and of the role and operations of the
+moral and intellectual virtues. As a consequence, _scientia_ and _religio_
+will begin to assume the shape of the modern categories “science” and
+“religion.”
+
+
+`,
+
+"harrison-lostCauses":
+`
+
+Nehemiah Grew (1641-1712), a pioneer of plant physiology and active
+early member of the Royal Society, made a point of excluding "Mystick,
+Mytholo-gick, or Hieroglyphick matter" from his catalog of the Royal
+Society's natural history collection. Instead, he would be focusing on
+"the Uses and Reasons of Things." These were not deemed to have a proper
+place in a legitimate natural history, These developments signal
+the death of a universal hermeneutical framework in which the books of
+scripture and nature were interpreted together.
+
+Now, even the book of nature was subject to a plurality of
+hermeneutical practices -- mathematical, anatomical, taxonomic. But the
+collapse of the unified system of interpretation, and the separation
+of the study of texts and the natural world, by no means implied that
+the study of nature was to be pursued independently of theological
+considerations. Instead a new partnership developed between theology
+and the new science.
+
+**Lost Causes**
+
+Accompanying the evacuation of meaning from natural objects was the
+stripping away of their intrinsic causal powers. The predominant
+scholastic position on causal order was a "bottom up" understanding
+that accounted for change in the world in terms of the inherent powers
+and virtues of its con-stituents. This view derived ultimately from
+Aristotle, for whom the powers of things derive from their forms. To
+this basic Aristotelian conception the scholastics had added the idea
+of a creator God, who is involved because he is responsible for the
+being of those objects. Thus every event has a primary cause (God) and
+a secondary cause (the powers of the individual agent). Some of the
+later scholastics had already expressed reservations about this view
+of things, but it was the advent of Descartes's new notion of laws of
+nature that spelled the beginning of the end for intrinsic powers and
+qualities.
+
+For Descartes, as we have already seen, it is laws of
+nature and not intrinsic properties that offer the best prospect for
+explaining the operations of the natural world. These laws of nature
+were not descriptive of relations among the properties of objects, but
+rather of divine volitions.  On this "top down" understanding, the
+regularities of nature were directly imposed upon it by God. Such a
+view not only discounted the causal role of Aristotelian forms, but
+ultimately led to doubts about whether there were any genuine
+secondary causes in nature at all.
+
+This tendency toward occasionalism - the idea that God is the only
+true cause of natural events -- culminated in David Hume's (1711-76)
+suggestion that causation was essentially psychological rather than
+ontological, in human minds rather than the world.  Occasionalism
+also fitted well with the idea of God promoted by the Protestant
+Reformers, who emphasized the primacy of the divine will and stressed
+God's omnipotence and transcendence.
+
+Somewhat paradoxically, then, the pious idea that God was the only
+genuine cause in the cosmos and that natural objects had no causal
+powers of their own led to the direct equation of divine and natural
+causality. For a number of key seventeenth-century natural
+philosophers, and in particular the New-tonians, the regularities of
+nature were a manifestation of the continuous and direct activity of
+God.  The Newtonian philosopher-theologian Samuel
+
+
+`,
+
+"hadot-philosophy-as-therapy":
+`
+**An interrupted dialogue with michel foucault: convergences and divergences**
+
+in The Selected Writings of Pierre Hadot: Philosophy as Practice (Re-inventing Philosophy as a Way of Life) by Pierre Hadot
+
+Curiously, Foucault, who gives so much place to the conception of
+philosophy as therapy, does not seem to remark that this therapy is
+aimed, above all, at procuring inner peace: that is to say, at
+delivering the individual from the anxiety provoked by the
+preoccupations of life and the mystery of human existence: the fear of
+the gods and the terror of death. All the schools agree on the goal of
+philosophy, to attain inner peace, even if they diverge when it comes
+to setting the means to attain this goal. For the Sceptics, the
+spiritual exercise par excellence is the suspension of judgement
+(_epochê_); for the dogmatics–that is, all other ancient schools–one can
+only accede to inner tranquillity by developing the awareness that one
+is a ‘natural’ being, which is to say that one is, in some way, a part
+of the cosmos, and that one participates in the event of universal
+existence.
+
+It is a matter of seeing things from the viewpoint of
+universal nature, of putting human affairs in their true
+perspective. In this way, one attains to greatness of soul, as Plato
+had already said: The pettiness of mind is incompatible with the soul
+which must tend continually to embrace the whole and the universality
+of the divine and the human … Do you think that a soul habituated to
+great thoughts and the contemplation of the totality of time and being
+can deem this life of man a thing of great concern? Such a man will
+not suppose death to be terrible or fearsome. 10”
+
+
+
+`,
+
+
+"hadot-landscape":
+`
+**Charming Place, Sublime Landscape**
+
+— The Selected Writings of Pierre Hadot: Philosophy as Practice
+from Ancient Man and Nature, 56%, essay 8 
+
+
+What are the characteristics of a ‘landscape’, in general terms? It
+is, first of all, that which corresponds to a gaze focused
+aesthetically, that is to say, disinterestedly upon nature. The field
+or the stream becomes a ‘landscape’ when we look at them not as the
+demarcations of frontiers, nor as a means of production or commerce
+posing technical problems, but when we look at them for themselves,
+without a practical finality. This gaze of the spectator carves out a
+privileged field from the totality of nature. But it not only delimits
+the landscape. It also unifies it, giving it a certain structure, and
+organizes it.
+
+This way of seeing perceives the landscape as a sort of
+expressive physiognomy from which emanates a certain atmosphere,
+sentiment or character. In this perception of what we could call a
+corner of nature, in this portion it separates from the whole, this
+gaze of the spectator simultaneously senses the totality of nature. In
+other words, the landscape makes us sense our situation as terrestrial
+beings.
+
+As Carl Gustav Carus has said, the art of the landscape is the
+art of representing the life of the earth (Erdlebendildkunst). 14
+There is thus no landscape in itself, but solely in relation to a
+spectator: in relation to the human being who knows how to see it, to
+circumscribe it from the whole of nature in such a way as to, once
+more, find this whole within the delimited, circumscribed space. This
+is true in the art of landscape painting, in the literary description
+of landscapes, but also in the perception of nature in general.
+
+In other words, that which has been called a ‘landscape’ in painting or
+in literature since the seventeenth century is nothing else, in life,
+than the aesthetic perception of nature, the perception of the life of
+the earth, as Carus puts it. And like art, such a perception supposes
+a certain way of seeing.
+
+One can distinguish two sorts of landscapes
+in antiquity: the charming place (_locus amoenus_), and the grandiose or
+sublime landscape.
+
+The model of the charming landscape (locus
+amoenus), which will dominate the imagination and sensibility of
+antiquity, is the Cave of Calypso. 15 In the Homeric description, the
+perceiving subject is the God Hermes, whose senses (of smell, hearing
+and sight) are enchanted and whose soul is veritably ravished by his
+contemplation of the beauty of the place. The components of the
+charming place will always be woods of different kinds, birds,
+meadows, murmuring springs, flowers, perfumes, the breeze, fruits: in
+short, pleasures for all the senses. This whole will embody a divine
+presence.
+
+The theme can also be found in Sappho (in her ‘Prayer to
+Aphrodite’), in Sophocles, 16 in the celebrated prologue of Plato’s
+Phaedrus, in Theocritus (Thalysies), Lucretius, 17 Horace18 and
+Quintilian. 19 If the ‘charming place’ is indisputably an object of
+aesthetic contemplation in antiquity, can we say the same of those
+grandiose or wild or terrifying spectacles that nature can offer to
+man? Many historians have doubted this.
+
+`,
+
+"misc-pending":
+`
+**Pending**
+
+
+- Pierre Hadot
+   
+- The Territories of Science and Religion by Peter Harrison
+
+    - askesis: The Epicurean use of physics in this way offers us a
+     good example of what Hadot refers to as “spiritual exercises”
+     (áskēsis). While the term is familiar perhaps, from the title of
+     Ignatius of Loyola’s well-known Exercitia spiritualia (1548)—a
+     manual of contemplation, meditation, and self-review, set in the
+     context of Catholic spirituality—Hadot argues that the expression
+     is the best way to characterize the therapeutic philosophical
+     practices of the Greco-Roman philosophical schools: “Each school
+     had its own therapeutic method, but all of them linked their
+     therapeutics to a profound transformation of the individual’s
+     mode of seeing and being. The object of spiritual exercises is
+     precisely to bring about this transformation.” 43 When Christian
+     writers subsequently speak of exercises devoted to the
+     cultivation or cure of the soul, they are simply carrying over
+     this classical idea. To take just one example, Ambrose of Milan
+     (ca. AD 340–97), one of the great doctors of the Western church,
+     stated that “fortitude of the soul is enhanced by a course of
+     exercises.” These exercises consisted in prayer, meditation, and
+     the reading of scripture. 44
+
+
+
+-  Magnificent Rebels: The First Romantics and the Invention of the Self by Andrea Wulf
+    -  science: Science, for him, became like a ‘plank in a shipwreck’.
+    -  Botany:  (Goethe?) distracted him from the chaos of the world, and this was the reason why he had joined the Natural History Society in Jena.
+   
+   
+
+
+- The Territories of Science and Religion by Peter Harrison, speaking of false boundaries
+
+    - reviewed <a href="https://therevealer.org/review-territories-of-science-and-religion-by-peter-harrison"
+                  target="_blank"> here</a>.
+ 
+
+    - "nation", Ernest Renan: The nineteenth-century French scholar,
+  (1823–92), while probably best known for his popular and
+  controversial Life of Jesus (1863), also penned the classic essay
+  “What Is a Nation?” (1882). Here, he offers this telling remark:
+  “Forgetting—I would go so far as to say historical error—is a
+  crucial factor in the creation of a nation.” 55 The specific case
+  that Renan had in mind was the reified object “la France.” France,
+  he suggests, invented nationhood, and all other models of the nation
+  were henceforth regarded as inferior imitations. But the very idea
+  of France required the jettisoning of a burden of unwelcome
+  historical truths. While we are all aware of the manner in which the
+  idea of a nation involves founding myths of various kinds, and
+  through them, the positive construction of a particular ideal, we
+  are here reminded that founding myths also require a kind of
+  negation—an amnesia about what came before, and a forgetting of
+  historical realities that might challenge the integrity of our new
+  conception.
+
+    - "nation", Karl Deutsch’s similarly unflattering definition
+  “a group of people united by a mistaken view about the
+  past and a hatred of their neighbours”  is not an altogether
+  unfitting description for those who in recent times have sought to
+  foment hostility between science and religion.  This first chapter
+  has provided some reasons for thinking that the creation of the
+  modern boundaries of these concepts has also been accompanied by a
+  kind of historical amnesia. In the chapters to come, I hope to
+  expose some of the myths that inform our present categories, and to
+  offer further details of an alternative, and largely forgotten
+  history—a history that, once called to mind, may help us reconfigure
+  the relationship between the entities that we now call “science” and
+  “religion.”
+
+`
+,
+
+"askesis":
+`
+__Sunlight and water<br>
+Leaf and lung<br>
+Story, branch<br>
+Wing and bone__
+
+
+These words, and spəquabs - has a fat nose - are instruments in my
+askesis, spiritual (I suppose) exercises to orient myself.
+
+Like my orthodox Jewish neighbors, yarmulke’d reading the Torah as
+they walk on the sidewalk to temple on the sabbath.
+
+(The influences of the modern project, the human career will otherwise insinuate, take over)
+
+I elaborate, develop these here, useful to me, maybe to you
+
+I won’t work in order.
+
+I will start with lung.
+
+**Askēsis**
+
+There are several overlapping meanings of this Greek word, the base shared meaning is "exercise".
+
+The sense I intend is "self-formation", akin to Foucault's "technologies of self" and "care of the self",
+and similar in purpose to the Spiritual Exercises of 16th century Ignatius of Loyola.  These are all
+programs to redirect one's attention, to facilitate entry into a composed, non-default world view.
+
+Of Foulcault: 
+
+<blockquote>
+
+In his renowned courses at the Collège de France from 1982 to 1984,
+Michel Foucault devoted his lectures to meticulous readings and
+interpretations of the works of Plato, Epictetus, Seneca, and Marcus
+Aurelius, among others. In this his aim was not, Edward F. McGushin
+contends, to develop a new knowledge of the history of philosophy;
+rather, it was to let himself be transformed by the very activity of
+thinking. Thus, this work shows us Foucault in the last phase of his
+life in the act of becoming a philosopher. Here we see how his
+encounter with ancient philosophy allowed him to experience the
+practice of philosophy as, to paraphrase Nietzsche, a way of becoming
+who one is: the work of self-formation that the Greeks called askēsis.
+
+<p>
+Through a detailed study of Foucault's last courses, McGushin
+demonstrates that this new way of practicing philosophical askēsis
+evokes Foucault's ethical resistance to modern relations of power and
+knowledge. In order to understand Foucault's later project, then, it
+is necessary to see it within the context of his earlier work. If his
+earlier projects represented an attempt to bring to light the
+relations of power and knowledge that narrowed and limited freedom,
+then this last project represents his effort to take back that freedom
+by redefining it in terms of care of the self. Foucault always
+stressed that modern power functions by producing individual
+subjects. This book shows how his excavation of ancient philosophical
+practices gave him the tools to counter this function-with a practice
+of self-formation, an askēsis.
+
+</blockquote>
+
+Four definitions: 
+- Athletic training: The word originated in the context of Olympic athletics. 
+- Asceticism: The word later came to refer to the self-discipline and practices of early Christianity and other major religions. 
+- Self-formation: The practice of self-formation is also known as askēsis. 
+- Cynic training: Cynics trained their bodies for the sake of their souls, through practices such as walking barefoot in the snow. 
+
+
+`,
+
+
+"romanticism-taylor-overview":
+`
+
+**Charles Taylor's Romanticism Project**
+
+In my earlier book, The Language Animal, I tried to work out the
+relevance today of the theory of language which was developed among
+the German Romantics in the 1790s. In this book, I want to explore
+the understanding of poetics which was implicit in (indeed, central
+to) this theory of language, and then see some of the consequences
+which flowed from this in the poetry of the last two centuries.
+
+The new thinking of the 1790s was framed in two registers, as it
+were, philosophy on one hand, and new understandings of poetry, on the
+other. Moreover, although poets and philosophers were in close contact
+and exchange, they ended up having a rather different take on this
+complex of ideas, so it might help to explicate separately what came
+from the two sources.
+
+The thinkers of the Romantic generation were a
+very diverse lot, and had a lot of quarrels and disagreements, but
+there were common themes and notions. I will try to set out their
+philosophical outlook, but this will be my reconstruction, which I
+hope captures its general shape and spirit. I will do this, with
+perhaps unbearable terseness, in seven interlocking theses.
+
+**1. A Spinoza-derived pantheism**
+
+Inspired by Goethe, they embraced a Spinoza-derived
+pantheism. (Literal readers of Spinoza might be horrified because this
+vision completely separated the seventeenth-century thinker from his
+Cartesian roots.) Nature was not to be understood mechanistically. It
+was more like a living organism. In other words, the Romantics were
+rebelling against a dead, mechanical view of Nature. And they were
+also rebelling against mind-body dualism, and against a purely
+instrumental approach to nature. They rejected the one-sided emphasis
+on (a) the modes of discipline controlling impulses, particularly
+erotic; especially (b) disciplines aimed exclusively at efficacious
+control over the environment. They also wanted to dissipate (c) guilt
+over disturbing, especially erotic, impulses which upset (a) and
+(b). They longed for a unification of self, unity with our emotions,
+with nature in us, and with nature as a whole.
+
+In this regard, one of
+their primary sources of inspiration was Goethe (who was nevertheless
+uncomfortable with their more rebellious stances).
+
+**2. Our soul communicates with this whole.**
+
+Nature resonates in us, and we intensify this through expression, art.
+
+**3. But our whole idea of Nature has undergone a modern shift.**
+
+It isn’t just a static set, or
+ordered cosmos, of beautiful forms; rather it is striving, developing;
+Nature is producing higher and higher forms. Spinoza’s natura naturans
+[nature doing as nature does] is seen as in motion, unfolding, seeking
+its adequate form.
+
+**4. Moreover, this is what we also are doing.**
+
+We are striving to discover our true form through creative expression,
+moving stage by stage. This type of development might be called
+“expressive-historical”: at each stage we try to realize, that is,
+give expression to our potential; and this realization makes manifest
+how we fall short, and what further changes are necessary. Indeed, it
+is this new anthropology of serial self-discovery which lies behind
+the new view of nature as development (and perhaps vice versa).
+
+**5.  The two lines of expressive-historical development, of the cosmos and humans, respectively, are interlinked.**
+
+Nature or cosmos can’t reach its final form without our realizing
+ours. That is because the successive stages of the cosmos need
+continually advancing consciousness, of which humans are the
+locus. This shows that our “normal,” common sense of our predicament,
+the notion that the human subject stands apart from, and over against,
+the world of nature, is only part of the truth. On a deeper level, we
+discover that Nature is not static, but comes to its fullest
+realization along with, and through, our own self-realization as
+rational and free beings. This opens a new path to discovery; not just
+that of external observation, which issues in science, but also that
+of internal exploration (see Novalis). There is an important path to
+truth through the articulation of personal experience, of our
+emotions, which we explore through art, or poetry in the widest
+sense. In this search, imagination plays a crucial role.
+
+**6. Freedom**
+
+This notion of expression connects up to a new ideal of (6) freedom,
+as full self-realization; this goes beyond the notion of negative
+freedom, freedom from, which is one of the prominent modern
+understandings of the concept. It also includes, while going beyond,
+the new understanding of freedom as autonomy, which was both an
+ethical and political ideal. Kant is the great articulator of this
+ideal, followed by Fichte. But within the new anthropology of humans
+as self-developing, autonomy has to include full self-realization.
+
+Points (3) and (4), together with (5) and (6), suggest
+
+**7. the ideal of the perfect reconciling of freedom and unity with nature, within and without.**
+
+The progress to this is then envisaged through a
+narrative of history, the so-called exzentrische Bahn [spiral path],
+whereby we leave an initial state of harmonious unity between humans
+and nature, pass through a period of their opposition, as we develop
+our reason and increase our autonomy, to return to a higher
+unity. (This goal was often tersely defined as combining Fichte and
+Spinoza.) Hölderlin makes this point in his Hyperion Fragment, as does
+Schiller in his Letters on the Aesthetic Education of Man.
+
+**8. Irony**
+
+But is the end attainable? Perhaps not. This gives a place to (8)
+Irony: the road to (7) may never be completed; we may always strive,
+suffer distance. Ironic expression, however, manifests the gap, and
+shows what we strive for. There is one vision, espoused by some in
+the generation of the 1790s, which looks forward to no fully
+satisfactory end, but expects (and even rejoices in) perpetual
+challenge and change.
+
+So we develop as Nature develops, and indeed, our proper development
+matches that of nature, brings it to consciousness, and unites it with
+freedom. In fact, as we saw, we partake in the development of nature,
+which requires conscious expression to realize its end. We are the
+locus where Nature becomes aware of itself. Many of the writers of the
+1790s shared the view, later articulated by Schelling (and in a more
+rationalist form by Hegel), that the full realization of Nature
+requires the conscious expression which only Spirit can give it. Art
+(or philosophy) and Nature come into unison because they come to
+fulfillment together.
+
+We find our own goals in Nature, which must thus be correctly
+read. But since our spiral path has taken us away from the immediate
+unity with nature, we can no longer read it easily. What Romantic art,
+Poetry, strives to do is recover an adequate reading, and this would
+of necessity mean the creation of a mode of symbolic access.
+
+But before I explain this term, we should be clear that this whole
+spiral path was not yet seen as completed. The final reconciling steps
+were still a forward-looking agenda.
+
+Before we examine this, let us look at the other sources of ideas
+which circulated among these thinkers.5
+
+
+`,
+
+
 "romanticism-readings":
 `
+
+- See the interesting discussion of "ergetic knowledge" and its
+  relation to magic in John Milbank, "Religion, Science and Magic:
+  Rewriting the Agenda," 1 After Science and Religion: Rewriting the
+  Agenda, ed. Peter Harrison and John Milbank (Cambridge: Cambridge
+  University Press, 2022), 75-143.  (footnote six in Taylor, Cosmic Connections)
+
+  Abstract: Inherited discussions of ‘science and religion’ too much
+  assume an interaction between two historically constant phenomena in
+  terms of stories of ‘progress’ and ‘conflict’. Instead, it is better
+  to recognise long-term and varying modes of tension between three
+  different approaches to nature, pivoted about attitudes to
+  ‘enchantment’ and to transcendence versus immanence.
+
+  Within such a
+  perspective, it appears that the dominant model of science as
+  ‘disenchanted transcendence’ is a Newtonian one that historically
+  quickly proved inadequate. Alternative and earlier traditions of
+  ‘natural magic’ later returned under new guises and are closer to
+  the essence of the ‘ergetic’ or experimental attitude that lies at
+  the real core of ‘science’.
+
+  The Newtonian model also implausibly suppressed the realities of
+  motion, time, change, substantial form and secondary qualities. But
+  contemporary physics points towards their restoration and to nature
+  as a vital habit and form-shaping process, as well as to the
+  ‘magical’ character of powers and causes. Magic, rightly understood,
+  is a necessary mediator between religion as theory and science as
+  practice and is a crucial aspect of an ergetic understanding of
+  ‘enchanted transcendence’ which is the most promising perspective
+  for today.
+
+
 - <a href="https://www.tandfonline.com/doi/abs/10.1080/02604027.2023.2199446"
      target="_blank">
      Breathing Hermeticism into an Ecology Beyond the Anthropocene
@@ -89,6 +1054,27 @@ backed up by the biology and biochemistry of photosynthesis, electron
 flow, the eucaryotic cell.  spəquabs old-growth.
 
 but now: ride down to the woods.
+
+and now, back from the woods.
+
+Animism confers personhood on non humans.   My drift is to confer (perceive)
+creature-hood in myself.
+
+de Viveiros Castro: Cannibal Metaphysics, multinaturalism (?), the
+spanish/indian inverted tests for same body/same mind.
+Descola and the Achuar: hunters's metaphysics, their wives manioc animism.
+
+leaving most of us with supermarket metaphysics: non-humans are but entities
+bought and sold at the local market.  complemented by supernatural metaphysics:
+I remember entering the interstate in Phoenix, morning rush hour traffic,
+thinking "If I lived here I'd probably believe in Jesus also".
+
+and my own spəquabs solution:
+  use sunlight & water, leaf & lung, language wing and bone
+the immediate lively experience, all in the frame of fertiale planet history,
+electron transport chain with membranes. the career of water, the career of
+electron-packed carbon chains.
+
 `,
 
 "hermetic-signatures":
@@ -117,7 +1103,10 @@ Adam had named the animals and other creatures at the beginning.
 
 "rexroth-signatures":
 `
-Kenneth Rexroth - The Signature Of All Things
+[Title poem of the book, New Directions, 1949]
+
+**Kenneth Rexroth - The Signature Of All Things**
+
 
 I
 
@@ -213,33 +1202,33 @@ Of pale cold light that was alive.<br>
 [from Charles Taylor, Cosmic Connection: Poetry in the Age of Disenchantment,
 chapter 1, 1%]
 
-- Medieval and Renaissance Language of Insight. Terms weren’t just
-  arbitrarily applied to what they designate but would be somehow
-  uniquely right or appropriate to the things they named, 
-  satisfying the demands of Plato’s Cratylus: a word would figure what it
-  designates, show something of the inherent nature of the
-  object. (In this middle period dialog, Socrates is asked by two men,
-  Cratylus and Hermogenes, to tell them whether names are
-  "conventional" or "natural".)
+Medieval and Renaissance Language of Insight. Terms weren’t just
+arbitrarily applied to what they designate but would be somehow
+uniquely right or appropriate to the things they named, 
+satisfying the demands of Plato’s Cratylus: a word would figure what it
+designates, show something of the inherent nature of the
+object. (In this middle period dialog, Socrates is asked by two men,
+Cratylus and Hermogenes, to tell them whether names are
+"conventional" or "natural".)
 
-  The basic feature of this scheme, that the cosmos is the realization
-  of a plan, which one already sees in Plato,
-  is the notion of a self-realizing order. This is what Plato presents
-  in the Republic: the things we see about us in the world are in each
-  case striving to realize the Idea or archetype to which they belong;
-  and the cosmic order in which these things have their place is
-  itself given its shape by the architectonic Idea, that of the
-  Good.
+The basic feature of this scheme, that the cosmos is the realization
+of a plan, which one already sees in Plato,
+is the notion of a self-realizing order. This is what Plato presents
+in the Republic: the things we see about us in the world are in each
+case striving to realize the Idea or archetype to which they belong;
+and the cosmic order in which these things have their place is
+itself given its shape by the architectonic Idea, that of the
+Good.
 
-  Following Plato himself in the Timaeus, this was taken up by
-  Christian theology, with the Ideas being the thoughts of God that he
-  carries into effect in creating the world. In either variant, the
-  cosmos and all it contains is to be understood as the realization of
-  a plan which presides over its unfolding. This basic scheme was
-  carried forward into Neoplatonism, but here the unfolding plan was
-  understood as a kind of emanation from the One, rather than a
-  creation ex nihilo.
+Following Plato himself in the Timaeus, this was taken up by
+Christian theology, with the Ideas being the thoughts of God that he
+carries into effect in creating the world. In either variant, the
+cosmos and all it contains is to be understood as the realization of
+a plan which presides over its unfolding.
 
+This basic scheme was carried forward into Neoplatonism, but here the
+unfolding plan was understood as a kind of emanation from the One,
+rather than a creation ex nihilo.
 
 `,
 
@@ -745,7 +1734,9 @@ Raymond Ruyer (1902–87) was born in Plainfaing in the Department of
 Vosges in the Lorraine region of northeastern France. A precocious
 student who at nineteen received a first on his college entrance exam,
 Ruyer pursued a course of study in philosophy at the prestigious École
-Normale Supérieure and aggregated in 1924. While teaching at the lycée
+Normale Supérieure and aggregated in 1924.
+
+While teaching at the lycée
 of Saint-Brieuc, Ruyer published his two theses, Esquisse d’une
 philosophie de la structure (Outline of a philosophy of structure) and
 L’Humanité de l’avenir d’après Cournot (Humanity of the future
@@ -761,7 +1752,9 @@ the biologist Étienne Wolff and the geologist François Ellenberger,
 both of whom would go on to prominence. It was during this time of
 internment that Ruyer wrote what would become the first exposé of his
 mature system, Éléments de psycho-biologie (Elements of psychobiology;
-published in 1946). After the war, Ruyer would go on to a solid
+published in 1946).
+
+After the war, Ruyer would go on to a solid
 university career as professor of philosophy at the University of
 Nancy. Author of twenty-two books and more than one hundred articles,
 Ruyer fully embraced his penchant for philosophy of the esprit
@@ -769,7 +1762,34 @@ métaphysique, by which he meant philosophy in its “proper form,”
 philosophy that “is interested” not only in “everything [au tout]” but
 “in Totality [au Tout].”1
 
-Ruyer, Raymond (2016). Neofinalism (Posthumanities Book 36) . University of Minnesota Press. Kindle Edition. 
+[from wikipedia]
+
+In the 1970s he was named corresponding member of the Institut de
+France. He was also offered a position at the Sorbonne which he
+declined, preferring to continue working in Nancy, where he was
+friends with many other scientists.
+
+Being opposed to the existentialism and the leftist trends of the
+French post-war intelligentsia, Ruyer's work was better accepted in
+scientific circles abroad than in France. Publicist Raymond Aron
+advised him to try his luck at writing more popular works. His first
+such attempts did not raise public interest. Therefore, based on the
+assumption that the French public was more fascinated by scientific
+developments in America, Ruyer published the book The Gnosis of
+Princeton. He claimed to be in contact with a group of unidentified
+American gnostic philosophers who were trying to create a new religion
+identified as the Gnosis of Princeton, where most of these imaginary
+scientists were active. Thereafter Raymond Ruyer presented his own
+gnostic ideas. The book was a success as many of its readers were not
+aware of the hoax for a long time. However, his next publications did
+not raise interest in France, and were better known in Canada and the
+United States.
+
+Raymond Ruyer died in 1987 in Nancy. His last work, "Embryogenesis of
+the World and the Silent God", was never published and is deposited as
+a manuscript at the University of Nancy.
+
+
 `,
 
 "latour-constitution":
@@ -1947,17 +2967,18 @@ relatively high degree of freedom, and were encouraged to keep busy
 during the long months of captivity.  Among the officers at the camp
 were a good number of academics, and so these men organized lectures
 on mathematics, philosophy, and biology, among other subjects. They
-called themselves the Université en captivité. Wolff, early in an
-eminent career as a teratologist (an embryologist focused on
-abnormalities), held a private, high-level biology seminar that Ruyer
-attended for more than a year.  In his memoirs, Wolff recalled that
-Ruyer stood out in the group not only because, as a professional
-philosopher, he was a relative outsider to biology, but also because
-of his distinctive, at times "paradoxical" approach to biological
-problems. As Wolff remem-bered, "[Ruyer] had a precise, if a bit
-literary, knowledge of biological problems like any scholar trained in
-the classics without himself having experimented on living matter."
+called themselves the Université en captivité.
 
+Wolff, early in an eminent career as a teratologist (an embryologist
+focused on abnormalities), held a private, high-level biology seminar
+that Ruyer attended for more than a year.  In his memoirs, Wolff
+recalled that Ruyer stood out in the group not only because, as a
+professional philosopher, he was a relative outsider to biology, but
+also because of his distinctive, at times "paradoxical" approach to
+biological problems. As Wolff remem-bered, "[Ruyer] had a precise, if
+a bit literary, knowledge of biological problems like any scholar
+trained in the classics without himself having experimented on living
+matter."
 
 <p>
 

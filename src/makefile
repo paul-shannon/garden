@@ -117,6 +117,7 @@ current:
        Lushootseed:lushootseed.yaml \
        Metaphor:metaphor.yaml \
        Writing:writing.yaml \
+       Hadot:hadot.yaml \
        Romanticism:romanticism.yaml \
        Tunes:tunes.yaml
 
@@ -145,6 +146,10 @@ backstories:
 writing:
 	python createGraphs.py \
        Writing:writing.yaml
+
+hadot:
+	python createGraphs.py \
+       Hadot:hadot.yaml
 
 romanticism:
 	python createGraphs.py \
